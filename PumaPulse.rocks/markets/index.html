@@ -224,6 +224,71 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" href="https://res.cloudinary.com/di1g2wt1b/image/upload/PumaPulse-2025.b-cdn.net/wp-content/uploads/2025/06/logo2.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="https://res.cloudinary.com/di1g2wt1b/image/upload/PumaPulse-2025.b-cdn.net/wp-content/uploads/2025/09/cropped-PumaPulse-symbol-round-180x180.png" />
 <meta name="msapplication-TileImage" content="https://res.cloudinary.com/di1g2wt1b/image/upload/PumaPulse-2025.b-cdn.net/wp-content/uploads/2025/09/cropped-PumaPulse-symbol-round-270x270.png" />
+
+<script>
+// Protect images from being hidden by other scripts
+(function() {
+    'use strict';
+    
+    // Prevent Nelio AB Testing from hiding content
+    window.nabIsLoading = false;
+    
+    // Force all images to be visible
+    function forceImagesVisible() {
+        const images = document.querySelectorAll('img');
+        images.forEach(img => {
+            img.style.opacity = '1';
+            img.style.visibility = 'visible';
+            img.style.display = '';
+            img.removeAttribute('hidden');
+        });
+    }
+    
+    // Run immediately
+    forceImagesVisible();
+    
+    // Run after DOM is loaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', forceImagesVisible);
+    }
+    
+    // Run after everything is loaded
+    window.addEventListener('load', forceImagesVisible);
+    
+    // Keep checking and fixing every 500ms for the first 5 seconds
+    let checkCount = 0;
+    const checkInterval = setInterval(() => {
+        forceImagesVisible();
+        checkCount++;
+        if (checkCount >= 10) {
+            clearInterval(checkInterval);
+        }
+    }, 500);
+    
+    // Observe DOM changes and fix images if they get hidden
+    const observer = new MutationObserver(() => {
+        forceImagesVisible();
+    });
+    
+    // Start observing after DOM is ready
+    if (document.body) {
+        observer.observe(document.body, {
+            attributes: true,
+            attributeFilter: ['style', 'class', 'hidden'],
+            subtree: true
+        });
+    } else {
+        document.addEventListener('DOMContentLoaded', () => {
+            observer.observe(document.body, {
+                attributes: true,
+                attributeFilter: ['style', 'class', 'hidden'],
+                subtree: true
+            });
+        });
+    }
+})();
+</script>
+
 </head>
 
 <body class="wp-singular page-template-default page page-id-49938 wp-embed-responsive wp-theme-space-station wp-child-theme-PumaPulse fl-builder fl-builder-2-10 fl-themer-1-5-2 fl-no-js fl-theme-builder-footer fl-theme-builder-footer-site-footer fl-theme-builder-header fl-theme-builder-header-header page-bg-animation">
