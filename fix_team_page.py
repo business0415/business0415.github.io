@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Disable SSCMBasePostFeed JavaScript that's hiding images
+Fix team page - disable SSCMBasePostFeed script
 """
 
 import os
@@ -36,19 +36,18 @@ def disable_sscm_script(file_path):
         print(f"Error: {e}")
         return False
 
-# Files to fix
-html_files = [
-    'PumaPulse.rocks/case-studies/index.html',
-    'PumaPulse.rocks/resources/index.html',
-]
+# Fix team page
+file_path = 'PumaPulse.rocks/about/team/index.html'
 
-print("🔧 DISABLING SSCMBasePostFeed SCRIPT...\n")
-print("This script manages the post feed and may be hiding images.\n")
+print("🔧 FIXING TEAM PAGE - DISABLING SSCMBasePostFeed...\n")
 
-for html_file in html_files:
-    if Path(html_file).exists():
-        if disable_sscm_script(html_file):
-            print(f"✓ Disabled: {html_file}")
+if Path(file_path).exists():
+    if disable_sscm_script(file_path):
+        print(f"✓ Fixed: {file_path}")
+        print("\nTeam member photos will now stay visible!")
+    else:
+        print("Already fixed or no changes needed.")
+else:
+    print(f"❌ File not found: {file_path}")
 
-print("\n✅ SSCMBasePostFeed DISABLED!")
-print("Images should now stay visible in the UL list.")
+print("\n✅ DONE!")
