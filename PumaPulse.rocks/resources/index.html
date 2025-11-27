@@ -287,6 +287,126 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })();
 </script>
 
+
+<style>
+/* SSCMBasePostFeed Grid Layout */
+.SSCMBasePostFeed-posts_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.SSCMBasePostFeed-post {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.SSCMBasePostFeed-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.SSCMBasePostFeed-post_stretched_link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.SSCMBasePostFeed-content_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.SSCMBasePostFeed-featured_image_container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.SSCMBasePostFeed-post_title_container {
+    padding: 20px;
+}
+
+.SSCMBasePostFeed-post_title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.SSCMBasePostFeed-post_tag_container {
+    padding: 0 20px 20px;
+}
+
+.SSCMBasePostFeed-post_tag {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .SSCMBasePostFeed-posts_container {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+
+
+
+<style>
+/* Fix header spacing - aggressive approach */
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+body::before,
+body::after {
+    display: none !important;
+}
+
+header.fl-builder-content,
+header[role="banner"] {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    top: 0 !important;
+}
+
+.fl-builder-content {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.fl-row:first-child,
+.CustomHeaderRow,
+.CustomHeader-parentRow {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+.fl-page-header-wrap,
+.fl-page-header {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+</style>
+
 </head>
 
 <body class="wp-singular page-template-default page page-id-49469 wp-embed-responsive wp-theme-space-station wp-child-theme-PumaPulse fl-builder fl-builder-2-10 fl-themer-1-5-2 fl-no-js fl-theme-builder-footer fl-theme-builder-footer-site-footer fl-theme-builder-header fl-theme-builder-header-header page-bg-animation">
@@ -406,7 +526,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      data-max-page="2"
      data-current-page="1"></div>
     
-            <li class="SSCMBasePostFeed-post SSCMBasePostFeed-post-56ejt412co9y "
+    <ul id="SSCMBasePostFeed-posts_container-56ejt412co9y" class="SSCMBasePostFeed-posts_container">
+        <li class="SSCMBasePostFeed-post SSCMBasePostFeed-post-56ejt412co9y "
             data-post-max-page="2"
             >
             <a class="SSCMBasePostFeed-post_stretched_link" href="../blog/the-best-construction-portfolio-website-designs-what-works-and-why/index.html"
