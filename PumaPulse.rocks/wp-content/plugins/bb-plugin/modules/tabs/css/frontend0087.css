@@ -1,0 +1,135 @@
+/*  Labels
+------------------------------------ */
+ul.fl-tabs-labels {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a.fl-tabs-label {
+	display: block;
+}
+.fl-tabs button.fl-tabs-label,
+button.fl-tabs-label:focus,
+button.fl-tabs-label:hover {
+	all: unset;
+	box-sizing: border-box;
+}
+.fl-tabs .fl-tabs-label:is(a, button) {
+	cursor: pointer;
+}
+.fl-tabs .fl-tabs-label:is(a, button) {
+	padding: 12px 18px;
+}
+.fl-tabs .fl-tabs-label.fl-tab-active {
+	background: #fff;
+	position: relative;
+	z-index: 1;
+}
+.fl-tabs .fl-tabs-label:focus {
+	outline: 1px auto -webkit-focus-ring-color;
+	outline-offset: -1px;
+	overflow: hidden;
+}
+.fl-tabs-labels .fl-tabs-label:active,
+.fl-tabs-labels .fl-tabs-label:focus,
+.fl-tabs-labels .fl-tabs-label:hover {
+	text-decoration: none;
+}
+
+/*  Panel Labels
+------------------------------------ */
+
+.fl-tabs .fl-tabs-label.fl-tabs-panel-label {
+	display: none;
+}
+.fl-tabs-panel-label span {
+	width: 100%;
+}
+.fl-tabs-panel-label .fa {
+	display: table-cell;
+	line-height: inherit;
+	opacity: .5;
+	padding-left: 15px;
+	vertical-align: middle;
+}
+
+/*  Panels
+------------------------------------ */
+
+.fl-tabs-panels {
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.fl-tabs-panel-content {
+	display: none;
+	padding: 18px;
+}
+.fl-tabs-panel-content.fl-tab-active {
+	display: block;
+}
+.fl-tabs-panel-content p:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/*  Horizontal
+------------------------------------ */
+
+.fl-tabs.fl-tabs-horizontal .fl-tabs-label {
+	float: left;
+}
+.fl-tabs-horizontal .fl-tabs-labels .fl-tabs-label {
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+.fl-tabs-horizontal .fl-tabs-label.fl-tab-active {
+	border-width: 1px;
+	border-style: solid;
+	border-bottom: none !important;
+}
+.fl-tabs-horizontal .fl-tabs-label.fl-tab-active:after {
+	content: '';
+	background: inherit;
+	display: block;
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+
+/*  Vertical
+------------------------------------ */
+
+.fl-tabs.fl-tabs-vertical .fl-tabs-labels {
+	float: left;
+	width: 30%;
+}
+.fl-tabs-vertical .fl-tabs-labels .fl-tabs-label {
+	border: 1px solid transparent;
+	border-right: none;
+}
+.fl-tabs-vertical .fl-tabs-labels button.fl-tabs-label {
+	width: 100%;
+}
+.fl-tabs-vertical .fl-tabs-label.fl-tab-active {
+	border-width: 1px;
+	border-style: solid;
+	border-right: none !important;
+}
+.fl-tabs-vertical .fl-tabs-label.fl-tab-active:after {
+	content: '';
+	background: inherit;
+	display: block;
+	width: 1px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: -1px;
+}
+.fl-tabs-vertical .fl-tabs-panels {
+	float: left;
+	width: 70%;
+}

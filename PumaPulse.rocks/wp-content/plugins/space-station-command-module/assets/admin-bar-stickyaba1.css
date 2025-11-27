@@ -1,0 +1,13 @@
+:root {
+    --sscm-sticky-admin-bar-offset: 0px;
+}
+
+body.admin-bar {
+    --sscm-sticky-admin-bar-offset: 32px;
+}
+
+@media screen and (max-width: 782px) {
+    body.admin-bar {
+        --sscm-sticky-admin-bar-offset: 46px;
+    }
+}

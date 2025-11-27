@@ -1,0 +1,30 @@
+# Video files (hosted on Cloudinary)
+*.mp4
+
+# Backup files
+*.bak
+
+# Log files
+*.log
+hts-log.txt
+
+# Upload scripts (not needed in repo)
+upload_*.py
+list_videos.py
+delete_videos.py
+replace_video_urls.py
+
+# Config files with credentials
+.cloudinary_config
+
+# Temporary files
+video_mapping.json
+video_list.csv
+remaining_videos_info.txt
+VIDEO_MIGRATION_README.md
+GITHUB_DEPLOYMENT_GUIDE.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo

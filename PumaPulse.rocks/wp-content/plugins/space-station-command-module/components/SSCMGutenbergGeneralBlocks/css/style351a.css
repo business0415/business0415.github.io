@@ -1,0 +1,30 @@
+/* Base styles for blocks */
+.wp-block-columns,
+.wp-block-column,
+[data-SSCMGutenbergGeneralBlocks-font-size-mobile],
+[data-SSCMGutenbergGeneralBlocks-font-size-tablet],
+[data-SSCMGutenbergGeneralBlocks-font-size-desktop] {
+    box-sizing: border-box;
+    transition: font-size 0.3s ease;
+}
+
+/* Apply font sizes based on namespaced class and variables */
+.SSCMGutenbergGeneralBlocks-typography {
+    font-size: var(--SSCMGutenbergGeneralBlocks-font-size-desktop);
+}
+
+@media (max-width: 1024px) {
+    .SSCMGutenbergGeneralBlocks-typography {
+        font-size: var(--SSCMGutenbergGeneralBlocks-font-size-tablet);
+    }
+}
+
+@media (max-width: 767px) {
+    .SSCMGutenbergGeneralBlocks-typography {
+        font-size: var(--SSCMGutenbergGeneralBlocks-font-size-mobile);
+    }
+}
+
+fieldset.components-font-size-picker{
+    margin-bottom:25px
+}

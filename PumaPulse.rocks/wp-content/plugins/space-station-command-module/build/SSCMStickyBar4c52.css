@@ -1,0 +1,88 @@
+.SSCMStickyBar {
+  width: 100%;
+  z-index: 999;
+  left: 0;
+}
+.SSCMStickyBar-fixed {
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 0 4px 0 rgba(0, 0, 0, 0.04);
+}
+.SSCMStickyBar-item {
+  cursor: pointer;
+  transition: 0.3s background-color;
+}
+.SSCMStickyBar-text {
+  display: inline-block;
+  transition: 0.3s color;
+}
+.SSCMStickyBar nav {
+  position: relative;
+}
+.SSCMStickyBar ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+}
+.SSCMStickyBar ul:after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 1;
+}
+.SSCMStickyBar a {
+  text-decoration: none;
+  color: inherit;
+}
+.SSCMStickyBar li:first-child, .SSCMStickyBar li:last-child {
+  flex: 0 0 auto;
+}
+.SSCMStickyBar-progress_indicator {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  transition: width 0.5s ease;
+  z-index: 10;
+}
+.SSCMStickyBar-first_link {
+  display: none;
+}
+.SSCMStickyBar-arrow_down {
+  display: none;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+.SSCMStickyBar-fixed {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.SSCMStickyBar:not([data-sscmstickybar-onpage="1"]) ul:after {
+  display: none;
+}
+.SSCMStickyBar:not([data-sscmstickybar-onpage="1"]) .SSCMStickyBar-item {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SSCMStickyBar:not([data-sscmstickybar-onpage="1"]) .SSCMStickyBar-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.SSCMStickyBar:not([data-sscmstickybar-onpage="1"]) .SSCMStickyBar-center {
+  flex-direction: column;
+}
+.SSCMStickyBar:not([data-sscmstickybar-onpage="1"]) .SSCMStickyBar-right {
+  flex-direction: row-reverse;
+}
+/*# sourceMappingURL=SSCMStickyBar.css.map */
