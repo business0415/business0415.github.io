@@ -1,0 +1,530 @@
+{
+  "missing_images_found": [
+    "img/crypto-gateway/Crypto-Payment-Gateway-Development-Company.webp",
+    "img/portfolio/portfolio-bg.webp",
+    "img/contact/contact.webp",
+    "img/ai_development/ai-Gradient-bg.webp",
+    "img/Forex/cta-background.webp",
+    "img/landing/border-left-bottom.webp",
+    "img/landing/Consulting-Services.webp",
+    "img/crypto-trading-bot/dot-logo.png",
+    "img/landing/career-bg.webp",
+    "img/blockchain/slider-bg.webp",
+    "img/Forex/banner-background.webp",
+    "img/blockchain/blockchain-cta2.webp",
+    "img/crypto-exchange/banner-hero-bg-solutions.webp",
+    "img/Brokerage/brokerage-cta.webp",
+    "img/ai_development/ai-cta-bg.webp",
+    "img/blockchain/blockchain-cta-bg.webp",
+    "img/crypto-exchange/why-invest-CED.png",
+    "img/portfolio/portfolio-cta.webp",
+    "img/landing/banner-home-redirect-icon.webp",
+    "img/learn-bg.webp",
+    "img/crypto-exchange/How-Pumapulse-Delivers-bg.webp",
+    "img/landing/Mobile-App-Development.webp",
+    "img/landing/border-line.webp",
+    "img/blog/blog-hero-section-bg.png",
+    "img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions.webp",
+    "img/blog/cta-img.webp",
+    "img/digital-banking/cta-background.webp",
+    "img/portfolio/gold-park-bg.webp",
+    "img/Forex/cta-section-bg.webp",
+    "img/digital-banking/cta-2-background.webp",
+    "img/landing/top-curve.webp",
+    "img/portfolio/cryptinum-bg.webp",
+    "img/flags@2x.webp",
+    "img/crypto-exchange/border-img-top.webp",
+    "img/down-arw.svg",
+    "img/landing/bottom-curve.webp",
+    "img/trading-software/Next-Gen-Tech-Stack-before.png",
+    "img/fintech-software/fintech-product.webp",
+    "img/crypto-exchange/border-img-bottom.webp",
+    "img/forex_trading_development/forex-cta-bg.webp",
+    "img/landing/Custom-Software-Development.webp",
+    "img/Our-Digital-Transformation-Services-We-Provide-bg.webp",
+    "img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp",
+    "img/flags.webp",
+    "img/digital-banking/banner-background.webp",
+    "img/fintech-software/fintech-idea.webp",
+    "img/prop-firm-tech/grow-faster-bg.webp",
+    "img/trading-software/Next-Gen-Tech-Stack-after.png",
+    "img/landing/home-banner.webp",
+    "img/portfolio/apzor-bg.webp",
+    "img/Our-Digital-Transformation-Services-We-Provide-bg.png",
+    "img/Forex/forex-cta-back.webp",
+    "img/blog/blog-cta.webp",
+    "img/blog/buildwith.webp",
+    "img/crypto-exchange/Circle-shape.webp",
+    "img/portfolio/metastation-bg.webp",
+    "img/blockchain/blockchain-cta.webp",
+    "img/contact/contact-top.png",
+    "img/landing/uiux.webp",
+    "img/portfolio/dreamster-bg.webp",
+    "img/algo-trading/twinkle-bg.webp",
+    "img/aboutus/Spetrum-line-img.webp",
+    "img/crypto-gateway/CPGD-hero-section.webp",
+    "img/hero-section-bg.webp",
+    "img/crypto-exchange/list-syle-arrow.png",
+    "img/ai_development/list-syle-arrow.webp",
+    "img/crypto-exchange/cta-section-bg.webp",
+    "img/Neo-Banking-Solutions-bg.png",
+    "img/fintech-software/Fintech-Software-Development-bg.webp",
+    "img/crypto-exchange/banner-hero-bg-solutions-exchange.webp"
+  ],
+  "existing_images": [
+    "img/crypto-gateway/Crypto-Payment-Gateway-Development-Company.webp",
+    "img/portfolio/portfolio-bg.webp",
+    "img/ai_development/ai-Gradient-bg.webp",
+    "img/Forex/cta-background.webp",
+    "img/landing/border-left-bottom.webp",
+    "img/landing/Consulting-Services.webp",
+    "img/crypto-trading-bot/dot-logo.png",
+    "img/landing/career-bg.webp",
+    "img/blockchain/slider-bg.webp",
+    "img/Forex/banner-background.webp",
+    "img/blockchain/blockchain-cta2.webp",
+    "img/Brokerage/brokerage-cta.webp",
+    "img/ai_development/ai-cta-bg.webp",
+    "img/blockchain/blockchain-cta-bg.webp",
+    "img/crypto-exchange/why-invest-CED.png",
+    "img/portfolio/portfolio-cta.webp",
+    "img/landing/banner-home-redirect-icon.webp",
+    "img/landing/Mobile-App-Development.webp",
+    "img/landing/border-line.webp",
+    "img/blog/blog-hero-section-bg.png",
+    "img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions.webp",
+    "img/digital-banking/cta-background.webp",
+    "img/portfolio/gold-park-bg.webp",
+    "img/Forex/cta-section-bg.webp",
+    "img/digital-banking/cta-2-background.webp",
+    "img/landing/top-curve.webp",
+    "img/portfolio/cryptinum-bg.webp",
+    "img/flags@2x.webp",
+    "img/crypto-exchange/border-img-top.webp",
+    "img/down-arw.svg",
+    "img/landing/bottom-curve.webp",
+    "img/trading-software/Next-Gen-Tech-Stack-before.png",
+    "img/fintech-software/fintech-product.webp",
+    "img/crypto-exchange/border-img-bottom.webp",
+    "img/forex_trading_development/forex-cta-bg.webp",
+    "img/landing/Custom-Software-Development.webp",
+    "img/Our-Digital-Transformation-Services-We-Provide-bg.webp",
+    "img/flags.webp",
+    "img/digital-banking/banner-background.webp",
+    "img/fintech-software/fintech-idea.webp",
+    "img/prop-firm-tech/grow-faster-bg.webp",
+    "img/trading-software/Next-Gen-Tech-Stack-after.png",
+    "img/landing/home-banner.webp",
+    "img/portfolio/apzor-bg.webp",
+    "img/Our-Digital-Transformation-Services-We-Provide-bg.png",
+    "img/Forex/forex-cta-back.webp",
+    "img/blog/blog-cta.webp",
+    "img/blog/buildwith.webp",
+    "img/crypto-exchange/Circle-shape.webp",
+    "img/portfolio/metastation-bg.webp",
+    "img/blockchain/blockchain-cta.webp",
+    "img/contact/contact-top.png",
+    "img/landing/uiux.webp",
+    "img/portfolio/dreamster-bg.webp",
+    "img/algo-trading/twinkle-bg.webp",
+    "img/aboutus/Spetrum-line-img.webp",
+    "img/crypto-gateway/CPGD-hero-section.webp",
+    "img/hero-section-bg.webp",
+    "img/crypto-exchange/list-syle-arrow.png",
+    "img/ai_development/list-syle-arrow.webp",
+    "img/crypto-exchange/cta-section-bg.webp",
+    "img/Neo-Banking-Solutions-bg.png",
+    "img/fintech-software/Fintech-Software-Development-bg.webp",
+    "img/crypto-exchange/banner-hero-bg-solutions-exchange.webp"
+  ],
+  "successful_uploads": [
+    {
+      "local_path": "img/crypto-gateway/Crypto-Payment-Gateway-Development-Company.webp",
+      "public_id": "img/crypto-gateway/Crypto-Payment-Gateway-Development-Company",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762791/img/crypto-gateway/Crypto-Payment-Gateway-Development-Company.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-gateway/Crypto-Payment-Gateway-Development-Company"
+    },
+    {
+      "local_path": "img/portfolio/portfolio-bg.webp",
+      "public_id": "img/portfolio/portfolio-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763548/img/portfolio/portfolio-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/portfolio-bg"
+    },
+    {
+      "local_path": "img/ai_development/ai-Gradient-bg.webp",
+      "public_id": "img/ai_development/ai-Gradient-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762489/img/ai_development/ai-Gradient-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/ai_development/ai-Gradient-bg"
+    },
+    {
+      "local_path": "img/Forex/cta-background.webp",
+      "public_id": "img/Forex/cta-background",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762167/img/Forex/cta-background.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/cta-background"
+    },
+    {
+      "local_path": "img/landing/border-left-bottom.webp",
+      "public_id": "img/landing/border-left-bottom",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763345/img/landing/border-left-bottom.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/border-left-bottom"
+    },
+    {
+      "local_path": "img/landing/Consulting-Services.webp",
+      "public_id": "img/landing/Consulting-Services",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763296/img/landing/Consulting-Services.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Consulting-Services"
+    },
+    {
+      "local_path": "img/crypto-trading-bot/dot-logo.png",
+      "public_id": "img/crypto-trading-bot/dot-logo",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762917/img/crypto-trading-bot/dot-logo.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-trading-bot/dot-logo"
+    },
+    {
+      "local_path": "img/landing/career-bg.webp",
+      "public_id": "img/landing/career-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763372/img/landing/career-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/career-bg"
+    },
+    {
+      "local_path": "img/blockchain/slider-bg.webp",
+      "public_id": "img/blockchain/slider-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762579/img/blockchain/slider-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/slider-bg"
+    },
+    {
+      "local_path": "img/Forex/banner-background.webp",
+      "public_id": "img/Forex/banner-background",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762159/img/Forex/banner-background.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/banner-background"
+    },
+    {
+      "local_path": "img/blockchain/blockchain-cta2.webp",
+      "public_id": "img/blockchain/blockchain-cta2",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762538/img/blockchain/blockchain-cta2.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta2"
+    },
+    {
+      "local_path": "img/Brokerage/brokerage-cta.webp",
+      "public_id": "img/Brokerage/brokerage-cta",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762119/img/Brokerage/brokerage-cta.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Brokerage/brokerage-cta"
+    },
+    {
+      "local_path": "img/ai_development/ai-cta-bg.webp",
+      "public_id": "img/ai_development/ai-cta-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762491/img/ai_development/ai-cta-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/ai_development/ai-cta-bg"
+    },
+    {
+      "local_path": "img/blockchain/blockchain-cta-bg.webp",
+      "public_id": "img/blockchain/blockchain-cta-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762534/img/blockchain/blockchain-cta-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta-bg"
+    },
+    {
+      "local_path": "img/crypto-exchange/why-invest-CED.png",
+      "public_id": "img/crypto-exchange/why-invest-CED",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762764/img/crypto-exchange/why-invest-CED.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/why-invest-CED"
+    },
+    {
+      "local_path": "img/portfolio/portfolio-cta.webp",
+      "public_id": "img/portfolio/portfolio-cta",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763550/img/portfolio/portfolio-cta.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/portfolio-cta"
+    },
+    {
+      "local_path": "img/landing/banner-home-redirect-icon.webp",
+      "public_id": "img/landing/banner-home-redirect-icon",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763344/img/landing/banner-home-redirect-icon.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/banner-home-redirect-icon"
+    },
+    {
+      "local_path": "img/landing/Mobile-App-Development.webp",
+      "public_id": "img/landing/Mobile-App-Development",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763326/img/landing/Mobile-App-Development.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Mobile-App-Development"
+    },
+    {
+      "local_path": "img/landing/border-line.webp",
+      "public_id": "img/landing/border-line",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763346/img/landing/border-line.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/border-line"
+    },
+    {
+      "local_path": "img/blog/blog-hero-section-bg.png",
+      "public_id": "img/blog/blog-hero-section-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762625/img/blog/blog-hero-section-bg.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/blog-hero-section-bg"
+    },
+    {
+      "local_path": "img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions.webp",
+      "public_id": "img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762704/img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/Get-Highly-Optimized-White-Label-Crypto-Exchange-Solutions"
+    },
+    {
+      "local_path": "img/digital-banking/cta-background.webp",
+      "public_id": "img/digital-banking/cta-background",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762976/img/digital-banking/cta-background.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/digital-banking/cta-background"
+    },
+    {
+      "local_path": "img/portfolio/gold-park-bg.webp",
+      "public_id": "img/portfolio/gold-park-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763522/img/portfolio/gold-park-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/gold-park-bg"
+    },
+    {
+      "local_path": "img/Forex/cta-section-bg.webp",
+      "public_id": "img/Forex/cta-section-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763721/img/Forex/cta-section-bg.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/cta-section-bg"
+    },
+    {
+      "local_path": "img/digital-banking/cta-2-background.webp",
+      "public_id": "img/digital-banking/cta-2-background",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762972/img/digital-banking/cta-2-background.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/digital-banking/cta-2-background"
+    },
+    {
+      "local_path": "img/landing/top-curve.webp",
+      "public_id": "img/landing/top-curve",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763408/img/landing/top-curve.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/top-curve"
+    },
+    {
+      "local_path": "img/portfolio/cryptinum-bg.webp",
+      "public_id": "img/portfolio/cryptinum-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763509/img/portfolio/cryptinum-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/cryptinum-bg"
+    },
+    {
+      "local_path": "img/flags@2x.webp",
+      "public_id": "img/flags@2x",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763142/img/flags%402x.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/flags@2x"
+    },
+    {
+      "local_path": "img/crypto-exchange/border-img-top.webp",
+      "public_id": "img/crypto-exchange/border-img-top",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762728/img/crypto-exchange/border-img-top.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/border-img-top"
+    },
+    {
+      "local_path": "img/down-arw.svg",
+      "public_id": "img/down-arw",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762988/img/down-arw.svg",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/down-arw"
+    },
+    {
+      "local_path": "img/landing/bottom-curve.webp",
+      "public_id": "img/landing/bottom-curve",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763348/img/landing/bottom-curve.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/bottom-curve"
+    },
+    {
+      "local_path": "img/trading-software/Next-Gen-Tech-Stack-before.png",
+      "public_id": "img/trading-software/Next-Gen-Tech-Stack-before",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763580/img/trading-software/Next-Gen-Tech-Stack-before.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/trading-software/Next-Gen-Tech-Stack-before"
+    },
+    {
+      "local_path": "img/fintech-software/fintech-product.webp",
+      "public_id": "img/fintech-software/fintech-product",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763108/img/fintech-software/fintech-product.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/fintech-software/fintech-product"
+    },
+    {
+      "local_path": "img/crypto-exchange/border-img-bottom.webp",
+      "public_id": "img/crypto-exchange/border-img-bottom",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762727/img/crypto-exchange/border-img-bottom.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/border-img-bottom"
+    },
+    {
+      "local_path": "img/forex_trading_development/forex-cta-bg.webp",
+      "public_id": "img/forex_trading_development/forex-cta-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763226/img/forex_trading_development/forex-cta-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/forex_trading_development/forex-cta-bg"
+    },
+    {
+      "local_path": "img/landing/Custom-Software-Development.webp",
+      "public_id": "img/landing/Custom-Software-Development",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763303/img/landing/Custom-Software-Development.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Custom-Software-Development"
+    },
+    {
+      "local_path": "img/Our-Digital-Transformation-Services-We-Provide-bg.webp",
+      "public_id": "img/Our-Digital-Transformation-Services-We-Provide-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762361/img/Our-Digital-Transformation-Services-We-Provide-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Our-Digital-Transformation-Services-We-Provide-bg"
+    },
+    {
+      "local_path": "img/flags.webp",
+      "public_id": "img/flags",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763140/img/flags.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/flags"
+    },
+    {
+      "local_path": "img/digital-banking/banner-background.webp",
+      "public_id": "img/digital-banking/banner-background",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762965/img/digital-banking/banner-background.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/digital-banking/banner-background"
+    },
+    {
+      "local_path": "img/fintech-software/fintech-idea.webp",
+      "public_id": "img/fintech-software/fintech-idea",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763104/img/fintech-software/fintech-idea.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/fintech-software/fintech-idea"
+    },
+    {
+      "local_path": "img/prop-firm-tech/grow-faster-bg.webp",
+      "public_id": "img/prop-firm-tech/grow-faster-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763556/img/prop-firm-tech/grow-faster-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/prop-firm-tech/grow-faster-bg"
+    },
+    {
+      "local_path": "img/trading-software/Next-Gen-Tech-Stack-after.png",
+      "public_id": "img/trading-software/Next-Gen-Tech-Stack-after",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763579/img/trading-software/Next-Gen-Tech-Stack-after.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/trading-software/Next-Gen-Tech-Stack-after"
+    },
+    {
+      "local_path": "img/landing/home-banner.webp",
+      "public_id": "img/landing/home-banner",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763390/img/landing/home-banner.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/home-banner"
+    },
+    {
+      "local_path": "img/portfolio/apzor-bg.webp",
+      "public_id": "img/portfolio/apzor-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763500/img/portfolio/apzor-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/apzor-bg"
+    },
+    {
+      "local_path": "img/Our-Digital-Transformation-Services-We-Provide-bg.png",
+      "public_id": "img/Our-Digital-Transformation-Services-We-Provide-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768800866/img/Our-Digital-Transformation-Services-We-Provide-bg.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Our-Digital-Transformation-Services-We-Provide-bg"
+    },
+    {
+      "local_path": "img/Forex/forex-cta-back.webp",
+      "public_id": "img/Forex/forex-cta-back",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762316/img/Forex/forex-cta-back.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/forex-cta-back"
+    },
+    {
+      "local_path": "img/blog/blog-cta.webp",
+      "public_id": "img/blog/blog-cta",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762609/img/blog/blog-cta.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/blog-cta"
+    },
+    {
+      "local_path": "img/blog/buildwith.webp",
+      "public_id": "img/blog/buildwith",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762628/img/blog/buildwith.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/buildwith"
+    },
+    {
+      "local_path": "img/crypto-exchange/Circle-shape.webp",
+      "public_id": "img/crypto-exchange/Circle-shape",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762670/img/crypto-exchange/Circle-shape.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/Circle-shape"
+    },
+    {
+      "local_path": "img/portfolio/metastation-bg.webp",
+      "public_id": "img/portfolio/metastation-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763533/img/portfolio/metastation-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/metastation-bg"
+    },
+    {
+      "local_path": "img/blockchain/blockchain-cta.webp",
+      "public_id": "img/blockchain/blockchain-cta",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762536/img/blockchain/blockchain-cta.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta"
+    },
+    {
+      "local_path": "img/contact/contact-top.png",
+      "public_id": "img/contact/contact-top",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762659/img/contact/contact-top.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/contact/contact-top"
+    },
+    {
+      "local_path": "img/landing/uiux.webp",
+      "public_id": "img/landing/uiux",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763410/img/landing/uiux.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/uiux"
+    },
+    {
+      "local_path": "img/portfolio/dreamster-bg.webp",
+      "public_id": "img/portfolio/dreamster-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763516/img/portfolio/dreamster-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/dreamster-bg"
+    },
+    {
+      "local_path": "img/algo-trading/twinkle-bg.webp",
+      "public_id": "img/algo-trading/twinkle-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762511/img/algo-trading/twinkle-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/algo-trading/twinkle-bg"
+    },
+    {
+      "local_path": "img/aboutus/Spetrum-line-img.webp",
+      "public_id": "img/aboutus/Spetrum-line-img",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762377/img/aboutus/Spetrum-line-img.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/aboutus/Spetrum-line-img"
+    },
+    {
+      "local_path": "img/crypto-gateway/CPGD-hero-section.webp",
+      "public_id": "img/crypto-gateway/CPGD-hero-section",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762788/img/crypto-gateway/CPGD-hero-section.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-gateway/CPGD-hero-section"
+    },
+    {
+      "local_path": "img/hero-section-bg.webp",
+      "public_id": "img/hero-section-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763270/img/hero-section-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/hero-section-bg"
+    },
+    {
+      "local_path": "img/crypto-exchange/list-syle-arrow.png",
+      "public_id": "img/crypto-exchange/list-syle-arrow",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762752/img/crypto-exchange/list-syle-arrow.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/list-syle-arrow"
+    },
+    {
+      "local_path": "img/ai_development/list-syle-arrow.webp",
+      "public_id": "img/ai_development/list-syle-arrow",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762503/img/ai_development/list-syle-arrow.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/ai_development/list-syle-arrow"
+    },
+    {
+      "local_path": "img/crypto-exchange/cta-section-bg.webp",
+      "public_id": "img/crypto-exchange/cta-section-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762749/img/crypto-exchange/cta-section-bg.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/cta-section-bg"
+    },
+    {
+      "local_path": "img/Neo-Banking-Solutions-bg.png",
+      "public_id": "img/Neo-Banking-Solutions-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762335/img/Neo-Banking-Solutions-bg.png",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/Neo-Banking-Solutions-bg"
+    },
+    {
+      "local_path": "img/fintech-software/Fintech-Software-Development-bg.webp",
+      "public_id": "img/fintech-software/Fintech-Software-Development-bg",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768763072/img/fintech-software/Fintech-Software-Development-bg.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/fintech-software/Fintech-Software-Development-bg"
+    },
+    {
+      "local_path": "img/crypto-exchange/banner-hero-bg-solutions-exchange.webp",
+      "public_id": "img/crypto-exchange/banner-hero-bg-solutions-exchange",
+      "cloudinary_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/v1768762724/img/crypto-exchange/banner-hero-bg-solutions-exchange.webp",
+      "optimized_url": "https://res.cloudinary.com/dtvnifa3t/image/upload/img/crypto-exchange/banner-hero-bg-solutions-exchange"
+    }
+  ],
+  "failed_uploads": [],
+  "html_files_updated": 46,
+  "css_files_updated": 37,
+  "timestamp": "2026-01-19 06:35:59"
+}

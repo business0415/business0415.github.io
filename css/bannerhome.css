@@ -1,0 +1,461 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/home-banner');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    background-position: center;
+    background-color: #000;
+}
+
+.banner-title {
+    font-size: 40.8px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.Horizontal-Divider {
+    padding-bottom: 25px;
+}
+
+.banner-title span {
+    display: inline-block;
+    background: var(--gradientcolor) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+span.button-arrow {
+    display: inline-flex;
+    padding: 10px;
+    background: rgba(77, 122, 231, 1);
+    border-radius: 10px;
+}
+
+.button-common a.btn {
+    display: flex;
+    align-items: center;
+}
+
+.button-text{
+    padding: 10px;
+} 
+
+
+
+
+.contact-page-main .floating-icons-for-social-media-small {
+
+    display: none;
+
+}
+
+.privacy-policy-page .floating-icons-for-social-media-small {
+    display: none;
+}
+
+.hompage-main .floating-icons-for-social-media-small {
+    display: none;
+}
+
+@media (min-width:991px) {
+    .floating-icons-for-social-media-small {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .floating-icons-for-social-media-small {
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 15px;
+        text-align: center;
+        backdrop-filter: blur(5px);
+        z-index: 15;
+        justify-content: space-evenly;
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 80px;
+        opacity: 0;
+     
+    }
+    .floating-icons-for-social-media-small img,
+.floating-icons-for-social-media-small i {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.floating-icons-for-social-media-small {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .floating-icons-for-social-media-small.visible {
+    opacity: 1;
+  }
+
+    .icon-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s ease-in-out;
+        width: 80px;
+        height: 80px;
+    }
+
+    .icon-container:hover {
+        transform: translateY(-5px);
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .icon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon:hover {
+        transform: scale(1.2);
+        /* box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); */
+    }
+
+    .icon-text {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #FFFFFF;
+        opacity: 1;
+        transition: opacity 0.3s ease-in-out;
+        font-weight: 500;
+    }
+
+    .button-common {
+        text-align: center;
+    }
+}
+
+
+@media (max-width:991.98px) {
+
+    .Horizontal-Divider {
+        display: none;
+    }
+
+    .hero-section {
+        height: auto;
+        padding: 100px 0px 20px 0px !important;
+        background-size: contain;
+        background: #000 !important;
+    }
+
+        .hero-section.x2 {
+        height: auto;
+        padding: 100px 0px 20px 0px !important;
+        background-size: contain;
+        background: #000 !important;
+    }
+
+    .floating-icons-1{
+        display: none ;
+    } 
+
+    .floating-bar-3 {
+        display: none !important;
+    }
+
+    .floating-icons-1 {
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 5px 25px;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+        /* filter: blur(1px); */
+        backdrop-filter: blur(5px);
+        z-index: 15;
+    }
+    .icon {
+        width: 55px;
+        height: 55px;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: visible;
+        cursor: pointer;
+    }
+    
+    .icon img {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    /* .Telegram:hover {
+        background-color: #24A1DE;
+    }
+    
+    .skype:hover {
+        background-color: #00AFF0;
+    }
+    
+    .WhatsApp:hover {
+        background-color: #075E54;
+    } */
+    
+    
+    
+    /* Keyframes for pulsing gradient border */
+    @keyframes pulseBorder {
+        0% {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 1;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    /* Tooltip (Icon Name) */
+    .icon::after {
+        /* content: attr(data-name); */
+        /* Get text from data-name attribute */
+        position: absolute;
+        left: 80px;
+        /* Adjust distance from icon */
+        /* background-color: rgba(79, 133, 204, 0.9); */
+        color: #fff;
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 15px;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: translateX(-50%);
+    }
+    
+    .Telegram::after {
+        background-color: #000;
+    
+    }
+    
+    .skype::after {
+        background-color: #000;
+    }
+    
+    .WhatsApp::after {
+        background-color: #000;
+    }
+    
+    /* Show tooltip on hover */
+    .icon:hover::after {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+    .button-common {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 576.98px) {
+    .hero-section.x2 h1 {
+        line-height: 40px !important;
+        padding: 0px !important;
+    }
+}
+
+@media (max-width:540px) {
+    .new-hero {
+        /* height: auto; */
+        padding: 70px 15px 20px 15px !important;
+        /* background: #0b0c14; */
+    }
+
+    .new-hero-algo-section {
+        height: 100vh !important;
+        padding: 30px 15px 20px 15px !important;
+    }
+
+    .new-hero-algo-section p {
+        line-height: 24px;
+    }
+
+    .new-hero-algo-section h1 {
+        line-height: 40px !important;
+    }
+
+    .new-algo-btn {
+        margin-bottom: 20px !important;
+    }
+
+    .new-hero-payment-section {
+        padding: 0px !important;
+
+    }
+    .floating-icons-1 {
+        position: fixed;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 5px 25px;
+        border-radius: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: space-between;
+        /* filter: blur(1px); */
+        backdrop-filter: blur(5px);
+        z-index: 15;
+    }
+    
+    
+    .icon {
+        width: 55px;
+        height: 55px;
+        background: transparent;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: visible;
+        cursor: pointer;
+    }
+    
+    .icon img {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    /* .Telegram:hover {
+        background-color: #24A1DE;
+    }
+    
+    .skype:hover {
+        background-color: #00AFF0;
+    }
+    
+    .WhatsApp:hover {
+        background-color: #075E54;
+    } */
+    
+    
+    
+    /* Keyframes for pulsing gradient border */
+    @keyframes pulseBorder {
+        0% {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+    
+        50% {
+            opacity: 1;
+        }
+    
+        100% {
+            opacity: 0;
+        }
+    }
+    
+    /* Tooltip (Icon Name) */
+    .icon::after {
+        position: absolute;
+        left: 80px;
+        color: #fff;
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 15px;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        transform: translateX(-50%);
+    }
+    
+    .Telegram::after {
+        background-color: #000;
+    
+    }
+    
+    .skype::after {
+        background-color: #000;
+    }
+    
+    .WhatsApp::after {
+        background-color: #000;
+    }
+    
+    /* Show tooltip on hover */
+    .icon:hover::after {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+    }
+
+
+
+}
+
+@media (max-width:1199.98px) {
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    .hero-section .free-consultation-right {
+        display: block !important;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (min-width:992px) and (max-width:2000px) {
+
+    .hero-section {
+        height: 100vh;
+        padding-top: 80px;
+    }
+
+}
+

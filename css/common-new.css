@@ -1,0 +1,1310 @@
+/* recent blog */
+
+a {
+    text-decoration: none;
+}
+
+.Explore-Our-Top-Blog-Categories-section .contain-width {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.Explore-Our-Top-Blog-Categories-section h3 {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.Explore-Our-Top-Blog-Categories-section {
+    padding: 100px 0;
+}
+
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    /* box-shadow: 0px 10px 20px 0px #00000014; */
+    /* border-radius: 100px; */
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    font-size: 15px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons {
+    margin-bottom: 60px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px 0px #00000014;
+    border-radius: 100px;
+    background: #fff;
+}
+
+.tabs.submenu-tabs.desktop-submenu-tabs {
+    width: 100%;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    padding: 35px 0;
+    /* font-weight: 500; */
+    color: #1C1E21 !important;
+    cursor: pointer;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button.active span {
+    background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tab-content {
+    display: none;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tab-content.active {
+    display: block !important;
+}
+
+.inner-tab-content-blog {
+    display: flex;
+    gap: 30px 13px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-tab-content-blog .inner-tab-content-blog-post {
+    flex: 0 0 30%;
+    padding: 24px;
+    background: #fff;
+    box-shadow: 1.23px 1.23px 7.36px 0px #1F22290A;
+    box-shadow: 0px 0px 1.23px 0px #1F22293D;
+    box-shadow: -17px 22px 22.3px 0px #0A7CFF1A;
+    border-radius: 10px;
+}
+
+.inner-tab-content-blog .inner-tab-content-blog-post-img {
+    width: 100%;
+    /* height: 170px; */
+}
+
+/* .inner-tab-content-blog-post-img img {
+    height: 100% !important;
+} */
+
+.inner-tab-content-tag span {
+    color: #000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 7px 12px;
+    background: #2222220d;
+    border-radius: 6px;
+}
+
+.inner-tab-content-blog-post-caption span.featured-post-title {
+    font-size: 20px;
+    color: #0B0C14;
+    line-height: 30px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.inner-tab-content-blog-post-caption {
+    margin: 15px 0 20px;
+}
+
+.inner-tab-content-blog-post-author-publish {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-post-caption-author-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.featured-post-caption-author-name img {
+    width: 34px !important;
+    border-radius: 50%;
+}
+
+.tab-content-all-blog-content {
+    padding: 22px 8px 0 8px;
+    height: 290px;
+}
+
+.read-more-button {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.read-more-button a span {
+    color: #696A75;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.read-more-button a {
+    display: inline-block;
+    padding: 1px 0.8px;
+    background: var(--gradientcolor);
+    border-radius: 6px;
+}
+
+.read-more-button a:hover span {
+    background: transparent;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-post-caption-publish-date,
+.featured-post-caption-author-name {
+    color: #97989F;
+}
+
+
+
+.inner-tab-content-blog-post-author-publish p {
+    color: #3B3D48;
+}
+
+.tab-content-all-blog-content a {
+    text-decoration: none;
+}
+
+.Explore-Our-Top-Blog-Categories-section .read-more-button {
+    text-align: left;
+}
+
+.Explore-Our-Top-Blog-Categories-section .read-more-button a span {
+    background: var(--gradientcolor);
+    padding: 0px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .read-more-button a {
+    background: transparent !important;
+}
+
+
+
+/*** common tab **/
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-content.active {
+    display: flex !important;
+    gap: 40px;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-content {
+    display: none;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons-inner .tab-button span {
+    font-size: 18px;
+    font-weight: 600;
+    background: var(--gradientcolor);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons-inner {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 32px;
+    padding: 2px;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons-inner .tab-button {
+    padding: 12px 15px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons-inner .tab-button.active,
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .tab-button.active {
+    background: var(--gradientcolor);
+    border-radius: 32px;
+    color: #fff;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons-inner .tab-button.active span,
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .tab-button span {
+    background: none !important;
+    background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: unset;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tab-buttons {
+    background: var(--gradientcolor);
+    border-radius: 32px;
+    padding: 2px;
+    max-width: 280px;
+    margin: 0 auto 20px;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #191919;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 15px;
+    padding: 17.5px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1.23px 1.23px 7.36px 0px #1F22290A;
+    box-shadow: 0px 0px 1.23px 0px #1F22293D;
+    box-shadow: -17px 22px 22.3px 0px #0A7CFF1A;
+}
+
+.Pumapulse-Custom-Made-Trading-App-Interface-content .tabs.submenu-tabs {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right p {
+    margin-bottom: 42px;
+    text-align: left !important;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+
+.contain-width.Next-Gen-Tech-Stack-title {
+    max-width: 700px;
+}
+
+.contain-width.Next-Gen-Tech-Stack-title span {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+/* tech stack new gen */
+
+.outer-Next-Gen-Tech-Stack-division {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* text-align: center; */
+}
+
+.Next-Gen-Tech-Stack-division {
+    display: flex;
+    /* width: 49%; */
+    gap: 8px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Next-Gen-Tech-Stack-division .Various-Payment-Solutions-inner {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex: 0 0 23%;
+}
+
+.Next-Gen-Tech-Stack-division .Various-Payment-Solutions-inner span {
+    font-size: 16px;
+}
+
+.contain-width.Next-Gen-Tech-Stack-content {
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.Next-Gen-Tech-Stack-division-outer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Next-Gen-Tech-Stack-division .Various-Payment-Solutions-inner img {
+    width: 40px;
+    height: 40px;
+}
+
+.outer-Next-Gen-Tech-Stack-division label {
+    background: var(--gradientcolor);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.Next-Gen-Tech-Stack-division::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/trading-software/Next-Gen-Tech-Stack-before');
+    left: -10px;
+    top: -10px;
+}
+
+.Next-Gen-Tech-Stack-division::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/trading-software/Next-Gen-Tech-Stack-after');
+    right: -10px;
+    bottom: -10px;
+}
+
+
+.Various-Payment-Solutions-Crypto-Payment-Gateway-section-outer.Our-Unmatched-Trading-Platform-Development-Solutions-outer .Various-Payment-Solutions-Crypto-Payment-Gateway-section.Pumapulse-supports-payment-solutions {
+    padding-bottom: 60px !important;
+}
+
+.Next-Gen-Tech-Stack .Various-Payment-Solutions-Crypto-Payment-Gateway-section.Pumapulse-supports-payment-solutions {
+    padding-top: 60px;
+}
+
+/* unmatched  */
+
+
+.contain-width.Our-Unmatched-Trading-Platform-Development-Solutions-title p {
+    font-size: 43px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.contain-width.Our-Unmatched-Trading-Platform-Development-Solutions-title {
+    gap: 20px;
+}
+
+.contain-width.Our-Unmatched-Trading-Platform-Development-Solutions-title span {
+    font-size: 20px;
+    text-align: center;
+    line-height: 27px;
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #000000A6;
+}
+
+.contain-width.Our-Unmatched-Trading-Platform-Development-Solutions-content {
+    max-width: 1150px;
+}
+
+.Our-Unmatched-Trading-Platform-Development-Solutions-content .tab-buttons {
+    width: 100%;
+    max-width: 100%;
+    background: none;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.Our-Unmatched-Trading-Platform-Development-Solutions-content .tab-button span {
+    white-space: nowrap;
+}
+
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-left label {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 27px;
+    display: inline-block;
+}
+
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-left p {
+    background: none;
+    background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: unset;
+    font-size: 18px;
+    text-align: left;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-left ul li {
+    color: #191919;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-left ul {
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.non-gradient {
+    background: none !important;
+    background-clip: unset !important;
+    background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    color: #393939;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 1070px;
+    margin-top: 50px !important;
+    margin-bottom: 0px !important;
+}
+
+.inner-tab-content-blog-post-img img {
+    width: 100% !important;
+}
+
+
+.testimonial-card {
+    border: 1px solid #eee;
+    border-radius: 24px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 100%;
+    position: relative;
+    display: flex;
+
+}
+.revier-section-head {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.arrow-btn {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: #888;
+}
+
+.arrow-btn:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.testimonial-wrapper {
+    overflow: hidden;
+}
+
+.testimonial-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.testimonial-item {
+    flex: 0 0 33.3333%;
+    padding: 10px;
+}
+
+.reviw-head {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-style-color {
+    background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+.img-review-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.border-line {
+    width: 100%;
+    background: rgba(233, 233, 233, 1);
+    height: 8.42px;
+}
+
+.reviwer-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    bottom: 0px;
+
+}
+
+.mini-he-p {
+    min-height: 200px;
+}
+
+.cardee {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: space-between;
+}
+.cardee-2{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    justify-content: space-between;
+}
+
+.cardee::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #a855f7, transparent);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.cardee::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #a855f7, transparent);
+    z-index: 0;
+    transform: translateX(0%);
+}
+
+.cardee-2::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background: linear-gradient(to left, transparent, #a855f7, transparent);
+    z-index: 0;
+    transform: translateX(0%);
+}
+
+.testimonial-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    touch-action: pan-y;
+}
+
+.testimonial-item {
+    flex: 0 0 33.3333%;
+    /* 3 items by default */
+    padding: 10px;
+}
+
+@media (max-width:991.98px) {
+    .reviw-head{
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .testimonial-item {
+        flex: 0 0 50%;
+        /* 2 items on tablets */
+    }
+}
+@media (max-width:991.98px) {
+     .revier-section-head{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .testimonial-item {
+        flex: 0 0 100%;
+        /* 1 item on mobile */
+    }
+    .mini-he-p {
+  min-height: fit-content;
+}
+   
+}
+
+
+
+.logo-scroll-section{
+    padding-top: 50px ;
+}
+
+.logo-scroll-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    border-left: 2.5px solid rgba(150, 150, 150, 1);
+    border-right: 2.5px solid rgba(150, 150, 150, 1);
+        height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-scroll {
+    display: flex;
+    animation: scroll-left 20s linear infinite;
+}
+
+.logo-scroll-wrapper:hover .logo-scroll {
+    animation-play-state: paused;
+}
+
+.logo-item {
+    flex: 0 0 auto;
+    margin: 0 2rem;
+}
+
+.logo-item img {
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.helight-head {
+    padding: 10px 15px;
+    background: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    display: inline-block;
+    color: rgba(109, 109, 109, 1);
+
+}
+
+.cost-to-start {
+    /* box-shadow: 
+  0px -4.16px 8.31px 0px rgba(0, 0, 0, 0.06), 
+  0px 0px 4.16px 0px rgba(0, 0, 0, 0.04); */
+    background: rgba(252, 253, 253, 1);
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 23px;
+    position: relative;
+    /* Needed for z-index to work */
+    z-index: 1;
+    transition:
+        padding 0.3s ease,
+        box-shadow 0.3s ease,
+        z-index 0s;
+
+}
+
+.cost-to-start:hover {
+    /* padding: 20px 25px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 16px;
+    /* stronger shadow on hover */
+    z-index: 10;
+    /* bring to front */
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+
+.all-in-one {
+    padding: 50px 0;
+}
+@media (min-width: 991.98px) and (max-width: 1199.98px)
+{
+    .cost-to-start{
+        min-height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width:991.98px) {
+
+
+    .Explore-Our-Top-Blog-Categories-section .contain-width {
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+        flex-wrap: wrap;
+    }
+
+
+    .Explore-Our-Top-Blog-Categories-section h3 {
+        font-size: 40px !important;
+    }
+
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+        padding: 15px 10px;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+        gap: 10px;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons {
+        border-radius: 10px;
+    }
+
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1365.98px) {
+
+    .Explore-Our-Top-Blog-Categories-section .contain-width {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+.btn-conteiner.x2.mt-10{
+    position: absolute;
+    bottom: 15px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+
+.new-explore{
+    padding-top: 0px !important;
+}
+#card_slider,
+#card_slider * {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -ms-user-select: none !important;
+    -webkit-touch-callout: none !important;
+}
+#card_slider {
+  will-change: transform;
+  touch-action: pan-y
+}
+.card-des {
+    -webkit-touch-callout: none; 
+}
+
+
+.card_slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.section-2.ar3{
+margin-bottom: 0px !important;
+}
+.top-dimension.ar3 img{
+filter:grayscale(0) !important;
+}
+.forex{
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/forex_trading_development/forex-cta-bg);
+        background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/forex_trading_development/forex-cta-bg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color:none !important;
+    position :relative;
+}
+
+/* slik - slider 2 design  */
+
+
+.process-section {
+    /* background: #3252ff;  */
+    padding: 40px 0;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/slider-bg') center/cover no-repeat !important;
+}
+
+.process-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.process-text p {
+    color: #f1f1f1;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.process-card {
+    /* background: #0e0e12; */
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    height: 100%;
+    display: none;
+    /* background: none !important; */
+        height: 330px;
+                margin-bottom: 30px;
+
+
+
+    background: url(https://www.hashcodex.com/img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+
+}
+.process-card.forex-card{
+    top: 150px;
+    width: 100%;
+}
+.process-section.forex{
+    margin-bottom: 60px;
+}
+
+.col-6.ar33 {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+/* .process-card.lazy-bg {
+    background: url('../img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp') center/cover no-repeat !important;
+} */
+
+.process-card.active {
+    display: block;
+}
+
+/* .process-card .icon {
+      font-size: 2rem;
+      color: #ff4081; 
+      margin-bottom: 20px;
+      display: inline-block;
+    } */
+.process-card h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.nav-btns {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-btns button {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    transition: background 0.3s;
+}
+
+.nav-btns button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+/* .process-cards-position{
+      position: relative;
+      top:170px;
+    } */
+/* .process-cards-position {
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+} */
+
+@media (max-width:991.98px) {
+
+
+    /* .process-card-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+
+    .forex.bg-ar3{
+        background-size: cover !important;
+    }
+    .mt-none{
+        margin-top: 0px !important;
+    }
+
+  .process-card.forex-card{
+    top: 0px;
+    /* width: 500px; */
+}
+
+    .tab-buttons {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .width-full-alway {
+        width: 100% !important;
+    }
+
+    .inner-tab-swtich {
+        background-color: #F0F0F0;
+        /* padding: 10px; */
+        border-radius: 50px;
+        /* box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4); */
+        min-width: 146px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .cta-width-bck {
+        background-image: none !important;
+        background: #000 !important;
+    }
+   
+}
+@media (max-width:768.98px)
+ {
+.process-card.forex-card {
+    height: 100% !important;
+}    
+}
+
+@media (max-width:578.98px) {
+
+    .nav-btns button {
+        width: 50px;
+        height: 50px;
+    }
+
+       .process-card {
+        height: 540px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .nav-btns button {
+        width: 50px;
+        height: 50px;
+    }
+    .padding-cutt{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+}
+
+
+
+/* end */
+
+/* silk - slider design top */
+
+
+.section_silk_modal {
+    padding: 80px 20px;
+    background: url(https://www.hashcodex.com/img/crypto-exchange/why-invest-CED.png) center/cover no-repeat;
+}
+
+.slik-model {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.slik-model h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.slide-head-mrg-p {
+    color: #bbb;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    text-align: left !important;
+}
+
+.card-des p {
+    color: #bbb;
+    font-size: 1rem;
+    margin: 0 auto 40px;
+    text-align: left !important;
+}
+
+.slider_head_cls {
+    background: transparent;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+    font-size: 20px;
+    margin-bottom: 15px !important;
+    margin-top: 30px;
+    min-height: 40px;
+    display: block;
+}
+
+.slider-head {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card-des {
+    -webkit-touch-callout: none; 
+}
+
+
+.card_slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-des {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 0 10px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #edf1f338;
+    background: url(https://www.hashcodex.com/img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp) center/cover no-repeat;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px;
+}
+
+.card-des:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.card-des h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-des p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+/* Buttons */
+.nav-btn {
+
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 50%;
+    transition: background 0.3s;
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.left-btn {
+    left: -20px;
+}
+
+.right-btn {
+    right: -20px;
+}
+
+.footer-note-slider {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #bbb;
+    text-align: center !important;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text-white-head {
+    color: #fff !important;
+    text-align: left !important;
+}
+
+.slide-head-mrg {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slider-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-cmn-height {}
+
+.below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.height-content-btn img {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.slider_head_cls {
+    background: transparent;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+    font-size: 20px;
+    margin-bottom: 15px !important;
+    margin-top: 30px;
+    min-height: 40px;
+    display: block !important;
+}
+
+.process-cards-position {
+  display: flex;
+  transition: transform 0.45s ease;
+  touch-action: pan-y;
+}
+
+.process-card {
+  flex-shrink: 0;
+}
+
+
+/* Responsive */
+@media (max-width: 1199.98px) {
+    .card-des {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    .slik-model {
+        margin: 0 40px;
+    }
+
+    .slider-head {
+        flex-wrap: wrap;
+
+    }
+
+    .width-full-alway {
+        width: 100% !important;
+    }
+    .tab-switch-section {
+        margin: 0px !important;
+    }
+    .process-card{
+        height: 410px !important;
+    }
+    .blockchain-cta{
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta2) !important;
+     padding: 20px !important;
+    }
+    .medi-center.a3{
+        text-align: center !important;
+    }
+    .button-common.a3{
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .card-des {
+        flex: 0 0 96%;
+    }
+
+    .left-btn {
+        left: 5px;
+    }
+
+    .right-btn {
+        right: 5px;
+    }
+
+    .slider-btn {
+        justify-content: center;
+    }
+
+    .slik-model {
+        margin: 0 0px;
+    }
+
+    .card-des {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slik-model p {
+        text-align: center !important;
+    }
+
+    .text-white-head {
+        text-align: center !important;
+    }
+       .process-card {
+        height: 330px !important;
+    }
+    .smart-core-values{
+        display: none !important;
+    }
+}
+
+/* end */
+

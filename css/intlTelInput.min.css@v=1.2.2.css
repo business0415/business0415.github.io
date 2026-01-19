@@ -1,0 +1,1312 @@
+.iti {
+    position: relative;
+    display: inline-block
+}
+
+.iti * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.iti__hide {
+    display: none
+}
+
+.iti__v-hide {
+    visibility: hidden
+}
+
+.iti input,
+.iti input[type=tel],
+.iti input[type=text] {
+    position: relative;
+    z-index: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-right: 36px;
+    margin-right: 0
+}
+
+.iti__flag-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1px
+}
+
+.iti__selected-flag {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 6px 0 8px
+}
+
+.iti__arrow {
+    margin-left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 4px solid #555
+}
+
+.iti__arrow--up {
+    border-top: none;
+    border-bottom: 4px solid #555
+}
+
+.iti__country-list {
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 0 -1px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    white-space: nowrap;
+    max-height: 200px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
+}
+
+.iti__country-list--dropup {
+    bottom: 100%;
+    margin-bottom: -1px
+}
+
+@media (max-width: 500px) {
+    .iti__country-list {
+        white-space: normal
+    }
+}
+
+.iti__flag-box {
+    display: inline-block;
+    width: 20px
+}
+
+.iti__divider {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc
+}
+
+.iti__country {
+    padding: 5px 10px;
+    outline: 0
+}
+
+.iti__dial-code {
+    color: #999
+}
+
+.iti__country.iti__highlight {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.iti__country-name,
+.iti__dial-code,
+.iti__flag-box {
+    vertical-align: middle
+}
+
+.iti__country-name,
+.iti__flag-box {
+    margin-right: 6px
+}
+
+.iti--allow-dropdown input,
+.iti--allow-dropdown input[type=tel],
+.iti--allow-dropdown input[type=text],
+.iti--separate-dial-code input,
+.iti--separate-dial-code input[type=tel],
+.iti--separate-dial-code input[type=text] {
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0
+}
+
+.iti--allow-dropdown .iti__flag-container,
+.iti--separate-dial-code .iti__flag-container {
+    right: auto;
+    left: 0
+}
+
+.iti--allow-dropdown .iti__flag-container:hover {
+    cursor: pointer
+}
+
+.iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.iti--allow-dropdown input[disabled]+.iti__flag-container:hover,
+.iti--allow-dropdown input[readonly]+.iti__flag-container:hover {
+    cursor: default
+}
+
+.iti--allow-dropdown input[disabled]+.iti__flag-container:hover .iti__selected-flag,
+.iti--allow-dropdown input[readonly]+.iti__flag-container:hover .iti__selected-flag {
+    background-color: transparent
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+.iti--separate-dial-code .iti__selected-dial-code {
+    margin-left: 6px
+}
+
+.iti--container {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+    z-index: 1060;
+    padding: 1px
+}
+
+.iti--container:hover {
+    cursor: pointer
+}
+
+.iti-mobile .iti--container {
+    top: 30px;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    position: fixed
+}
+
+.iti-mobile .iti__country-list {
+    max-height: 100%;
+    width: 100%
+}
+
+.iti-mobile .iti__country {
+    padding: 10px 10px;
+    line-height: 1.5em
+}
+
+.iti__flag {
+    width: 16px;
+}
+
+.iti__flag.iti__be {
+    width: 18px
+}
+
+.iti__flag.iti__ch {
+    width: 15px
+}
+
+.iti__flag.iti__mc {
+    width: 19px
+}
+
+.iti__flag.iti__ne {
+    width: 18px
+}
+
+.iti__flag.iti__np {
+    width: 13px
+}
+
+.iti__flag.iti__va {
+    width: 15px
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution:192dpi) {
+    .iti__flag {
+        background-size: 3904px 14px;
+        height:14px !important;
+    }
+    .iti__flag.iti__gb {
+        height: 12px;
+    } 
+}
+
+.iti__flag.iti__ac {
+    
+    background-position: 0 0
+}
+
+.iti__flag.iti__ad {
+    
+    background-position: -16px 0
+}
+
+.iti__flag.iti__ae {
+    
+    background-position: -32px 0
+}
+
+.iti__flag.iti__af {
+    
+    background-position: -48px 0
+}
+
+.iti__flag.iti__ag {
+    
+    background-position: -64px 0
+}
+
+.iti__flag.iti__ai {
+    
+    background-position: -80px 0
+}
+
+.iti__flag.iti__al {
+    
+    background-position: -96px 0
+}
+
+.iti__flag.iti__am {
+    background-position: -112px 0
+}
+
+.iti__flag.iti__ao {
+    background-position: -128px 0
+}
+
+/* .iti__flag.iti__aq {
+    height: 14px;
+    background-position: -144px 0
+} */
+
+.iti__flag.iti__ar {
+    background-position: -144px 0
+}
+
+.iti__flag.iti__as {
+    background-position: -160px 0
+}
+
+.iti__flag.iti__at {
+    background-position: -176px 0
+}
+
+.iti__flag.iti__au {
+    background-position: -192px 0
+}
+
+.iti__flag.iti__aw {
+    background-position: -208px 0
+}
+
+.iti__flag.iti__ax {
+    background-position: -224px 0
+}
+
+.iti__flag.iti__az {
+    background-position: -240px 0
+}
+
+.iti__flag.iti__ba {
+    background-position: -256px 0
+}
+
+.iti__flag.iti__bb {
+    background-position: -272px 0
+}
+
+.iti__flag.iti__bd {
+    background-position: -288px 0
+}
+
+.iti__flag.iti__be {
+    background-position: -304px 0
+}
+
+.iti__flag.iti__bf {
+    background-position: -320px 0
+}
+
+.iti__flag.iti__bg {
+    background-position: -336px 0
+}
+
+.iti__flag.iti__bh {
+    background-position: -352px 0
+}
+
+.iti__flag.iti__bi {
+    background-position: -368px 0
+}
+
+.iti__flag.iti__bj {
+    background-position: -384px 0
+}
+
+.iti__flag.iti__bl {
+    background-position: -400px 0
+}
+
+.iti__flag.iti__bm {
+    background-position: -416px 0
+}
+
+.iti__flag.iti__bn {
+    background-position: -432px 0
+}
+
+.iti__flag.iti__bo {
+    background-position: -448px 0
+}
+
+.iti__flag.iti__bq {
+    background-position: -464px 0
+}
+
+.iti__flag.iti__br {
+    background-position: -480px 0
+}
+
+.iti__flag.iti__bs {
+    background-position: -496px 0
+}
+
+.iti__flag.iti__bt {
+    background-position: -512px 0
+}
+
+/* .iti__flag.iti__bv {
+    height: 15px;
+    background-position: -528px 0
+} */
+
+.iti__flag.iti__bw {
+    background-position: -528px 0
+}
+
+.iti__flag.iti__by {
+    background-position: -544px 0
+}
+
+.iti__flag.iti__bz {
+    background-position: -560px 0
+}
+
+.iti__flag.iti__ca {
+    background-position: -576px 0
+}
+
+.iti__flag.iti__cc {
+    background-position: -592px 0
+}
+
+.iti__flag.iti__cd {
+    background-position: -608px 0
+}
+
+.iti__flag.iti__cf {
+    background-position: -624px 0
+}
+
+.iti__flag.iti__cg {
+    background-position: -640px 0
+}
+
+.iti__flag.iti__ch {
+    background-position: -656px 0
+}
+
+.iti__flag.iti__ci {
+    background-position: -672px 0
+}
+
+.iti__flag.iti__ck {
+    background-position: -688px 0
+}
+
+.iti__flag.iti__cl {
+    background-position: -704px 0
+}
+
+.iti__flag.iti__cm {
+    background-position: -720px 0
+}
+
+.iti__flag.iti__cn {
+    background-position: -736px 0
+}
+
+.iti__flag.iti__co {
+    background-position: -752px 0
+}
+
+/* .iti__flag.iti__cp {
+    height: 14px;
+    background-position: -1093px 0
+} */
+
+.iti__flag.iti__cr {
+    background-position: -768px 0
+}
+
+.iti__flag.iti__cu {
+    background-position: -784px 0
+}
+
+.iti__flag.iti__cv {
+    background-position: -800px 0
+}
+
+.iti__flag.iti__cw {
+    background-position: -816px 0
+}
+
+.iti__flag.iti__cx {
+    background-position: -832px 0
+}
+
+.iti__flag.iti__cy {
+    background-position: -848px 0
+}
+
+.iti__flag.iti__cz {
+    background-position: -864px 0
+}
+
+.iti__flag.iti__de {
+    background-position: -880px 0
+}
+
+/* .iti__flag.iti__dg {
+    height: 10px;
+    background-position: -1291px 0
+} */
+
+.iti__flag.iti__dj {
+    background-position: -896px 0
+}
+
+.iti__flag.iti__dk {
+    background-position: -912px 0
+}
+
+.iti__flag.iti__dm {
+    background-position: -928px 0
+}
+
+.iti__flag.iti__do {
+    background-position: -944px 0
+}
+
+.iti__flag.iti__dz {
+    background-position: -960px 0
+}
+
+.iti__flag.iti__ea {
+    background-position: -1423px 0
+}
+
+.iti__flag.iti__ec {
+    background-position: -976px 0
+}
+
+.iti__flag.iti__ee {
+    background-position: -992px 0
+}
+
+.iti__flag.iti__eg {
+    background-position: -1008px 0
+}
+
+.iti__flag.iti__eh {
+    background-position: -1024px 0
+}
+
+.iti__flag.iti__er {
+    background-position: -1040px 0
+}
+
+.iti__flag.iti__es {
+    background-position: -1056px 0
+}
+
+.iti__flag.iti__et {
+    background-position: -1072px 0
+}
+
+/* .iti__flag.iti__eu {
+    height: 14px;
+    background-position: -1599px 0
+} */
+
+.iti__flag.iti__fi {
+    background-position: -1088px 0
+}
+
+.iti__flag.iti__fj {
+    background-position: -1104px 0
+}
+
+.iti__flag.iti__fk {
+    background-position: -1120px 0
+}
+
+.iti__flag.iti__fm {
+    background-position: -1136px 0
+}
+
+.iti__flag.iti__fo {
+    background-position: -1152px 0
+}
+
+.iti__flag.iti__fr {
+    background-position: -1168px 0
+}
+
+.iti__flag.iti__ga {
+    background-position: -1184px 0
+}
+
+.iti__flag.iti__gb {
+    background-position: -1200px 0
+}
+
+.iti__flag.iti__gd {
+    background-position: -1216px 0
+}
+
+.iti__flag.iti__ge {
+    background-position: -1232px 0
+}
+
+.iti__flag.iti__gf {
+    background-position: -1248px 0
+}
+
+.iti__flag.iti__gg {
+    background-position: -1264px 0
+}
+
+.iti__flag.iti__gh {
+    background-position: -1280px 0
+}
+
+.iti__flag.iti__gi {
+    background-position: -1296px 0
+}
+
+.iti__flag.iti__gl {
+    background-position: -1312px 0
+}
+
+.iti__flag.iti__gm {
+    background-position: -1328px 0
+}
+
+.iti__flag.iti__gn {
+    background-position: -1344px 0
+}
+
+.iti__flag.iti__gp {
+    background-position: -1360px 0
+}
+
+.iti__flag.iti__gq {
+    background-position: -1376px 0
+}
+
+.iti__flag.iti__gr {
+    background-position: -1392px 0
+}
+
+/* .iti__flag.iti__gs {
+    height: 10px;
+    background-position: -2061px 0
+} */
+
+.iti__flag.iti__gt {
+    background-position: -1408px 0
+}
+
+.iti__flag.iti__gu {
+    background-position: -1424px 0
+}
+
+.iti__flag.iti__gw {
+    background-position: -1440px 0
+}
+
+.iti__flag.iti__gy {
+    background-position: -1456px 0
+}
+
+.iti__flag.iti__hk {
+    background-position: -1472px 0
+}
+
+/* .iti__flag.iti__hm {
+    height: 10px;
+    background-position: -2193px 0
+} */
+
+.iti__flag.iti__hn {
+    background-position: -1488px 0
+}
+
+.iti__flag.iti__hr {
+    background-position: -1504px 0
+}
+
+.iti__flag.iti__ht {
+    background-position: -1520px 0
+}
+
+.iti__flag.iti__hu {
+    background-position: -1536px 0
+}
+
+/* .iti__flag.iti__ic {
+    height: 14px;
+    background-position: -2303px 0
+} */
+
+.iti__flag.iti__id {
+    background-position: -1552px 0
+}
+
+.iti__flag.iti__ie {
+    background-position: -1568px 0
+}
+
+.iti__flag.iti__il {
+    background-position: -1584px 0
+}
+
+.iti__flag.iti__im {
+    background-position: -1600px 0
+}
+
+.iti__flag.iti__in {
+    background-position: -1616px 0
+}
+
+.iti__flag.iti__io {
+    background-position: -1632px 0
+}
+
+.iti__flag.iti__iq {
+    background-position: -1648px 0
+}
+
+.iti__flag.iti__ir {
+    background-position: -1664px 0
+}
+
+.iti__flag.iti__is {
+    background-position: -1680px 0
+}
+
+.iti__flag.iti__it {
+    background-position: -1696px 0
+}
+
+.iti__flag.iti__je {
+    background-position: -1712px 0
+}
+
+.iti__flag.iti__jm {
+    background-position: -1728px 0
+}
+
+.iti__flag.iti__jo {
+    background-position: -1744px 0
+}
+
+.iti__flag.iti__jp {
+    background-position: -1760px 0
+}
+
+.iti__flag.iti__ke {
+    background-position: -1776px 0
+}
+
+.iti__flag.iti__kg {
+    background-position: -1792px 0
+}
+
+.iti__flag.iti__kh {
+    background-position: -1808px 0
+}
+
+.iti__flag.iti__ki {
+    background-position: -1824px 0
+}
+
+.iti__flag.iti__km {
+    background-position: -1840px 0
+}
+
+.iti__flag.iti__kn {
+    background-position: -1856px 0
+}
+
+.iti__flag.iti__kp {
+    background-position: -1872px 0
+}
+
+.iti__flag.iti__kr {
+    background-position: -1888px 0
+}
+
+.iti__flag.iti__kw {
+    background-position: -1904px 0
+}
+
+.iti__flag.iti__ky {
+    background-position: -1920px 0
+}
+
+.iti__flag.iti__kz {
+    background-position: -1936px 0
+}
+
+.iti__flag.iti__la {
+    background-position: -1952px 0
+}
+
+.iti__flag.iti__lb {
+    background-position: -1968px 0
+}
+
+.iti__flag.iti__lc {
+    background-position: -1984px 0
+}
+
+.iti__flag.iti__li {
+    background-position: -2000px 0
+}
+
+.iti__flag.iti__lk {
+    background-position: -2016px 0
+}
+
+.iti__flag.iti__lr {
+    background-position: -2032px 0
+}
+
+.iti__flag.iti__ls {
+    background-position: -2048px 0
+}
+
+.iti__flag.iti__lt {
+    background-position: -2064px 0
+}
+
+.iti__flag.iti__lu {
+    background-position: -2080px 0
+}
+
+.iti__flag.iti__lv {
+    background-position: -2096px 0
+}
+
+.iti__flag.iti__ly {
+    background-position: -2112px 0
+}
+
+.iti__flag.iti__ma {
+    background-position: -2128px 0
+}
+
+.iti__flag.iti__mc {
+    background-position: -2144px 0
+}
+
+.iti__flag.iti__md {
+    background-position: -2160px 0
+}
+
+.iti__flag.iti__me {
+    background-position: -2176px 0
+}
+
+.iti__flag.iti__mf {
+    background-position: -2192px 0
+}
+
+.iti__flag.iti__mg {
+    background-position: -2208px 0
+}
+
+.iti__flag.iti__mh {
+    background-position: -2224px 0
+}
+
+.iti__flag.iti__mk {
+    background-position: -2240px 0
+}
+
+.iti__flag.iti__ml {
+    background-position: -2256px 0
+}
+
+.iti__flag.iti__mm {
+    background-position: -2272px 0
+}
+
+.iti__flag.iti__mn {
+    background-position: -2288px 0
+}
+
+.iti__flag.iti__mo {
+    background-position: -2304px 0
+}
+
+.iti__flag.iti__mp {
+    background-position: -2320px 0
+}
+
+.iti__flag.iti__mq {
+    background-position: -2336px 0
+}
+
+.iti__flag.iti__mr {
+    background-position: -2352px 0
+}
+
+.iti__flag.iti__ms {
+    background-position: -2368px 0
+}
+
+.iti__flag.iti__mt {
+    background-position: -2384px 0
+}
+
+.iti__flag.iti__mu {
+    background-position: -2400px 0
+}
+
+.iti__flag.iti__mv {
+    background-position: -2416px 0
+}
+
+.iti__flag.iti__mw {
+    background-position: -2432px 0
+}
+
+.iti__flag.iti__mx {
+    background-position: -2448px 0
+}
+
+.iti__flag.iti__my {
+    background-position: -2464px 0
+}
+
+.iti__flag.iti__mz {
+    background-position: -2480px 0
+}
+
+.iti__flag.iti__na {
+    background-position: -2496px 0
+}
+
+.iti__flag.iti__nc {
+    background-position: -2512px 0
+}
+
+.iti__flag.iti__ne {
+    background-position: -2525px 0
+}
+
+.iti__flag.iti__nf {
+    background-position: -2544px 0
+}
+
+.iti__flag.iti__ng {
+    background-position: -2560px 0
+}
+
+.iti__flag.iti__ni {
+    background-position: -2576px 0
+}
+
+.iti__flag.iti__nl {
+    background-position: -2592px 0
+}
+
+.iti__flag.iti__no {
+    background-position: -2608px 0
+}
+
+.iti__flag.iti__np {
+    background-position: -2624px 0
+}
+
+.iti__flag.iti__nr {
+    background-position: -2640px 0
+}
+
+.iti__flag.iti__nu {
+    background-position: -2656px 0
+}
+
+.iti__flag.iti__nz {
+    background-position: -2672px 0
+}
+
+.iti__flag.iti__om {
+    background-position: -2688px 0
+}
+
+.iti__flag.iti__pa {
+    background-position: -2704px 0
+}
+
+.iti__flag.iti__pe {
+    background-position: -2720px 0
+}
+
+.iti__flag.iti__pf {
+    background-position: -2736px 0
+}
+
+.iti__flag.iti__pg {
+    background-position: -2752px 0
+}
+
+.iti__flag.iti__ph {
+    background-position: -2768px 0
+}
+
+.iti__flag.iti__pk {
+    background-position: -2784px 0
+}
+
+.iti__flag.iti__pl {
+    background-position: -2800px 0
+}
+
+.iti__flag.iti__pm {
+    background-position: -2816px 0
+}
+
+/* .iti__flag.iti__pn {
+    height: 10px;
+    background-position: -4075px 0
+} */
+
+.iti__flag.iti__pr {
+    background-position: -2832px 0
+}
+
+.iti__flag.iti__ps {
+    background-position: -2848px 0
+}
+
+.iti__flag.iti__pt {
+    background-position: -2864px 0
+}
+
+.iti__flag.iti__pw {
+    background-position: -2880px 0
+}
+
+.iti__flag.iti__py {
+    background-position: -2896px 0
+}
+
+.iti__flag.iti__qa {
+    background-position: -2912px 0
+}
+
+.iti__flag.iti__re {
+    background-position: -2928px 0
+}
+
+.iti__flag.iti__ro {
+    background-position: -2944px 0
+}
+
+.iti__flag.iti__rs {
+    background-position: -2960px 0
+}
+
+.iti__flag.iti__ru {
+    background-position: -2976px 0
+}
+
+.iti__flag.iti__rw {
+    background-position: -2992px 0
+}
+
+.iti__flag.iti__sa {
+    background-position: -3008px 0
+}
+
+.iti__flag.iti__sb {
+    background-position: -3024px 0
+}
+
+.iti__flag.iti__sc {
+    background-position: -3040px 0
+}
+
+.iti__flag.iti__sd {
+    background-position: -3056px 0
+}
+
+.iti__flag.iti__se {
+    background-position: -3072px 0
+}
+
+.iti__flag.iti__sg {
+    background-position: -3088px 0
+}
+
+.iti__flag.iti__sh {
+    background-position: -3104px 0
+}
+
+.iti__flag.iti__si {
+    background-position: -3120px 0
+}
+
+.iti__flag.iti__sj {
+    background-position: -3136px 0
+}
+
+.iti__flag.iti__sk {
+    background-position: -3152px 0
+}
+
+.iti__flag.iti__sl {
+    background-position: -3168px 0
+}
+
+.iti__flag.iti__sm {
+    background-position: -3184px 0
+}
+
+.iti__flag.iti__sn {
+    background-position: -3200px 0
+}
+
+.iti__flag.iti__so {
+    background-position: -3216px 0
+}
+
+.iti__flag.iti__sr {
+    background-position: -3232px 0
+}
+
+.iti__flag.iti__ss {
+    background-position: -3248px 0
+}
+
+.iti__flag.iti__st {
+    background-position: -3264px 0
+}
+
+.iti__flag.iti__sv {
+    background-position: -3280px 0
+}
+
+.iti__flag.iti__sx {
+    background-position: -3296px 0
+}
+
+.iti__flag.iti__sy {
+    background-position: -3312px 0
+}
+
+.iti__flag.iti__sz {
+    background-position: -3328px 0
+}
+
+/* .iti__flag.iti__ta {
+    height: 10px;
+    background-position: -4801px 0
+} */
+
+.iti__flag.iti__tc {
+    background-position: -3344px 0
+}
+
+.iti__flag.iti__td {
+    background-position: -3360px 0
+}
+
+/* .iti__flag.iti__tf {
+    height: 14px;
+    background-position: -4867px 0
+} */
+
+.iti__flag.iti__tg {
+    background-position: -3376px 0
+}
+
+.iti__flag.iti__th {
+    background-position: -3392px 0
+}
+
+.iti__flag.iti__tj {
+    background-position: -3408px 0
+}
+
+.iti__flag.iti__tk {
+    background-position: -3424px 0
+}
+
+.iti__flag.iti__tl {
+    background-position: -3440px 0
+}
+
+.iti__flag.iti__tm {
+    background-position: -3456px 0
+}
+
+.iti__flag.iti__tn {
+    background-position: -3472px 0
+}
+
+.iti__flag.iti__to {
+    background-position: -3488px 0
+}
+
+.iti__flag.iti__tr {
+    background-position: -3504px 0
+}
+
+.iti__flag.iti__tt {
+    background-position: -3520px 0
+}
+
+.iti__flag.iti__tv {
+    background-position: -3536px 0
+}
+
+.iti__flag.iti__tw {
+    background-position: -3552px 0
+}
+
+.iti__flag.iti__tz {
+    background-position: -3568px 0
+}
+
+.iti__flag.iti__ua {
+    background-position: -3584px 0
+}
+
+.iti__flag.iti__ug {
+    background-position: -3600px 0
+}
+
+/* .iti__flag.iti__um {
+    height: 11px;
+    background-position: -5219px 0
+}
+
+.iti__flag.iti__un {
+    height: 14px;
+    background-position: -5241px 0
+} */
+
+.iti__flag.iti__us {
+    background-position: -3616px 0
+}
+
+.iti__flag.iti__uy {
+    background-position: -3632px 0
+}
+
+.iti__flag.iti__uz {
+    background-position: -3648px 0
+}
+
+.iti__flag.iti__va {
+    background-position: -3664px 0
+}
+
+.iti__flag.iti__vc {
+    background-position: -3680px 0
+}
+
+.iti__flag.iti__ve {
+    background-position: -3696px 0
+}
+
+.iti__flag.iti__vg {
+    background-position: -3712px 0
+}
+
+.iti__flag.iti__vi {
+    background-position: -3728px 0
+}
+
+.iti__flag.iti__vn {
+    background-position: -3744px 0
+}
+
+.iti__flag.iti__vu {
+    background-position: -3760px 0
+}
+
+.iti__flag.iti__wf {
+    background-position: -3776px 0
+}
+
+.iti__flag.iti__ws {
+    background-position: -3792px 0
+}
+
+.iti__flag.iti__xk {
+    background-position: -3808px 0
+}
+
+.iti__flag.iti__ye {
+    background-position: -3824px 0
+}
+
+.iti__flag.iti__yt {
+    background-position: -3840px 0
+}
+
+.iti__flag.iti__za {
+    background-position: -3856px 0
+}
+
+.iti__flag.iti__zm {
+    background-position: -3872px 0
+}
+
+.iti__flag.iti__zw {
+    background-position: -3888px 0
+}
+
+.iti__flag {
+    height: 12px;
+    box-shadow: 0 0 1px 0 #888;
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/flags);
+    background-repeat: no-repeat;
+    background-color: #dbdbdb;
+    background-position: 20px 0
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution:192dpi) {
+    .iti__flag {
+        background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/flags@2x);
+    }
+}
+.iti__flag.iti__np {
+    background-color: transparent
+}
+
+@media (max-width: 768px) {
+    .iti__flag {
+        background-position: 0 -15px;
+        /* or something that causes a wrong flag */
+    }
+}
+

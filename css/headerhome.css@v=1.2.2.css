@@ -1,0 +1,1333 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* prevents horizontal scroll jumps */
+    transition: none !important;
+    /* blocks small flicker during repaint */
+    /* optional, for visual consistency */
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll !important;
+    /* always reserve scrollbar space */
+
+}
+
+
+body.menu-open {
+    overflow: hidden;
+    width: 100vw;
+}
+
+
+:root {
+    /* --gradientcolor: -webkit-linear-gradient(56deg, #0460E9, #0AB9F8); */
+    --gradientcolor: linear-gradient(90deg, #c72c91 33.54%, #0565ff 73.82%);
+    --bglite: rgba(215, 184, 255, 0.12);
+    --bgfull: #FFEEFA;
+    --boxshadow: -14px 40px 85.8px 0px #FFEEFA
+}
+
+@font-face {
+    font-family: 'Sen';
+    src: url('https://www.hashcodex.com/fonts/Sen-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Sen";
+    src: url("../fonts/Sen-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body,
+h1,
+h2,
+h3,
+p,
+a,
+span,
+button,
+label,
+div,
+::placeholder,
+select {
+    font-family: "Sen", serif !important;
+}
+
+h4,
+h5,
+h6,
+strong,
+span {
+    font-family: "Sen", serif !important;
+    font-weight: 600 !important;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.meganav .submenu {
+    display: none;
+}
+
+.meganav .submenu.active,
+.meganav .clicked+.submenu {
+    display: block;
+}
+
+.meganav {
+    padding: 0 1rem;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    /* 👈 replaces width:100% */
+    right: 0;
+    /* 👈 ensures it sticks both edges */
+    top: 0;
+    height: 70px;
+    min-height: 70px;
+    z-index: 999 !important;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    display: block;
+}
+
+
+
+.sub-menu-main-drop-icon svg path {
+    fill: #fff;
+}
+
+li.limenu .menu {
+    display: flex;
+    gap: 4px;
+}
+
+body.contact-page-main.con-new nav.meganav,
+.bg-color-black .meganav {
+    background: #000;
+}
+
+.meganav.scrolled {
+    background: rgb(0 0 0);
+}
+
+.meganav.scrolled .srch {
+    filter: invert(1);
+}
+
+nav.meganav .container {
+    justify-content: center;
+    position: relative;
+    max-width: 1320px;
+}
+
+.meganav .contain-width {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.meganav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.meganav .ultag {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.meganav .ultag a {
+    font-size: 14px;
+    color: #000 !important;
+}
+
+.meganav .lastli {
+    position: absolute;
+    right: 0px;
+}
+
+.meganav .navbar-brand {
+    position: absolute;
+    left: 0px;
+}
+
+.accunt-flex {
+    gap: 30px;
+    display: flex;
+}
+
+/** new css **/
+
+.logo-menu-navigation {
+    display: none !important;
+}
+
+.responsive-view {
+    display: none;
+}
+
+.submenu {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 59px;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 0;
+    height: 268px;
+    animation: desktopmenu-slide-top 0.3s ease-in-out;
+    backdrop-filter: blur(31px) saturate(114%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border-top: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background: rgb(0 0 0);
+}
+
+.submenu.soln-menu {
+    height: 320px;
+}
+
+.header-sec .submenu .tab-content .tab-pane {
+    display: none;
+}
+
+.header-sec .submenu .tab-content .tab-pane.active {
+    display: flex;
+}
+
+.submenu button.nav-link.active {
+    color: #fff;
+}
+
+@keyframes desktopmenu-slide-top {
+    0% {
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+
+.meganav .submenu.active,
+.meganav .clicked+.submenu {
+    display: block;
+    box-shadow: 0 6px 7px 0 #00000075;
+}
+
+
+.meganav .nav-pills {
+    flex-direction: column;
+    width: 25%;
+    flex-wrap: nowrap;
+}
+
+.meganav .nav-item {
+    width: 100%;
+}
+
+.meganav .nav-link {
+    width: 100%;
+    border-radius: 5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.meganav .nav-link:hover {
+    color: #fff;
+}
+
+li.limenu .submenu.soln-menu .nav-link.active {
+    background: none;
+}
+
+.submenu.soln-menu li.nav-item button {
+    padding: 2px;
+    font-size: 15px;
+}
+
+.meganav .fadeanime {
+    opacity: 0;
+    height: 100%;
+    gap: 30px;
+    padding: 20px;
+}
+
+.meganav .active .fadeanime {
+    opacity: 1;
+}
+
+.meganav .fadeanime {
+    transition: opacity .15s linear;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.meganav h5 {
+    color: #000;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.limenu {
+    padding: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.menu-list.servies-dropdown.serv li a {
+    padding: 15px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+ul.menu-list.servies-dropdown.serv li {
+    padding-bottom: 20px;
+}
+
+.limenu:hover {
+    /* border-bottom: 5px solid #3F5EFB; */
+    position: relative;
+}
+
+.limenu:hover::after {
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    width: 78px;
+    height: 4px;
+    background: var(--gradientcolor);
+    left: 17px;
+}
+
+.limenu:hover .submenu {
+    display: block !important;
+    opacity: 1 !important;
+    background: linear-gradient(225.62deg, #7C2E61 -9.9%, #0B0C14 19.54%, #0B0C14 52.21%, #0B0C14 68.33%, #0B0C14 123.77%);
+}
+
+.limenu:hover .submenu .fadeanime {
+    opacity: 1;
+}
+
+.togle {
+    display: none;
+    background: transparent;
+    border: 0 !important;
+    color: #fff;
+}
+
+.main_ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.meganav .ultag li {
+    padding: 0;
+}
+
+.header-sec .contain-width {
+    /* justify-content: space-between; */
+    /* backdrop-filter: blur(60px); */
+    align-items: center;
+    /* margin: 0px auto; */
+    padding: 0px 25px;
+    /* background: #000; */
+    z-index: -1;
+}
+
+.open-menu-icon {
+    display: none;
+}
+
+.free-consultation-right a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 2px;
+    border-radius: 8px;
+}
+
+.free-consultation-right a::before {
+    background: linear-gradient(90deg, #FC468D 0%, #3F5EFB 52.46%, #EDF1F3 88.69%);
+    /* display: inline-block; */
+    border-radius: 6px;
+    /* text-decoration: none; */
+    /* padding: 1px; */
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 102%;
+    height: 200px;
+    z-index: -1;
+    top: 50%;
+    border-radius: 12px;
+    animation: rotateborder 2s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.header-sec .submenu .tab-content {
+    display: block;
+}
+
+@keyframes rotateborder {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn)
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn)
+    }
+}
+
+.free-consultation-right a span {
+    padding: 10px 16px;
+    display: inline-flex;
+    color: #fff;
+    background: #000;
+    border-radius: 8px;
+    gap: 10px;
+    align-items: center;
+    font-size: 13px;
+}
+
+ul.menu-list li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+ul.menu-list li {
+    padding-bottom: 18px;
+}
+
+/*** common class **/
+
+.img-fluid {
+    width: auto;
+}
+
+p.specific-class {
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+    color: #ffffffa1;
+    line-height: 30px;
+}
+
+p.specific-class-left {
+    text-align: left;
+}
+
+p.specific-class-right {
+    text-align: right;
+}
+
+p.specific-class-center {
+    text-align: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 30px !important;
+    color: black !important;
+}
+
+.menu {
+    font-size: 16px;
+    position: relative;
+}
+
+/** Extras **/
+
+.contentent-for-extras .contain-width {
+    flex-direction: column;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.contentent-for-extras .contain-width h2,
+.contentent-for-extras .contain-width h3,
+.contentent-for-extras .contain-width h4,
+.contentent-for-extras .contain-width h5,
+.contentent-for-extras .contain-width h6 {
+    text-align: left !important;
+}
+
+.banner-section-for-extras h1 {
+    margin: 0px;
+    font-size: 64px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-section-for-extras {
+    background: var(--gradientcolor);
+    padding: 150px 0 80px;
+}
+
+.contentent-for-extras .contain-width p {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.contentent-for-extras .contain-width h3 {
+    font-size: 27px;
+}
+
+.contentent-for-extras .contain-width h2,
+.contentent-for-extras .contain-width h3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.contentent-for-extras .contain-width h2 {
+    font-size: 35px;
+}
+
+.contentent-for-extras {
+    padding: 100px 0 0;
+}
+
+ul.menu-list.servies-dropdown.serv {
+    position: relative;
+}
+
+ul.menu-list.servies-dropdown.serv:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 122px;
+    top: 0px;
+    right: 17px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+div#pills-tabContent {
+    position: relative;
+}
+
+div#pills-tabContent:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 226px;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.5);
+    left: -39px;
+}
+
+ul.serv-after:after {
+    display: none !important;
+}
+
+li.sun-hd {
+    display: none;
+}
+
+.blog-row {
+    max-width: 740px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-row ul.menu-list.servies-dropdown.serv:after {
+    height: 42px;
+}
+
+.company-box {
+    height: 165px;
+}
+
+.responsive-card-view-outer {
+    display: none
+}
+
+.outer-button a span {
+    white-space: nowrap;
+}
+
+@media (max-width:767.98px) {
+    .desktop-view-tab {
+        display: none !important;
+    }
+}
+
+@media (max-width:991.98px) {
+
+    .responsive-view {
+        display: block !important;
+    }
+
+    .desktop-view-review {
+        display: none !important;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    section {
+        padding: 35px 0 !important;
+    }
+
+    .hero-section h1 {
+        text-align: center;
+        font-size: 16px !important;
+        padding: 18px 15px !important;
+    }
+
+    .banner-title {
+        font-size: 32px !important;
+    }
+
+
+    section.hero-section ul {
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        /* flex-wrap: nowrap; */
+    }
+
+    section.hero-section ul li {
+        white-space: nowrap;
+    }
+
+    .button-common a.btn span.button-text {
+        white-space: nowrap;
+    }
+
+    .our-solutions-butn-style,
+    .inner-tab-content-tag,
+    .build-grow-suceed .build-grow-suceed-heading,
+    .Send-Message-form,
+    .Why-You-Should-Invest-Now-section .industries-we-serve-top label,
+    .responsive-card-view-outer .outer-button,
+    .outer-button {
+        text-align: center !important;
+    }
+
+    .Our-Digital-Transformation-Services-We-Provide-section {
+        background: #0b0c14 !important;
+    }
+
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .build-grow-suceed .container {
+        background: #3f5efb !important;
+    }
+
+    .hero-section.hero-section-CEDC {
+        background: #0b0c14 !important;
+    }
+
+    .Various-Payment-Solutions-Crypto-Payment-Gateway-section-outer-Top-Tier .contain-width {
+        justify-content: flex-start !important;
+    }
+
+    .container.Benefits-of-Cryptocurrency-Exchange-Development-caption-container {
+        padding-bottom: 40px !important;
+    }
+
+    .Benefits-of-Cryptocurrency-Exchange-Development-section.dark-bg-white-color-text .container.Benefits-of-Cryptocurrency-Exchange-Development-tab-container .accrd-panel-body {
+        display: block !important;
+    }
+
+    .container.what-we-do-section .what-we-do-section-img.reveal img,
+    .our-solutions-common-align .our-solutions-inner img,
+    img.img-fluid.below-hero-section-middle-hero-section,
+    img.Cryptocurrency-Exchange-development-Company-img,
+    .below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.CEDC-bg-dark-white-color .below-hero-section-right img,
+    .below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.White-Label-Crypto-Exchange-Software-Development-Company-section .below-hero-section-right img,
+    .AI-Powerd-Crypto-Exchange-Development-section .AI-Powerd-Crypto-Exchange-Development-right img,
+    .benefits-of-CED-Pumapulse,
+    .common-display-for-responsive,
+    .below-hero-section-right.common-display-for-responsive {
+        display: none !important;
+    }
+
+    body.hompage-main img.img-fluid.below-hero-section-middle-hero-section {
+        display: block !important;
+        margin-top: 40px;
+    }
+
+    .hero-section h1,
+    h1.gradient-diff-colr-heading {
+        padding-left: 0px;
+        border-left: 0px;
+    }
+
+    .below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section,
+    .Why-You-Should-Invest-Now-section,
+    .Our-Premier-Cryptocurrency-Exchange-Development-Services-section,
+    .AI-Powerd-Crypto-Exchange-Development-section,
+    .Benefits-of-Cryptocurrency-Exchange-Development-section,
+    .How-Does-crypto-payment-Gateway-work,
+    .Benefits-Of-Cryptocurrency-Payment-Gateway-Development .services-we-provided-inner,
+    .what-is-neo-bank .row {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    .Cryptocurrency-Exchange-Development-Solutions-Top-Features-We-Provide-section-col-inner {
+        flex-wrap: wrap;
+    }
+
+    .Why-You-Should-Invest-Now-caption {
+        margin-bottom: 40px;
+    }
+
+    .How-Pumapulse-Delivers-Cryptocurrency-Exchange-Development-Solutions .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider {
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 50px;
+    }
+
+    .How-Pumapulse-Delivers-Cryptocurrency-Exchange-Development-Solutions .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner.slick-slide .industries-we-serve-top label {
+        text-align: center !important;
+        margin-bottom: 20px !important;
+        display: inline-block !important;
+    }
+
+    .Benefits-of-Cryptocurrency-Exchange-Development-section.dark-bg-white-color-text .container.Benefits-of-Cryptocurrency-Exchange-Development-tab-container .block-1.faq-block .accrd-panel-head {
+        padding: 24px 0 !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .Benefits-of-Cryptocurrency-Exchange-Development-section.dark-bg-white-color-text .container.Benefits-of-Cryptocurrency-Exchange-Development-tab-container .block-1.faq-block .accrd-panel-head span.align-self-center {
+        padding: 0px !important;
+    }
+
+    .below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.White-Label-Crypto-Exchange-Software-Development-Company-section.original {
+        padding: 0px !important;
+    }
+
+    .Why-Choose-Pumapulse-for-Cryptocurrency-Exchange-Development-section .tab-buttons-inner {
+        flex-wrap: wrap;
+    }
+
+    .responsive-card-view-outer {
+        display: block !important;
+    }
+
+    .responsive-card-view {
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+
+    .card-why-choose-step {
+        text-align: center;
+        padding: 25px 15px;
+        box-shadow: 1px 1px 20px #ccc;
+        border-radius: 15px;
+    }
+
+    .card-why-choose-step strong {
+        font-size: 24px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .industries-we-serve.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway.How-Pumapulse-Delivers-Cryptocurrency-Exchange-Development-Solutions .industries-we-serve-top>div {
+        text-align: center !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-list-detail {
+        gap: 5px !important;
+    }
+
+    .card-why-choose-step:hover {
+        box-shadow: 1px 1px 20px #c94dab4a !important;
+    }
+
+    /** neo bank **/
+
+    .How-Does-crypto-payment-Gateway-work-inner.Why-Fintech-Businesses-Should-Invest-In-Neobank-Platform-Development-botton-left {
+        position: relative;
+        left: 0 !important;
+    }
+
+    .services-we-provided-left {
+        flex: 0 0 100% !important;
+    }
+
+    .services-we-provided.Benefits-Of-Cryptocurrency-Payment-Gateway-Development button.accordion-header span.mp-icon {
+        display: none;
+    }
+
+    .services-we-provided.Benefits-Of-Cryptocurrency-Payment-Gateway-Development button.accordion-header {
+        justify-content: center;
+    }
+
+    .How-Does-crypto-payment-Gateway-work .container.How-Does-crypto-payment-Gateway-work-bottom .row {
+        justify-content: center;
+    }
+
+    .How-Does-crypto-payment-Gateway-work .container.How-Does-crypto-payment-Gateway-work-bottom .row .How-Does-crypto-payment-Gateway-work-inner {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 15px !important;
+    }
+
+    .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner {
+        padding: 15px !important;
+    }
+
+    .A-Simple-Path-For-Startups-To-Generate-Revenue-bottom-content-step {
+        margin-top: 0px !important;
+    }
+
+    .A-Simple-Path-For-Startups-To-Generate-Revenue-bottom-content-step .container {
+        padding: 0 20px !important;
+        text-align: center;
+    }
+
+    .Pumapulse-rypto-Payment-Gateway-Services .Pumapulse-rypto-Payment-Gateway-Services-left-inner-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .How-Does-crypto-payment-Gateway-work .container.How-Does-crypto-payment-Gateway-work-bottom .row .How-Does-crypto-payment-Gateway-work-inner:nth-child(2),
+    .How-Does-crypto-payment-Gateway-work .container.How-Does-crypto-payment-Gateway-work-bottom .row .How-Does-crypto-payment-Gateway-work-inner:nth-child(5) {
+        display: none !important;
+    }
+
+    .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner .industries-we-serve-top label {
+        margin-bottom: 15px !important;
+        display: inline-block;
+    }
+
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .hero-section .hero-section-right,
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .hero-section .hero-section-right h1,
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .hero-section .hero-section-right p,
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .hero-section .hero-section-right .outer-button {
+        text-align: center !important;
+    }
+
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner .industries-we-serve-top label {
+        margin-bottom: 20px !important;
+    }
+
+    .Pumapulse-rypto-Payment-Gateway-Services-left {
+        padding: 50px 15px !important;
+    }
+
+    /*** blog **/
+
+    .Your-Digital-Transformation-Hub-Insights-Across-All-Sector {
+        display: none;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    body.Neobank-Development-Company-page.neobank-Development-Company-page-main .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner .industries-we-serve-top p {
+        min-height: 100px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1369.98px) {
+
+    .hero-section .free-consultation-right {
+        text-align: left !important;
+    }
+
+}
+
+@media (max-width:1199.98px) {
+
+    nav.meganav .container {
+        justify-content: space-between !important;
+    }
+
+    ul#main_ul li.limenu .menu {
+        justify-content: space-between;
+    }
+
+    .open-menu-icon,
+    .close-menu-icon {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .submenu.soln-menu {
+        height: auto;
+    }
+
+    .banner-section-for-extras h1 {
+        font-size: 40px;
+        padding: 0 20px;
+    }
+
+    img.menu-open-icon,
+    img.menu-close-icon {
+        width: 25px;
+        height: auto;
+    }
+
+    .dropdown-menu-lists a {
+        padding: 5px 8px !important;
+    }
+
+    .open-menu {
+        transform: translateX(0%) !important;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .open-menu-icon,
+    .close-menu-icon {
+        /* height: 22px; */
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        /* background: #a0a0a0; */
+        border-radius: 5px;
+    }
+
+    .main_ul li.lastli {
+        display: none;
+    }
+
+    .open-menu-icon {
+        background: #fff;
+    }
+
+    .header-section .menu ul li a {
+        color: #000 !important;
+    }
+
+    .header-section ul li::before {
+        display: none !important;
+    }
+
+    .responsive {
+        display: block;
+    }
+
+    .logo.responsive {
+        margin-bottom: 30px;
+    }
+
+    .header-section .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .header-section .contain-width {
+        padding: 8px 25px;
+    }
+
+    .header-section .contain-width .menu>ul>li>a {
+        padding: 0;
+        display: inline-block;
+    }
+
+    .responsive-menu-heading {
+        display: flex !important;
+    }
+
+    .dropdown-menu-lists {
+        position: fixed;
+        background: #fff;
+        height: 100vh !important;
+        width: 100%;
+        top: 0;
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-100%);
+        box-shadow: none;
+        justify-content: flex-start;
+        gap: 15px !important;
+        overflow: auto;
+    }
+
+    .dropdown-menu-lists li.responsive-menu-heading {
+        align-items: center;
+        padding: 10px;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: none;
+        margin-bottom: 15px;
+    }
+
+    li.responsive-menu-heading img.back-close {
+        transform: rotate(180deg);
+    }
+
+    .dropdown-menu-lists li.responsive-menu-heading label {
+        font-size: 22px;
+        font-weight: 700;
+        background: var(--gradientcolor);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    li.responsive-menu-heading img {
+        position: absolute;
+        right: 32px;
+        width: 25px;
+    }
+
+    .dropdown-menu-lists.active {
+        transform: translateX(0) !important;
+        /* overflow: auto; */
+    }
+
+    li.dropdown-menu:hover .dropdown-menu-lists {
+        padding: 0px !important;
+        left: 0 !important;
+        animation: none !important;
+    }
+
+    .dropdown-menu-lists ul.menu-list:after {
+        display: none !important;
+    }
+
+    ul.menu-list li.sun-hd {
+        padding: 0 !important;
+        text-align: left !important;
+        font-weight: 700 !important;
+        /* margin: 15px 0 !important; */
+        color: #fff;
+    }
+
+    ul.menu-list li {
+        padding: 7px 0;
+    }
+
+    .dropdown-menu-lists .row {
+        gap: 0;
+    }
+
+    ul.menu-list li:last-child {
+        margin-bottom: 0 !important;
+    }
+
+    .submenu.soln-menu .tab-content>.tab-pane {
+        display: block;
+        opacity: 1;
+    }
+
+    ul.menu-list li a {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    ul.menu-list.servies-dropdown.serv:after,
+    div#pills-tabContent:after {
+        display: none;
+    }
+
+    li.sun-hd {
+        display: block;
+    }
+
+    .main_ul li {
+        width: 93%;
+        padding: 15px 0;
+        margin: 0 auto;
+    }
+
+    ul.menu-list.servies-dropdown.serv li {
+        padding: 3px 0;
+        border-bottom: 1px solid #454545;
+    }
+
+    .submenu .row {
+        margin-top: 15px !important;
+    }
+
+    .menu {
+        position: relative;
+        color: #fff;
+    }
+
+    .submenu {
+        position: unset;
+        height: fit-content;
+        box-shadow: none !important;
+    }
+
+    .meganav .fadeanime {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .main_ul {
+        flex-direction: column;
+        align-self: flex-start !important;
+        position: fixed;
+        right: 0;
+        left: 0;
+        background: #131212;
+        bottom: 0;
+        top: 0;
+        z-index: 2222;
+        min-height: 100vh;
+        height: 100vh;
+        overflow-y: auto;
+        margin-top: 0px;
+        width: 100%;
+        /* display: none; */
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-100%);
+        will-change: transform;
+
+    }
+
+    .show-main-menu {
+        transform: translateX(0%) !important;
+    }
+
+    .togle-menu-handler {
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        border: none;
+        background: transparent;
+        line-height: 0;
+    }
+
+    .togle-menu-handler img {
+        display: block;
+        width: 20px !important;
+        height: 20px !important;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .meganav .contain-width {
+        justify-content: space-between;
+    }
+
+    .meganav {
+        padding: 10px 0;
+        color: #000;
+        background-color: #000;
+        transition: background 0.3s ease;
+        height: 45px;
+        min-height: 45px;
+         /* height: 62px;
+        min-height: 62px; */
+    }
+
+    .meganav .navbar-brand {
+        position: unset;
+    }
+
+    a.navbar-brand.navbar-brand-logo {
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .togle {
+        display: block;
+        filter: invert(1);
+    }
+
+    .submenu {
+        animation: none;
+        background: none;
+        border: none;
+    }
+
+    .limenu:hover::after {
+        display: none;
+    }
+
+    .meganav .nav-pills {
+        display: none;
+    }
+
+    .menu::before {
+        right: 0;
+        top: 9px;
+    }
+
+    .company-box {
+        height: auto;
+    }
+
+    .header-sec .submenu .tab-content .tab-pane.active {
+        display: inline;
+    }
+
+    /**menu responsive */
+    .limenu .submenu {
+        background: transparent !important;
+    }
+
+    .logo-menu-navigation {
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        width: 100% !important;
+        padding: 15px 10px !important;
+    }
+
+    img.back-button {
+        width: 30px;
+    }
+
+    .menu-list.servies-dropdown.serv li a {
+        padding: 5px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .menu-list.servies-dropdown.serv li a {
+        font-size: 13px;
+    }
+
+    /**new style **/
+
+    .limenu:hover .submenu {
+        display: none !important;
+    }
+
+    .limenu .submenu.show-submenu {
+        display: block !important;
+    }
+
+    .limenu .submenu.show-submenu li {
+        margin: 0px;
+    }
+
+    .limenu .submenu.show-submenu .row-inner.mt-5,
+    .submenu.company-box.show-submenu .row-inner.blog-row {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .limenu.v3 {
+        padding: 0px !important;
+        display: block !important;
+        margin: 0px !important;
+    }
+
+    .submenu.show-submenu .fadeanime {
+        opacity: 1 !important;
+    }
+
+    .submenu.show-submenu .fadeanime li {
+        width: 100%;
+    }
+
+    li.limenu .submenu.soln-menu .tab-content {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    li.limenu .submenu.soln-menu .tab-content li.sun-hd {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 10px !important;
+        background: #000;
+        font-weight: 500 !important;
+        border-radius: 5px;
+        text-align: center !important;
+    }
+
+    .header-sec .meganav .navbar-brand {
+        position: unset;
+    }
+
+    .header-sec .meganav li.lastli {
+        position: unset;
+    }
+
+    .header-sec nav.meganav .container {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+}

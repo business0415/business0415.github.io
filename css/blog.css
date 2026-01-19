@@ -1,0 +1,1950 @@
+/**** Recent-Trending-blogs ****/
+
+a {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+body.blog-page-main .hero-section {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/blog-hero-section-bg') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+
+.Recent-Trending-blogs-section {
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Recent-Trending-blogs-section .rtb-heading {
+    display: inline-block;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+body.blog-page-main.blog-page-main-page .hero-section h1,
+body.blog-page-main.blog-page-main-page .hero-section p {
+    text-align: center;
+}
+
+body.blog-page-main.blog-page-main-page .hero-section h1 {
+    padding-left: 0px !important;
+    border-left: 0px;
+}
+
+body.blog-page-main.blog-page-main-page .hero-section h1 span {
+    display: block;
+}
+
+body.blog-page-main .hero-section .container {
+    z-index: 99;
+}
+
+body.blog-page-main.blog-page-main-page .hero-section {
+    background: #000;
+}
+
+.Your-Digital-Transformation-Hub-Insights-Across-All-Sector {
+    text-align: center;
+}
+
+body.blog-page-main .hero-section .container p {
+    color: #EDF1F3;
+}
+
+body.blog-page-main .hero-section::before {
+    top: 0px !important
+}
+
+.blog-post {
+    position: relative;
+    display: block;
+}
+
+.blog-post-caption-inner {
+    position: relative;
+    bottom: 0;
+    color: #000;
+    padding: 20px;
+    left: 0;
+    background: #F3F6FF;
+}
+
+.blog-post-caption-inner label,
+.blog-post-caption-inner a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.blog-post-caption-inner p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+span.author-publish-date {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+.Recent-Trending-blogs-section .container:nth-child(2) {
+    gap: 55px;
+}
+
+.Recent-Trending-blogs-section-right>label {
+    font-weight: 700;
+    background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+body.single-single-post-blog-page-main .content {
+    margin-top: 20px;
+}
+
+.featured-post-outer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.featured-post-inner {
+    /*display: flex; */
+    /* background: #fff; */
+    border-radius: 10px;
+    padding: 10px;
+    /* box-shadow: 1.23px 1.23px 7.36px 0px #1F22290A; */
+    /* box-shadow: 0px 0px 1.23px 0px #1F22293D; */
+    /* box-shadow: -17px 22px 22.3px 0px #0A7CFF1A; */
+    padding: 24px 10px 15px;
+    /* border-bottom: 1px solid #0b0c1445; */
+    border-radius: 0px;
+}
+
+.featured-post-caption-author-name {
+    background: #3f5efb1f !important;
+    color: #3F5EFB !important;
+    font-size: 16px;
+    display: inline-block;
+    padding: 7px 12px;
+    background: #2222220d;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.featured-post-caption span.featured-post-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.featured-post-caption {
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.featured-post-caption-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Recent-Trending-blogs-section-left {
+    width: 59%;
+}
+
+span.featured-post-title {
+    color: #213343;
+    font-weight: 500 !important;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.featured-post-caption-bottom div {
+    color: #516F90;
+    font-size: 14px;
+}
+
+.featured-post-caption-publish-date,
+.featured-post-caption-author-name {
+    color: #3e3d3d;
+}
+
+.Recent-Trending-blogs-section-right {
+    width: 40%;
+}
+
+.Recent-Trending-blogs-section-left .blog-post img {
+    width: 100% !important;
+}
+
+
+/* explore */
+
+
+.Explore-Our-Top-Blog-Categories-section h2 {
+    color: #fff;
+}
+
+.Explore-Our-Top-Blog-Categories-section h3 {
+    margin: 0px;
+    text-align: left !important;
+    width: 100%;
+    /* background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-bottom: 40px;
+}
+
+.Explore-Our-Top-Blog-Categories-section {
+    padding: 100px 0;
+    margin-top: 0;
+    background: #0B0C14;
+}
+
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+    display: flex;
+    gap: 0px !important;
+    justify-content: center;
+    padding: 0;
+    flex-direction: column;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    font-size: 15px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    padding: 0 !important;
+    color: #1C1E21 !important;
+    cursor: pointer;
+    padding-left: 50px !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    position: relative;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button::before {
+    content: '';
+    width: 35px;
+    height: 100%;
+    border: 1px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: -20px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button h3 {
+    color: #A1A2AA;
+    display: inline;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+    position: relative;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button::before {
+    content: '';
+    width: 27px;
+    height: 100%;
+    border: 2px solid #4a4c58;
+    position: absolute;
+    left: 0;
+    top: -20px;
+    border-right: 0px;
+    border-top: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #4a4c58;
+    left: 25px;
+    top: 19px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button.active::before {
+    border-color: #3F5EFB !important;
+    box-shadow: -4px 0px 8px #3f5efb8f;
+    transition: all 0.3s ease-in-out;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .row.tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button.active::after {
+    background: #3F5EFB !important;
+    box-shadow: 0px 0px 30px #3f5efb8f;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-post-single-blog-content.single-single-post-blog-page-main-inner>.container>.row {
+    justify-content: center;
+}
+
+.breadcrum-list ul {
+    display: flex;
+    gap: 15px;
+}
+
+.breadcrum-list ul li a,
+.breadcrum-list ul li {
+    color: #000;
+    font-size: 17px;
+}
+
+.breadcrum-list ul li a:hover {
+    color: #475cf3 !important;
+}
+
+ul.views-share-publish-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul.views-share-publish-list li {
+    padding: 0 25px;
+    border-right: 1px solid #ccc;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+ul.views-share-publish-list li:last-child {
+    border: none;
+    padding-right: 0px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button.active h3 {
+    background: linear-gradient(90deg, #FC468D 0%, #3F5EFB 52.46%, #EDF1F3 88.69%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tab-content {
+    display: none;
+}
+
+.Explore-Our-Top-Blog-Categories-section .tab-content.active {
+    display: block !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .tab-buttons {
+    margin-bottom: 0px !important;
+    background: transparent !important;
+    border-radius: 0px !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories h2 {
+    margin-bottom: 40px;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .tab-buttons h3 {
+    margin-bottom: 0px !important;
+}
+
+.inner-tab-content-blog.inner-tab-content-blog-flex-end {
+    justify-content: flex-end !important;
+}
+
+.post-category-page .inner-tab-content-blog-post-author-publish {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inner-tab-content-blog .inner-tab-content-blog-post {
+    padding: 24px 12px !important;
+    background: #fff;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 15px;
+}
+
+.fintech-banking-mobileapps-content-slider {
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.inner-tab-content-blog {
+    /* display: flex; */
+    gap: 30px 13px;
+    flex-wrap: wrap;
+}
+
+.inner-tab-content-blog .inner-tab-content-blog-post {
+    flex: 0 0 30%;
+    padding: 20px 15px;
+    background: #fff;
+    box-shadow: 1.23px 1.23px 7.36px 0px #1F22290A;
+    box-shadow: 0px 0px 1.23px 0px #1F22293D;
+    box-shadow: -17px 22px 22.3px 0px #0A7CFF1A;
+    border-radius: 10px;
+}
+
+.post-category-page .inner-tab-content-blog .inner-tab-content-blog-post img {
+    width: 100% !important;
+    height: 190px !important;
+    border-radius: 10px;
+}
+
+.container.fixed-cls .all-categories-lists {
+    position: fixed;
+    top: 60px;
+}
+
+.inner-tab-content-tag span {
+    color: #4B6BFB;
+    font-size: 14px;
+    display: inline-block;
+    padding: 7px 12px;
+    background: #4B6BFB0D;
+    border-radius: 6px;
+}
+
+.inner-tab-content-blog-post-caption span.featured-post-title {
+    font-size: 14px !important;
+    color: #181A2A !important;
+    line-height: 27px !important;
+    display: inline-block !important;
+    min-height: 53px !important;
+}
+
+.inner-tab-content-blog-post-caption {
+    margin: 15px 0 20px;
+}
+
+.inner-tab-content-blog-post-author-publish {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-post-caption-author-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.featured-post-caption-author-name img {
+    width: 34px !important;
+    border-radius: 50%;
+}
+
+.tab-content-all-blog-content {
+    padding: 8px 0 !important;
+}
+
+.read-more-button {
+    margin-top: 15px;
+    text-align: center;
+    width: max-content;
+}
+
+.read-more-button a span {
+    color: #696A75;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.read-more-button a {
+    display: inline-block;
+    padding: 1px 0.8px;
+    background: var(--gradientcolor);
+    border-radius: 6px;
+}
+
+.read-more-button a:hover span {
+    background: transparent;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-secondary:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #3f5efb !important;
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+.fintech-banking-mobileapps h3 {
+    margin: 0px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.fintech-banking-mobileapps {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards {
+    padding: 24px !important;
+    background: transparent;
+    border: 1px solid #edf1f33b;
+    border-radius: 20px !important;
+    flex: 0 0 48%;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-tag,
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-author-publish {
+    display: none;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-caption span.featured-post-title {
+    color: #fff !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-img {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #cccccc12;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .tab-content-all-blog-content {
+    padding: 0px !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-caption {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.container.fintech-banking-mobileapps-content-slider-outer {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: -640px;
+    margin-top: -100px;
+}
+
+.fintech-banking-mobileapps-content-slider .slick-track {
+    margin-left: 0px;
+}
+
+.fintech-banking-mobileapps.right-text-align .container {
+    justify-content: flex-end;
+}
+
+
+.fintech-banking-mobileapps-content-img img {
+    width: 100%;
+}
+
+.fintech-banking-mobileapps h2 {
+    margin-bottom: 35px;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section {
+    padding: 0px !important;
+    background: transparent;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section h2 {
+    color: #000;
+}
+
+/** single post **/
+
+.blog-post-single-blog-content {
+    padding: 150px 0 0;
+    background: #edf1f3;
+}
+
+.blog-post-single-blog-content.single-single-post-blog-page-main-inner .container {
+    gap: 40px;
+}
+
+.blog-post-single-blog-content.single-single-post-blog-page-main-inner .blog-post-single-blog-content-right .blog-post-single-blog-content-right-inner {
+    padding: 30px 40px 50px 40px;
+    background: #fff;
+    border-radius: 9.81px;
+    /* background: var(--color-white-100, #FFF); */
+    box-shadow: -17px 22px 22.3px 0px rgba(10, 124, 255, 0.10), 0px 0px 1.226px 0px rgba(31, 34, 41, 0.24), 1.226px 1.226px 7.357px 0px rgba(31, 34, 41, 0.04);
+    position: sticky;
+    top: 75px;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner .container {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner .container .blog-post-banner-section-content {
+    position: absolute;
+    bottom: 0;
+    padding: 35px;
+    width: 96%;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner .container .blog-post-banner-section-content ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner .container>img {
+    width: 100% !important;
+}
+
+.blog-post-banner-section-content .inner-tab-content-blog-post-author-publish {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner .container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 11.368px;
+    background: #0000006e;
+    left: 0;
+}
+
+.blog-post-banner-section-content .featured-post-caption-author-name,
+.blog-post-banner-section-content .featured-post-caption-publish-date {
+    color: #fff;
+}
+
+.blog-post-banner-section.single-single-post-blog-page-main-inner {
+    padding-top: 120px;
+}
+
+.blog-post-banner-section-content label {
+    border-radius: 5.684px;
+    background: var(--Theme-1-Primary, #4B6BFB);
+    color: #fff;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.blog-post-banner-section-content h1 {
+    color: #fff;
+}
+
+.poster-middle-image-img {
+    margin: 15px 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.poster-middle-image-img img {
+    width: 100%;
+}
+
+.blog-post-single-blog-content-right-inner label {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 220px;
+    margin-bottom: 24px;
+    line-height: 35px;
+}
+
+.blog-post-single-blog-content-right-inner input,
+.blog-post-single-blog-content-right-inner textarea {
+    padding: 15px 18px;
+    width: 85%;
+    box-shadow: 1.23px 1.23px 7.36px 0px #1F22290A;
+    box-shadow: 0px 0px 1.23px 0px #1F22293D;
+    box-shadow: -17px 22px 22.3px 0px #0A7CFF1A;
+    border: none;
+    margin: 0 0 24px 0;
+    border-radius: 10px;
+}
+
+.Consult-Our-Experts-outer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.Consult-Our-Experts-outer button {
+    background: var(--gradientcolor);
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+
+.recent-blog-post-content h4 {
+    font-size: 18px;
+    color: #000;
+}
+
+.recent-blog-post-img img {
+    width: 100%;
+}
+
+.recent-blog-post.single-single-post-blog-page-main-inner .container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.recent-blog-post.single-single-post-blog-page-main-inner .container .recent-blog-post {
+    width: 30%;
+    box-shadow: 0px 0.98px 9.85px 0px #0000001A;
+    border-radius: 10px;
+}
+
+.recent-blog-post-content {
+    padding: 25px;
+}
+
+.recent-blog-post-content p {
+    color: #868383;
+}
+
+.recent-blog-post-content span a {
+    color: #e84999;
+    text-decoration: none;
+}
+
+.recent-blog-post-content span {
+    color: #000;
+}
+
+.recent-blog-post.single-single-post-blog-page-main-inner {
+    padding: 50px 0;
+}
+
+.recent-blog-post.single-single-post-blog-page-main-inner h3 {
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+/* post category */
+
+body.blog-page-main.post-category-page .Explore-Our-Top-Blog-Categories-section {
+    padding-top: 100px;
+    margin-top: 0;
+}
+
+body.blog-page-main.post-category-page .Explore-Our-Top-Blog-Categories-section {
+    background: transparent !important;
+}
+
+body.blog-page-main.post-category-page .recent-blog .featured-post-inner-img .recent-blog .featured-post-inner-img {
+    width: 200px;
+}
+
+body.blog-page-main.post-category-page .featured-post-inner-img {
+    width: 160px;
+    flex: 0 0 160px;
+}
+
+body.blog-page-main.post-category-page .featured-post-inner-img img {
+    width: 350px;
+    height: 175px;
+    object-position: right;
+    max-width: inherit;
+}
+
+body.blog-page-main.post-category-page .inner-tab-content-blog-post.slugcategories .read-more-button {
+    text-align: left;
+}
+
+body.blog-page-main.post-category-page .Explore-Our-Top-Blog-Categories-section .container:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+body.blog-page-main.post-category-page .tabs.submenu-tabs.desktop-submenu-tabs {
+    width: 65%;
+}
+
+body.blog-page-main.post-category-page .recent-blog-and-categories {
+    width: 35%;
+}
+
+.blog-post {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.blog-post-caption-inner a {
+    color: #0B0C14;
+}
+
+span.author-publish-date label {
+    font-size: 16px;
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 6px;
+    background: #3f5efb1f !important;
+    color: #3F5EFB;
+}
+
+span.author-publish-date {
+    align-items: center;
+    justify-content: flex-start;
+}
+
+body.blog-page-main.post-category-page .tabs.submenu-tabs.desktop-submenu-tabs .inner-tab-content-blog-post {
+    flex: 0 0 45%;
+}
+
+.common-inner-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.recent-blog {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.common-inner-heading strong {
+    font-size: 25px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.all-categories-lists {
+    padding: 15px;
+}
+
+.common-inner-heading img {
+    width: 60px;
+}
+
+
+body.blog-page-main.post-category-page span.featured-post-title {
+    font-weight: 700 !important;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.all-categories-lists ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    line-height: 45px;
+}
+
+.all-categories-lists ul li a {
+    color: #434141;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.all-categories-lists li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.all-categories-lists li::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 0;
+    background: var(--gradientcolor);
+    border-radius: 50%;
+    top: 19px;
+}
+
+.all-categories-lists li a:hover {
+    background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories h2 {
+    margin-bottom: 40px;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    border: 1px solid #3F5EFB;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    bottom: -104px !important;
+    top: auto;
+    right: 0;
+    left: auto;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section button.slick-next.slick-arrow::before,
+button.slick-prev.slick-arrow::before {
+    color: #3F5EFD !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section button.slick-next.slick-arrow:hover::before,
+button.slick-prev.slick-arrow:hover::before {
+    color: #fff !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section button.slick-next.slick-arrow:hover,
+button.slick-prev.slick-arrow:hover {
+    background: #3F5EFB !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.fintech-banking-mobileapps-outer-section button.slick-prev.slick-arrow {
+    right: 60px;
+}
+
+.contact-sticky-fixed button {
+    border: none;
+    background: #3F5EFB;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    transform: rotate(-90deg);
+}
+
+.contact-sticky-fixed {
+    position: fixed;
+    top: 50%;
+    right: -20px;
+    z-index: 28;
+}
+
+div#modal-pop-up-form button#submitform-popup span {
+    background: var(--gradientcolor) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 700;
+}
+
+div#modal-pop-up-form button#submitform-popup {
+    background: #fff;
+}
+
+.modal-pop-up-form .contact-us-part-right.contact-us-part-right-form.contact-us-part-right-form-contact-page {
+    max-width: 100% !important;
+}
+
+.modal-pop-up-form .contact-us-part-right.contact-us-part-right-form.contact-us-part-right-form-contact-page-outer {
+    max-width: 400px;
+    /* border-radius: 20px !important;
+    overflow: hidden; */
+    padding: 0px !important;
+}
+
+.modal-pop-up-form {
+    justify-content: center;
+}
+
+.share-post-in-social-media li a {
+    padding: 8px;
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.share-post-in-social-media li a span {
+    color: #000;
+    font-size: 14px;
+}
+
+.share-post-in-social-media ul {
+    padding: 8px !important;
+    border-radius: 13px;
+    background: #fff;
+    width: 270px;
+    position: relative;
+}
+
+.share-post-in-social-media ul li:first-child {
+    position: absolute;
+    right: 5px;
+    top: -11px;
+}
+
+.share-post-in-social-media ul li:first-child img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.share-post-in-social-media {
+    z-index: -999;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.share-post-in-social-media ul li a:hover {
+    background: #EDF1F3;
+}
+
+.share-post-in-social-media {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right .featured-post-caption {
+    width: 100%;
+    padding: 0px;
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right .featured-post-caption span.featured-post-title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right a.featured-post-inner {
+    background: transparent;
+    box-shadow: none;
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right .featured-post-caption .featured-post-caption-author-name.featured-post-category-name,
+.TOC-head {
+    background: #3f5efb1f !important;
+    color: #3F5EFB;
+    font-size: 14px;
+    display: inline-block;
+    padding: 7px 12px;
+    background: #2222220d;
+    border-radius: 6px;
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right .featured-post-caption-bottom {
+    align-items: center;
+}
+
+body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right a.featured-post-inner {
+    padding: 24px 10px;
+    border-bottom: 1px solid #0b0c1445;
+    border-radius: 0px;
+}
+
+.Recent-Trending-blogs-section-right .featured-post-caption-publish-date {
+    color: #3B3D48 !important;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-img {
+    height: 164px;
+}
+
+.Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-img img {
+    height: 164px;
+    /* object-fit: cover; */
+}
+
+.table-of-content {
+    padding: 18px;
+    border-radius: 6px;
+    border: 1px solid #D1D5D8;
+    margin-top: 40px;
+}
+
+.table-of-content ul {
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.table-of-content ul li {
+    margin-bottom: 18px;
+}
+
+.table-of-content ul>li>a {
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.table-of-content ul li:last-child {
+    margin-bottom: 0px;
+}
+
+ul.sub-menu-heading-content {
+    padding-left: 25px !important;
+}
+
+ul.sub-menu-heading-content li {
+    margin-bottom: 8px;
+}
+
+ul.sub-menu-heading-content li a {
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+ul.sub-menu-heading-content li a:hover {
+    color: #3F5EFB;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-post img {
+    height: 400px;
+    /* object-fit: contain; */
+    border-radius: 7px;
+    /* margin-bottom: 15px; */
+}
+
+body.single-single-post-blog-page-main .blog-post img {
+    height: 360px;
+}
+
+body.single-single-post-blog-page-main .featured-post-outer {
+    border-bottom: 1px solid #cecece;
+}
+
+body.single-single-post-blog-page-main .featured-post-outer:last-child {
+    border-bottom: none !important;
+}
+
+span.view-for-blog-single {
+    display: flex;
+    gap: 5px;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.table-of-content {
+    margin-bottom: 40px !important;
+}
+
+.view-more-blog-buttom a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.row.inner-tab-content-blog.inner-tab-content-blog-flex-end .fintech-banking-mobileapps-content-img {
+    position: absolute;
+    right: 50%;
+    bottom: -55px;
+    z-index: 99;
+    margin-right: -340px;
+}
+
+.Explore-Our-Top-Blog-Categories-section .read-more-button a {
+    font-size: 14px !important;
+}
+
+.inner-tab-content-blog-post-description span {
+    color: #ccc;
+    font-size: 11px;
+    line-height: 27px;
+}
+
+h3.toc-container-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h3.toc-container-heading span img {
+    /* width: 22px; */
+    /* height: 33px; */
+    /* background: #000; */
+    border-radius: 50%;
+    cursor: pointer !important;
+}
+
+.blog-post img.drop-im {
+    width: 33px !important;
+    height: 33px !important;
+}
+
+.toc-list {
+    display: none
+}
+
+a {
+    text-decoration: none !important
+}
+
+
+.blog-cta-detail {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/blog-cta');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 30px 20px; */
+    border-radius: 11px;
+
+}
+
+.cta-blog-det {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+}
+
+.cta-blog-det p {
+    color: rgba(222, 196, 255, 1);
+    font-size: 16px;
+    text-align: center;
+}
+
+.cta-ht {
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    background: linear-gradient(180deg, #FFFFFF 0%, #EBDCFE 20%, #D7B9FC 100%) !important;
+    -webkit-background-clip: text !important;
+    font-size: 53px ;
+    line-height: 1.2;
+    text-align: center !important;
+    /* overflow: visible;
+    display: inline-block;
+    padding-bottom: 5px; */
+}
+
+.cta-blog-grad {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+
+@media screen and (max-width:767.98px) {
+
+    .Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards {
+        flex: 0 0 100% !important;
+    }
+
+    h3.toc-container-heading span img {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    span.view-for-blog-single {
+        border-left: 0px !important;
+        padding-left: 0 !important;
+        align-items: center !important;
+    }
+
+    body.blog-page-main.post-category-page .featured-post-inner-img img {
+        width: auto !important;
+    }
+
+    body.blog-page-main.post-category-page .tabs.submenu-tabs.desktop-submenu-tabs,
+    body.blog-page-main.post-category-page .recent-blog-and-categories {
+        width: 100% !important;
+    }
+     .cta-blog-grad {
+        display: none;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+
+    .Recent-Trending-blogs-section-right .featured-post-outer .featured-post-inner,
+    .recent-blog-post.single-single-post-blog-page-main-inner .container .recent-blog-post {
+        width: 45%;
+    }
+
+    .Recent-Trending-blogs-section-right .featured-post-outer {
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        display: block;
+    }
+
+    .inner-tab-content-blog .inner-tab-content-blog-post {
+        flex: 0 0 45% !important;
+    }
+
+    body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right a.featured-post-inner {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .inner-tab-content-blog {
+        display: block !important;
+        height: 92vh;
+        overflow: scroll;
+    }
+
+    body.blog-page-main.post-category-page .featured-post-inner-img img {
+        width: 300px;
+    }
+}
+
+
+
+li#likePost i {
+    color: #3f5efb;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    /* border-radius: 10px; */
+    /* width: 320px;
+    margin: 0 5px; */
+    border: 0 !important;
+}
+
+.carosuel-row {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Updated tab styles */
+.nav-tabs {
+    border-bottom: 0px !important;
+    gap: 10px;
+}
+
+.nav-tabs button.nav-link {
+    color: #495057;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-right: 4px;
+    border: 1px solid transparent;
+    /* border-top-right-radius: 0;
+    border-top-left-radius: 0; */
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    isolation: isolate;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    font-weight: 500;
+    background-color: #fff;
+    /* border-color: #ff6b6b #ff6b6b #fff; */
+
+    border: 1px solid #FC468D !important;
+    /* border-image-source: linear-gradient(90deg, #3F5EFB 0%, #FC468D 100%); */
+    /* border-image-slice: 1; */
+    border-radius: 25px;
+
+}
+
+.nav-tabs .nav-link {
+    color: #0d6efd;
+    font-weight: 600;
+    /* background-color: #fff; */
+    /* border-color: #ff6b6b #ff6b6b #fff; */
+
+    border: 1px solid #000 !important;
+    /* border-image-source: linear-gradient(90deg, #3F5EFB 0%, #FC468D 100%); */
+    /* border-image-slice: 1; */
+    border-radius: 25px;
+
+}
+
+.featured-post-title-des {
+    /* background-color: #E4E9F6; */
+    background-color:#f1f4fb;
+    font-size: 14px;
+    padding: 5px;
+    color: #263eb8;
+    width: fit-content;
+}
+
+
+.b-titlenew {
+    color: #0B0C14;
+    /* font-family: Open Sauce Sans; */
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 29.69px;
+    text-align: left;
+    /* text-underline-position: from-font; */
+    /* text-decoration-skip-ink: none; */
+
+    margin: 15px 0;
+}
+
+.blog-desc2 {
+    /* font-family: Open Sauce Sans; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #3B3D48;
+    margin-top: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+/* Pagination styles */
+.pagination {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    color: #495057;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 30px;
+    border: 1px solid #dee2e6;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: #0d6efd;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.page-item:last-child .page-link,
+.pagination .page-item.disabled .page-link {
+    border-radius: 50px !important;
+}
+
+.explr-blognew {
+    font-size: 40px;
+    color: #0B0C14;
+    /* padding-left: 20px !important; */
+    font-weight: 600;
+    /* margin-bottom: 25px; */
+    padding: 10px 0;
+}
+
+/* Carousel Styles */
+.carousel {
+    padding: 2rem 0;
+}
+
+.carousel-indicators {
+    bottom: -50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    margin: 0 5px;
+    background-color: #dee2e6 !important;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: #0d6efd !important;
+}
+
+.carousel-inner {
+    padding-bottom: 3rem;
+}
+
+/* Custom Navigation Arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: -60px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #0d6efd !important;
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    left: calc(50% - 100px) !important;
+}
+
+.carousel-control-next {
+    right: calc(50% - 100px) !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #0b5ed7 !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.page-link.pv {
+    padding: 10px !important;
+}
+
+.buildnew {
+    padding: 0 35px;
+    background: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/blog/buildwith);
+    border-radius: 24px;
+    background-position: center;
+    background-size: cover !important;
+    /* padding: 120px 25px; */
+    padding-top: 65px;
+    padding-left: 30px !important;
+    height: 100%;
+    width: 100%;
+}
+
+.quotes-img {
+    width: 100%;
+}
+
+.cta-img-section {
+    width: 100%;
+}
+
+.build-grow {
+    font-weight: 700 !important;
+    font-size: 35px;
+    /* padding-bottom: 30px; */
+}
+
+.cta-p {
+    padding-bottom: 30px;
+}
+
+
+.build-grow-suceed-heading.x2,
+.build-grow-suceed-left.x2 p {
+    color: rgba(5, 5, 5, 1) !important;
+}
+
+.build-grow-suceed-left-1 {
+    padding-bottom: 40px;
+}
+
+.inner-tab-content-blog-post-img.x2 img {
+    width: 100%;
+    /* height: 100% !important; */
+}
+
+@media (max-width:768px) {
+
+    .buildnew {
+        background: linear-gradient(90deg, #c2a4f0 0%, #fef7f7 100%) !important;
+        /* background-image: none !important; */
+        /* padding-top: 15px !important; */
+    }
+}
+
+.form-select {
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    font-family: Open Sauce Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.form-select.x2 {
+    border: 1px solid #000 !important;
+    border-radius: 20px !important;
+}
+
+.bg-h {
+    /* font-family: Open Sauce Sans; */
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    /* text-underline-position: from-font;
+text-decoration-skip-ink: none; */
+    color: #0B0C14;
+    margin: 10px 0;
+}
+
+.v-bar {
+    width: 1px;
+    height: 30px;
+    background-color: #000;
+    margin: 5px 10px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:991.98px) {
+
+    .hero-section {
+        overflow: hidden;
+    }
+
+    .inner-tab-content-blog-post-img.x2 img {
+        width: 100%;
+        height: auto !important;
+    }
+
+    body.blog-page-main .hero-section {
+        background: #2f2b67 !important
+    }
+
+    /* .blog-post img {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 0;
+        margin-bottom: 0;
+        object-position: right;
+    } */
+
+    .Recent-Trending-blogs-section .container,
+    .Explore-Our-Top-Blog-Categories-section .container,
+    .fintech-banking-mobileapps .container,
+    body.blog-page-main .hero-section .container,
+    .recent-blog-post.single-single-post-blog-page-main-inner .container {
+        flex-wrap: wrap;
+    }
+
+    .Recent-Trending-blogs-section,
+    .Explore-Our-Top-Blog-Categories-section,
+    .fintech-banking-mobileapps {
+        padding: 50px 0 !important;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+        flex-wrap: wrap;
+    }
+
+    .inner-tab-content-blog .inner-tab-content-blog-post {
+        flex: 0 0 90%;
+    }
+
+    body.blog-page-main .hero-section .container h1 {
+        font-size: 38px !important;
+    }
+
+    .col-xl-6.col-lg-6.col-md-12.col-sm-12.fintech-banking-mobileapps-content-img {
+        display: none;
+    }
+
+
+    .fintech-banking-mobileapps {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .fintech-banking-mobileapps h2 {
+        margin-bottom: 15px;
+    }
+
+    .Recent-Trending-blogs-section {
+        background: transparent;
+    }
+
+    .Recent-Trending-blogs-section h2.rtb-heading {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .tab-buttons-inner {
+        margin-bottom: 40px;
+    }
+
+    body.blog-page-main .hero-section .container>span {
+        font-size: 30px;
+    }
+
+    .Recent-Trending-blogs-section-right .featured-post-inner {
+        align-items: center;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section h3 {
+        font-size: 40px;
+    }
+
+    .Recent-Trending-blogs-section-left,
+    .Recent-Trending-blogs-section-right,
+    .recent-blog-post.single-single-post-blog-page-main-inner .container .recent-blog-post {
+        width: 100% !important;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner .tab-button {
+        padding: 15px 10px;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons-inner {
+        gap: 10px;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section .tabs.submenu-tabs.desktop-submenu-tabs .tab-buttons {
+        border-radius: 10px;
+    }
+
+    .blog-post-single-blog-content.single-single-post-blog-page-main-inner .blog-post-single-blog-content-right,
+    .blog-post-single-blog-content.single-single-post-blog-page-main-inner .blog-post-single-blog-content-left {
+        flex: 0 0 100% !important
+    }
+
+    .blog-post-banner-section.single-single-post-blog-page-main-inner .container {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .blog-post-banner-section.single-single-post-blog-page-main-inner .container .blog-post-banner-section-content,
+    .Recent-Trending-blogs-section .blog-post-caption-inner {
+        background: #F3F6FF;
+        padding: 10px;
+        position: relative;
+    }
+
+    .Recent-Trending-blogs-section .blog-post-caption-inner a {
+        text-align: left;
+        display: inline-block;
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    .blog-post-caption-inner p {
+        text-align: left !important;
+    }
+
+    span.author-publish-date label {
+        font-size: 13px;
+        padding: 0px 12px;
+    }
+
+    .Recent-Trending-blogs-section span.author-publish-date {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
+    .blog-post-single-blog-content.single-single-post-blog-page-main-inner .blog-post-single-blog-content-right .blog-post-single-blog-content-right-inner {
+        padding: 20px;
+    }
+
+    .recent-blog-post.single-single-post-blog-page-main-inner .container .recent-blog-post {
+        margin: 10px 0;
+    }
+
+    .recent-blog-post.single-single-post-blog-page-main-inner {
+        padding: 30px 0;
+    }
+
+    .recent-blog-post.single-single-post-blog-page-main-inner h3 {
+        margin-bottom: 25px;
+    }
+
+
+
+    body.blog-page-main.post-category-page .tabs.submenu-tabs.desktop-submenu-tabs .inner-tab-content-blog-post {
+        flex: 0 0 90% !important;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .tab-buttons-inner {
+        margin-bottom: 40px;
+    }
+
+    ul.views-share-publish-list,
+    .breadcrum-list ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    ul.views-share-publish-list li {
+        padding: 0 10px;
+    }
+
+    .blog-post-single-blog-content {
+        padding: 80px 0;
+    }
+
+    .breadcrum-list ul {
+        gap: 5px;
+    }
+
+    .breadcrum-list ul li a,
+    .breadcrum-list ul li {
+        font-size: 15px;
+    }
+
+    body.blog-page-main.blog-page-main-page .Recent-Trending-blogs-section-right .featured-post-caption span.featured-post-title {
+        line-height: 30px;
+    }
+
+    .Recent-Trending-blogs-section-right .featured-post-caption-publish-date {
+        text-align: right;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section.Explore-Our-Top-Blog-Categories-section-with-categories .inner-tab-content-blog-post.blogCards .inner-tab-content-blog-post-img img {
+        object-position: right;
+    }
+
+    .row.inner-tab-content-blog.inner-tab-content-blog-flex-end .fintech-banking-mobileapps-content-img {
+        position: absolute;
+        right: 0;
+        bottom: -55px;
+        z-index: 99;
+        margin-right: 0;
+    }
+
+    body.blog-page-main.post-category-page .inner-tab-content-tag {
+        text-align: left !important;
+    }
+        .cta-detail-section {
+        max-width: 100% !important;
+    }
+         .cta-ht {
+        font-size: 40px;
+        line-height: 1.0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px) {
+    body.blog-page-main.post-category-page .featured-post-inner-img img {
+        width: 300px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1365.98px) {
+
+
+    .inner-tab-content-blog {
+        gap: 30px 4px;
+    }
+
+    .Recent-Trending-blogs-section .container,
+    .Explore-Our-Top-Blog-Categories-section .container,
+    .fintech-banking-mobileapps .container,
+    body.blog-page-main .hero-section .container,
+    .blog-post-single-blog-content.single-single-post-blog-page-main-inner .container,
+    .recent-blog-post.single-single-post-blog-page-main-inner .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contact-list-detail .contact-social-foot a {
+        font-size: 16px;
+        word-break: break-all;
+    }
+
+    body.blog-page-main.post-category-page .inner-tab-content-blog {
+        gap: 30px 3px !important;
+    }
+
+    body.blog-page-main.post-category-page .tabs.submenu-tabs.desktop-submenu-tabs .inner-tab-content-blog-post {
+        flex: 0 0 43% !important;
+    }
+
+}
+
+
+@media (max-width:1199.98px) {
+    .container.fintech-banking-mobileapps-content-slider-outer {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+        margin: 0 auto;
+    }
+
+    .container.fintech-banking-mobileapps-content-slider-outer .inner-tab-content-blog.inner-tab-content-blog-flex-end {
+        justify-content: center !important;
+    }
+
+    .fintech-banking-mobileapps-content-img img {
+        display: none !important;
+    }
+
+    .view-more-blog-buttom img {
+        display: block !important;
+    }
+
+    .container.fixed-cls .all-categories-lists {
+        position: static;
+    }
+    .buildnew{
+        text-align: center !important;
+    }    
+    .quotes-img{
+        display: none;
+    }
+
+    .cta-p {
+        padding-bottom: 0px !important;
+    }
+}
+
+.new-btn-outline {
+    border: 1px solid #3f5efb !important;
+}

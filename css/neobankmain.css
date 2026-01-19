@@ -1,0 +1,501 @@
+.feature-tab {
+    margin: 5px;
+}
+
+.feature-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.nav-design-cls {
+    background: linear-gradient(157.62deg, rgba(0, 0, 0, 0.1) 37%, rgba(0, 0, 0, 0.2) 100%) !important;
+    border-radius: 50px !important;
+    color: black !important;
+}
+
+.nav-design-cls.active {
+    background: rgba(0, 141, 246, 1) !important;
+    color: #fff !important;
+}
+
+.feature_cls {
+
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 33.89px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    border-bottom: 5px solid rgba(201, 211, 238, 1);
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767.98px) {
+
+    /* Hide the tab buttons and image */
+    .feature-section-ma .nav-pills,
+    .feature-section-ma .col-md-6:first-child {
+        display: none !important;
+    }
+
+    /* Show all tab content (not just active) */
+    .feature-section-ma .tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+    }
+
+    /* Make each feature look like a card */
+    .feature-section-ma .tab-pane {
+        background: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .feature-section-ma .feature_cls {
+        font-size: 20px;
+        /* border-bottom: 3px solid rgba(201, 211, 238, 1); */
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        border-bottom: unset !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .feature-section-ma .tab-pane p {
+        margin-top: 0 !important;
+    }
+
+    .feature_cls {
+        text-align: center;
+
+    }
+}
+
+
+
+.section-2 {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    background: #fff;
+    margin-top: 0px !important;
+}
+
+.section-2 h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-2 p.description {
+    text-align: center;
+    max-width: 700px;
+    margin: 30px auto 40px;
+    /* font-size: 15px; */
+    color: #555;
+}
+
+.nav-buttons {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.nav-buttons button {
+    background: #fff;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.nav-buttons button:disabled {
+    background-color: #eee;
+    border-color: #ddd;
+    color: #aaa;
+    /* cursor: not-allowed; */
+    opacity: 0.6;
+}
+
+.progress-line-container {
+    position: relative;
+    margin-top: 40px;
+    height: 50px;
+}
+
+.progress-line {
+    position: absolute;
+    top: 20px;
+    left: 43px;
+    right: 24px;
+    height: 3px;
+    background: #ccc;
+    z-index: 1;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+
+}
+
+.outer-circle {
+    width: 28px;
+    height: 28px;
+    background-color: rgba(0, 0, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -7px;
+    left: 160px;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    background: #2f2fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    bottom: -14px;
+    right: 17px;
+}
+
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.5);
+        /* expands */
+        opacity: 0.5;
+    }
+}
+
+.step-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 20px;
+    /* overflow: visible;  */
+
+}
+
+.step-box {
+    flex: 1;
+    /* background: #f9f9f9; */
+    border-radius: 8px;
+    padding: 20px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); */
+    text-align: center;
+}
+
+.step {
+    /* position: relative; */
+    /* bottom: 10px; */
+    /* left: 13px; */
+}
+
+.step-box:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    background: #F2F5F7;
+    border-radius: 20px;
+}
+
+.step-box p.step {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.step-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.step-box p.desc {
+    /* font-size: 14px; */
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.step-content-outer {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.step-content-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+    width: 100%;
+}
+
+.step-box {
+    flex: 0 0 calc(100% / 3);
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+/* For mobile: Show 1 step at a time */
+@media (max-width: 768px) {
+    .step-box {
+        flex: 0 0 100%;
+    }
+
+    .forex-box {
+        display: flow-root !important;
+        text-align: center;
+    }
+}
+
+/* .dark-bg-color {
+    background: rgba(15, 15, 15, 1);
+}
+.text-dim-light-4 {
+    color: #fff;
+}
+section {
+    padding: 50px 0;
+}
+
+.max-width-8 {
+    max-width: 1100px !important;
+}
+
+.container-03 {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+} */
+
+/* .tab-buttons .tab-button {
+    cursor: pointer;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(237, 241, 243, 0.2);
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.d-flex {
+    display: flex
+;
+}
+.pb-2 {
+    padding-bottom: 20px;
+}
+.pt-3 {
+    padding-top: 30px;
+} */
+
+.Benefits {
+    background: linear-gradient(to right, #0f0f1b, #1a0f1d);
+    color: #fff;
+}
+
+.nav-link-1 {
+    border-left: 3px solid transparent;
+    color: #bbb;
+}
+
+.nav-link-1.active {
+    color: #fff;
+    font-weight: 600;
+    border-left: 3px solid #0d6efd;
+}
+
+.tab-pane-1 {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.benifit-header-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* .left-tab-beni{
+        color: rgba(95, 95, 95, 1) !important;
+        padding: 10px !important;
+        background-color: none !important;
+    }
+
+    .left-tab-beni:active{
+        background: transparent !important;
+        color: rgba(255, 255, 255, 1) !important;
+    }
+
+    .nav-ed .nav-cont:active, .nav-pills .show>.nav-link{
+        background-color: transparent !important;
+    } */
+/* .custom-vertical-tabs{
+    margin-left: 40px;
+} */
+
+.custom-vertical-tabs .nav-link {
+    border-left: 3px solid transparent;
+    color: #bbb;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+.custom-vertical-tabs .nav-link.active {
+    color: #fff !important;
+    font-weight: 600;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+}
+
+.custom-vertical-tabs .nav-link {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 22px;
+}
+
+.custom-vertical-tabs .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #444;
+    /* Change as needed */
+}
+
+.content-for-benifit {
+    background: rgba(245, 249, 255, 1);
+    border: 1px solid rgba(214, 230, 255, 1);
+    padding: 30px;
+    border-radius: 25px;
+
+}
+
+.benifi_cls {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+
+.feature-section-ma {
+    margin-top: 100px;
+}
+
+.industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner.slick-slide {
+    height: 415px;
+}
+
+.below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.White-Label-Crypto-Exchange-Software-Development-Company-section.original .container {
+    margin-top: 0px;
+}
+
+.Why-You-Should-Invest-Now-caption p,
+.Why-You-Should-Invest-Now-section p {
+    margin-bottom: 30px !important;
+}
+.padding-cta{
+    padding: 50px !important;
+}
+.img-cta-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+@media (max-width:1399.98px) {
+    .cls-row{
+      padding-top: 0px;
+    }
+}
+
+@media (max-width:578.98px) {
+    .trusted-hero.m2{
+        padding-bottom: 50px !important;
+    }
+}
+
+@media (max-width: 768.98px) {
+  /* Hide the tab nav on mobile */
+  .custom-vertical-tabs {
+    display: none !important;
+  }
+
+  /* Show all tab content */
+  .tab-content .tab-pane {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    margin-bottom: 20px !important;
+  }
+   .benifi_cls{
+      display: block;
+      text-align: center;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .mrg-section {
+        margin: 50px;
+    }
+
+    .progress-line-container {
+        display: none !important;
+    }
+
+    .nav-buttons {
+        text-align: center;
+    }
+
+    .key-feature-list {
+        width: 100% !important;
+        flex: 0 0 auto;
+    }
+
+    .industries-we-serve-outer.Elite-Features-Offered-By-Pumapulse-Cryptocurrency-Payment-Gateway-inner-slider .industries-we-serve-inner.slick-slide {
+    height: 470px;
+}
+
+}

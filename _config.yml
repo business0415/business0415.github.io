@@ -1,0 +1,19 @@
+# Jekyll configuration for clean URLs
+permalink: pretty
+
+# This will automatically remove .html extensions
+# and create clean URLs like /about/ instead of /about.html
+
+plugins:
+  - jekyll-sitemap
+
+# Optional: Set your site details
+title: "PumaPulse"
+description: "Crypto Exchange Development Company"
+url: "https://pumapulse.org"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - missing_images_fix_results.json
+  - robots.txt

@@ -1,0 +1,1117 @@
+.banner-heading {
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  background: none !important;
+  color: #fff;
+  text-align: left;
+}
+
+h1:before {
+  background: none !important;
+}
+
+.hero-section-1 {
+  background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/banner-background') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+
+}
+
+
+.inline-btn a.btn {
+  display: inline-flex !important;
+}
+
+p {
+  font-size: 16px !important;
+  line-height: 27px;
+}
+
+.hero-section-1 h1 {
+  text-align: left;
+  color: #fff;
+  font-weight: 700;
+  line-height: 55px;
+  border-left: 1px solid #3F5EFB;
+  padding-left: 25px;
+  border-radius: 0px !important;
+}
+
+.banner-image {
+  mix-blend-mode: lighten;
+  /* max-width: 120% !important;  */
+}
+
+.dim-task {
+  font-family: Sen;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  display: flex;
+  color: #ffff;
+
+}
+
+.banner-image {
+  mix-blend-mode: normal;
+  /* max-width: 115% !important; */
+}
+
+.img-sec-banner {
+  justify-content: center;
+  display: flex;
+}
+
+
+@media (max-width: 991.98px) {
+
+  .img-dis {
+    display: none;
+  }
+
+  .dim-task {
+    justify-content: center;
+  }
+
+  /* .hero-section-1 h1 {
+      text-align: center;
+      border-left: none !important;
+      font-size: 32px !important;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-media-width {
+    width: 100% !important;
+  }
+}
+
+@media (max-width:1199.98px) {
+
+  .hero-section-1 h1 {
+    text-align: center;
+    border-left: none !important;
+    font-size: 31px !important;
+  }
+
+  .banner-border {
+    border-left: none !important;
+    padding-left: 0px !important;
+  }
+
+  .dim-task {
+    justify-content: center;
+    padding-left: 16px;
+    text-align: center;
+  }
+
+  .medi-center-1 {
+    text-align: center;
+  }
+
+  .btn-com {
+    text-align: center;
+  }
+
+  .img-dis1 {
+    display: none !important;
+  }
+
+  .features-grid {
+    display: block !important;
+  }
+
+  .feature-card {
+    border: 1px solid #ddd !important;
+    background: #F2F5F7 !important;
+    padding: 12px 20px !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center !important;
+  }
+.container-18{
+  display: contents !important;
+}
+.for-sm-gain{
+  width: 100% !important; 
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .section-media-width-banner {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 2000px) {
+  .hero-section {
+    height: unset !important;
+    padding-top: 80px;
+  }
+}
+
+.forex-grid {
+  background-color: #3F5EFB;
+  border-radius: 30px;
+  padding: 40px;
+  display: grid !important;
+}
+
+.forex-seconf {
+  background: none;
+  color: #fff;
+  font-family: Sen;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.p-tag {
+  text-align: center;
+}
+
+/* slider-css-start */
+
+.services-section {
+  padding: 60px 30px;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.services-subtitle {
+  max-width: 700px;
+  margin: 20px auto 40px;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.slider .service-card {
+  border-radius: 20px;
+  border: 1px solid #3F5EFB;
+  padding: 25px;
+  border: 1px solid rgba(237, 241, 243, 0.05);
+  background: rgba(201, 211, 238, 0.02);
+  /* height: 508px; */
+  margin: 0 10px;
+  height: 100%;
+}
+
+.slider .service-card:hover {
+  border-color: #3F5EFB !important;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.service-card:hover {
+  /* transform: translateY(-5px); */
+}
+
+.service-card img {
+  width: 40px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #bbb;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.slider-navigation {
+  text-align: right;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-bottom: 20px;
+  position: relative;
+  right: 100px;
+
+}
+
+/* .slider-navigation button {
+  color: white;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: rgba(201, 211, 238, 0.06) !important;
+  width: 35px;
+  height: 35px;
+} */
+.slider-navigation button {
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  background: rgba(201, 211, 238, 0.06) !important;
+  width: 35px;
+  height: 35px;
+}
+
+.slider-navigation button:disabled {
+  background-color: #eee;
+  border-color: #ddd;
+  color: #aaa;
+  opacity: 0.6;
+  /* cursor: not-allowed; */
+  /* optional */
+}
+
+.arrow-change {
+  position: relative;
+  bottom: 5px;
+  right: 6px;
+
+}
+
+
+
+.slider-navigation button:hover {
+  background: #333348;
+}
+
+
+
+.rounded-cls:hover {
+  position: absolute;
+  opacity: 0;
+
+}
+
+.banking-slider-section {
+  /* background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/digital-banking/banner-background'); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  background-position: center; */
+  background: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/Our-Digital-Transformation-Services-We-Provide-bg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+
+}
+
+
+img.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-img.on-hover {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 26px;
+}
+
+
+.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right .not-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right img {
+  max-width: 100%;
+  height: auto !important;
+  width: auto !important;
+}
+
+.slick-slide img {
+  width: unset !important;
+  height: unset !important;
+}
+
+.dim-task2 {
+  font-family: Sen;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  display: flex;
+  color: #ffff;
+
+}
+
+@media (max-width:992.98px) {
+
+  .slider-navigation {
+    text-align: center !important;
+    right: 0px !important;
+  }
+
+  .banking-slider-section {
+    background-image: none !important;
+    background-color: #0b0c14 !important;
+  }
+}
+
+/* slider-css-end */
+
+
+.cta-width-bck {
+  background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/cta-section-bg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px !important;
+  background-position: center;
+  padding: 30px 40px;
+  /* position: relative;
+    left: 360px; */
+
+}
+
+
+
+/*circle-script-section-start*/
+
+.section-2 {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  margin-top: 0px !important;
+}
+
+.section-2 h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.section-2 p.description {
+  text-align: center;
+  max-width: 700px;
+  margin: 30px auto 40px;
+  /* font-size: 15px; */
+  color: #555;
+}
+
+.nav-buttons {
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.nav-buttons button {
+  background: #fff;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-buttons button:disabled {
+  background-color: #eee;
+  border-color: #ddd;
+  color: #aaa;
+  /* cursor: not-allowed; */
+  opacity: 0.6;
+}
+
+.progress-line-container {
+  position: relative;
+  margin-top: 40px;
+  height: 50px;
+}
+
+.progress-line {
+  position: absolute;
+  top: 20px;
+  left: 43px;
+  right: 24px;
+  height: 3px;
+  background: #ccc;
+  z-index: 1;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+
+}
+
+.outer-circle {
+  width: 28px;
+  height: 28px;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -7px;
+  left: 160px;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.circle {
+  width: 14px;
+  height: 14px;
+  background: #2f2fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  bottom: -14px;
+  right: 17px;
+}
+
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.5);
+    /* expands */
+    opacity: 0.5;
+  }
+}
+
+.step-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 20px;
+  /* overflow: visible;  */
+
+}
+
+.step-box {
+  flex: 1;
+  /* background: #f9f9f9; */
+  border-radius: 8px;
+  padding: 20px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); */
+  text-align: center;
+}
+
+.step {
+  /* position: relative; */
+  /* bottom: 10px; */
+  /* left: 13px; */
+}
+
+.step-box:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  background: #F2F5F7;
+  border-radius: 20px;
+}
+
+.step-box p.step {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-box h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.step-box p.desc {
+  /* font-size: 14px; */
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.step-content-outer {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.step-content-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  will-change: transform;
+  width: 100%;
+}
+
+.step-box {
+  flex: 0 0 calc(100% / 3);
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+/* For mobile: Show 1 step at a time */
+@media (max-width: 768px) {
+  .step-box {
+    flex: 0 0 100%;
+  }
+
+  .forex-box {
+    display: flow-root !important;
+    text-align: center;
+  }
+}
+
+/*circle-script-section-end*/
+
+
+/* different-sec-start */
+.key-features {
+  background-color: #000;
+}
+
+.letter-ali {
+  letter-spacing: 0.5px;
+}
+
+.container-10 {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-adj {
+
+  flex: 1 0 auto !important;
+}
+
+.key-feature-list {
+  background-color: #1E232C;
+  padding: 51px;
+  max-height: 673px;
+  /* padding-left: 40px !important; */
+  /* max-width: 537px; */
+
+}
+
+.key-feature-list-1 {
+  background-color: #1E232C;
+  padding: 47px;
+  max-height: 710px;
+  /* padding-left: 40px !important; */
+  /* max-width: 537px; */
+
+}
+
+
+.li-key-img {
+  list-style-image: url('https://www.hashcodex.com/img/digital-banking/Image\ \(2\).png');
+}
+
+.line-hei-3 {
+  line-height: 35px;
+}
+
+@media (max-width:1073.98px) {
+
+  .key-feature-list {
+    max-height: unset !important;
+  }
+
+}
+
+/* different-sec-end */
+
+.faq-shift {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+.faq-section .accrd-panel-head .align-self-center {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+}
+
+/* common */
+
+@media (max-width: 1199.98px) {
+  .mrg-section {
+    margin: 50px;
+  }
+
+  .progress-line-container {
+    display: none !important;
+  }
+
+  .nav-buttons {
+    text-align: center;
+  }
+
+  .key-feature-list {
+    width: 100% !important;
+    flex: 0 0 auto;
+  }
+
+}
+
+@media (max-width:991.98px) {
+
+  .cta-width-bck {
+    background-image: none !important;
+    background: #007bff !important;
+  }
+  .cta-width-bck-off{
+    background-image: none !important;
+    background-color: #007bff;
+  }
+
+  .medi-center {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 991.98px) {
+
+  .container,
+  .max-width-1,
+  .max-width-2,
+  .max-width-3,
+  .max-width-4,
+  .max-width-5,
+  .max-width-6,
+  .max-width-7,
+  .max-width-8,
+  .max-width-9,
+  .max-width-10 {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .max-width-9 {
+    margin: 0 60px !important;
+  }
+}
+
+@media (max-width: 576.98px) {
+  .mar-for-design {
+    margin: 0 20px !important;
+  }
+
+  .max-width-9 {
+    margin: 0px !important;
+  }
+
+  .hero-section-1 h1 {
+    line-height: 40px !important;
+    padding: 0px !important;
+  }
+
+  .hero-section {
+    padding: 0px !important;
+  }
+}
+
+
+
+/* end */
+
+/* forex back office */
+.banner-border {
+  border-left: 1px solid #3F5EFB;
+  padding-left: 25px;
+}
+
+.hero-section-2 h1 {
+  border-left: none !important;
+  padding: 0px !important;
+}
+
+.banner-heading-1 {
+  font-family: Sen;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  background: none !important;
+  color: #fff;
+  text-align: left;
+}
+
+.forex-box {
+  /* background-color:#F2F5F7; */
+  background: #F2F5F7;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.modules {
+  font-family: Arial, sans-serif;
+  background: #f9fafb;
+  padding: 40px;
+  text-align: center;
+}
+
+.tree {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.level {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 40px;
+}
+
+.box-top {
+  position: relative;
+  right: 30px;
+}
+
+.box-bottom {
+  left: 90px;
+  /* position: relative; */
+  background: #e6f0fb;
+  padding: 12px 20px;
+  /* border-radius: 10px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 35px;
+  position: relative;
+  min-width: 130px;
+
+
+  border-top: 1px solid #1f324b;
+  border-left: 1px solid #1f324b;
+  /* border-right: 1px solid #1f324b;  */
+}
+
+.box {
+  background: #e6f0fb;
+  padding: 12px 20px;
+  /* border-radius: 10px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 34px;
+  position: relative;
+  min-width: 130px;
+  /* right: 46px; */
+  border-top: 1px solid #1f324b;
+  border-left: 1px solid #1f324b;
+  border-right: 1px solid #1f324b;
+
+}
+
+
+.hub {
+  background: #eaffea;
+  border: 2px solid #b6eab6;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+/* Top row horizontal line */
+.level-top::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 84px;
+  right: 52px;
+  height: 1px;
+  background: #1F324B;
+  z-index: 0;
+}
+
+/* Vertical lines from top row to horizontal line */
+.level-top .box::before {
+  content: "";
+  position: absolute;
+  top: -21px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 20px;
+  background: #1F324B;
+}
+
+/* Vertical lines from horizontal to second row */
+.second-connect .box::before {
+  content: "";
+  position: absolute;
+  top: -102px;
+  left: 115%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 103px;
+  background: #000;
+}
+
+.second-connect .box-bottom::before {
+  content: "";
+  position: absolute;
+  top: -105px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0.8px;
+  height: 103px;
+  background: #1F324B;
+}
+
+/* Connecting line to hub */
+.connector-down::after {
+  /* content: ""; */
+  /* position: absolute; */
+  /* top: 100%; */
+  /* left: 50%; */
+  /* height: 20px; */
+  /* width: 2px; */
+  /* background: #333; */
+}
+
+/* Services row */
+.level-services::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: 112px;
+  right: 98px;
+  height: 1px;
+  background: #1F324B;
+}
+
+.level-services .box::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  width: 0.8px;
+  height: 20px;
+  background: #1F324B;
+  transform: translateX(-50%);
+}
+
+.spacer {
+  height: 40px;
+}
+
+.box-bottom-1 {
+  background: #e6f0fb;
+  padding: 12px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0 35px;
+  position: relative;
+  min-width: 130px;
+}
+
+/* Left gradient border */
+.second-connect.box-bottom-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1f324b, transparent);
+}
+
+/* Right gradient border */
+.box-bottom-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1f324b, transparent);
+}
+
+.cta-forex-back {
+  background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/forex-cta-back);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px !important;
+  background-position: center;
+  padding: 30px 40px;
+}
+
+/* key back office */
+.features-section{
+
+}
+.features-section {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 20px; */
+}
+
+.feature-card {
+  background: #fff;
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  /* border-radius: 8px; */
+  text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  margin-top: 0;
+  color: #111;
+}
+
+.fe-card-top {
+  border-right: 1px solid #ddd;
+}
+
+.fe-card-top:nth-child(3) {
+  border-right: none;
+}
+
+.fe-card-bottom {
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.fe-card-bottom:nth-child(6) {
+  border-right: none;
+}
+
+
+/* integrating */
+
+.Gain-from-Integrating-Back-Office {
+  background-color: #000;
+  /* height: 100vh; */
+  /* background-image: url('../img/Forex/glow-sso-2@q30r.b7369f4\ \(1\).png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+}
+
+.container-63 {
+  /* display: flex
+; */
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.gain-benift-last {
+  position: relative;
+  left: 405px;
+}
+
+.gain-benift-middle {
+  position: relative;
+  top: 100px;
+}
+
+.gain-card {
+  background-color: #1E232C;
+  padding: 12px 15px;
+  border-radius: 27px;
+}
+
+.container-18 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.cta-width-bck-off{
+  background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/Forex/cta-background);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+    background-position: center;
+    padding: 30px 40px;
+}
+.FX-back-OFFice{
+  line-height: 1.3;
+}
+
+.service-card.a33{
+min-height: 450px !important;
+}
+.display-flex-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  cursor: default;
+}
+.box-feature {
+  border: 1px solid #1E232C;
+  border-radius: 8.5px;
+  padding: 12px;
+}
+.container.container-center{
+justify-content: center;
+}
+.box-feature:hover{
+  background: #008DF6;
+  color: #ffff;
+}
+@media (max-width:"1199.98px") {
+.service-card.a33{
+height: 100% ;
+}
+  
+}

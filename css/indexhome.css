@@ -1,0 +1,1362 @@
+.counter-inner span {
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 20px;
+    border-left: 4px solid rgba(77, 122, 231, 1);
+}
+
+.counter-inner p {
+    padding-left: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.counter .row-inner {
+    justify-content: center;
+}
+
+.button-common a.btn {
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.button-common a.btn:hover {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 5px #0565ff;
+    border: 1px solid #4d7ae7;
+}
+
+.button-common a.btn span.button-arrow img{transition: all 0.3s ease-in-out;}
+
+.button-common a.btn:hover span.button-arrow img{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(45deg);
+}
+
+.inner-smart-core-values span {
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    min-height: 48px;
+}
+
+.inner-smart-core-values, .icon-smart-core-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-smart-core-values {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 16.94px 0px rgba(234, 236, 248, 1);
+    border-radius: 20px;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+    border-bottom: 7px solid #b476a2;
+}
+
+.inner-smart-core-values.Think-Fresh-Build-Smart{
+    border-bottom: 7px solid #8f8ef4;
+}
+
+.inner-smart-core-values p {
+    min-height: 156px;
+}
+
+.icon-smart-core-value {
+    width: 80px;
+    height: 80px;
+    background: rgba(243, 247, 254, 1);
+    border-radius: 50%;
+}
+
+.smart-core-values h2{font-weight: 600;}
+
+.icon-smart-core-value-trusted img {
+    width: 120px;
+}
+
+.icon-smart-core-value-trusted {
+    box-shadow: 0px 3.59px 3.59px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+
+.tab-content.active {
+    display: block;
+}
+.tab-content {
+    display: none;
+}
+
+.smart-core-values.What-We-Do .tab-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.row-inner.inner-tab-content span {
+    font-size: 22px;
+    font-weight: 600;
+}
+section.smart-core-values.What-We-Do .tab-buttons span {
+    line-height: 21px;
+}
+section.smart-core-values.What-We-Do .row-inner.inner-tab-content a {
+    text-decoration: underline;
+    color: blue;
+}
+.tab-button.active, .tab-button:hover {
+    background: rgba(237, 241, 255, 1);
+    border-radius: 10px;
+    position: relative;
+    min-width: 150px;
+}
+
+section.smart-core-values.What-We-Do .tab-content{
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: all 0.5s ease-in-out;
+}
+
+section.smart-core-values.What-We-Do .tab-content.show{
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.tab-button.active::before, .tab-button:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgba(1, 107, 227, 1);
+    left: 0;
+    bottom: -6px;
+}
+
+.tab-button {
+    cursor: pointer;
+}
+
+.tab-buttons {
+    gap: 20px;
+}
+
+.inner-tab-content {
+    align-items: center;
+}
+
+.row-inner.inner-tab-content p {
+    font-weight: 500;
+}
+
+section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container {
+    max-width: 70%;
+}
+
+section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container, .Benefits-Of-Using-Cryptocurrency-Exchange-Script .container {flex-wrap: wrap;}
+
+section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container .top-dimension, section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container .bottom-dimension {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border: 1px solid rgba(194, 194, 194, 1);
+    min-height: 161px;
+    justify-content: center;
+}
+
+.top-dimension {
+    border-top: none !important;
+}
+
+.bottom-dimension {
+    border-bottom: none !important;
+}
+
+.top-dimension:nth-child(4), .bottom-dimension:nth-child(8), .bottom-dimension:nth-child(12) {
+    border-right: none !important;
+}
+
+.top-dimension:nth-child(1), .bottom-dimension:nth-child(5), .bottom-dimension:nth-child(9) {
+    border-left: none !important;
+}
+
+
+.second-part {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.second-part label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.second-part > span {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.second-part-button a.btn {
+    background: #396be6;
+    display: inline-flex;
+}
+
+.second-part-button a.btn span.button-text {
+    color: #fff;
+}
+
+.second-part-button a.btn span.button-arrow {
+    background: #fff;
+}
+
+.second-part {
+    padding-left: 48px;
+    position: relative;
+}
+
+.second-part::before {
+    content: '';
+    position: absolute;
+    height: 60%;
+    width: 3px;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/border-line');
+    left: 0;
+    top: 44px;
+}
+
+.second-part.second-part-last::before {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/border-left-bottom') !important;
+    background-repeat: no-repeat !important;
+    width: 30px;
+    height: 60% !important;
+    background-size: cover !important;
+}
+
+.first-part {
+    left: -24px;
+    z-index: 99;
+}
+
+
+.ratings img {
+    width: 20px;
+    height: auto;
+}
+
+.reviews {
+    text-align: right;
+}
+
+.inner-reviews {
+    padding: 0px 25px 30px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+.inner-reviews p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.inner-reviews > span {
+    font-weight: 600;
+}
+
+.inner-reviews:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+section.career-section .container {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/career-bg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+}
+
+section.career-section h2{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.top-dimension img, .bottom-dimension img {
+    filter: grayscale(1);
+}
+
+.top-dimension:hover img, .bottom-dimension:hover img {
+    filter: none;
+}
+
+.Read.The.Full.Article a {
+    background: rgba(153, 73, 218, 1);
+    border-radius: 30px;
+}
+
+section.blog-section a.inner-reviews-blog span {
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 24px;
+    min-height: 75px;
+}
+.max-heg-insights{
+    min-height: 450px;
+}
+
+section.blog-section a.inner-reviews-blog p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    min-height: 65px;
+}
+
+.inner-reviews-blog label{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    background: rgb(103 108 111);
+}
+
+.deserves-better {
+    position: relative;
+}
+
+.deserves-better-cta a.btn{display: inline-flex !important;}
+
+.deserves-better::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/top-curve');
+    background-repeat: no-repeat;
+    top: -1px;
+    left: 0;
+    background-size: cover;
+}
+
+.deserves-better::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/bottom-curve');
+    background-repeat: no-repeat;
+    bottom: -1px;
+    left: 0;
+    background-size: cover;
+}
+
+.deserves-better .container {
+    max-width: 80%;
+}
+
+.deserves-better label {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 55px;
+}
+
+.deserves-better ul li {
+    padding: 12px 0;
+}
+
+.buttons-innovative-tech-services-container{
+    justify-content: center !important;
+}
+
+.buttons-innovative-tech-services button {
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    background: transparent;
+    padding: 10px 1rem;
+}
+
+.buttons-innovative-tech-services {
+    display: flex;
+}
+
+.services-inner span, .services-inner h3 {
+    font-size: 23px;
+    font-weight: 500;
+    /* padding: 20px; */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.services-container {
+    display: flex;
+    gap: 10px;
+}
+
+.services-inner {
+    background-color: black;
+    color: white;
+    padding: 25px 20px;
+    flex: 1;
+    transition: flex 0.2s ease-in-out;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.services-inner:hover, .services-inner.active {
+    flex: 1.5;
+    transition: flex 0.2s ease-in-out;
+}
+
+.services-inner p {
+    opacity: 0;
+    transition: flex 0.2s ease-in-out;
+}
+
+.services-inner:hover p, .services-inner.active p {
+    opacity: 1;
+    transition: flex 0.2s ease-in-out;
+}
+
+.services-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000000a1;
+}
+
+.services-inner span, .services-inner p, .services-inner h3 {
+    position: relative;
+}
+
+.buttons-innovative-tech-services button.active {
+    position: relative;
+}
+
+.buttons-innovative-tech-services button.active::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 70%;
+    left: 38px;
+    margin-left: 0;
+    background-color: #222222;
+    bottom: -1px;
+}
+
+div#uiux.active, div#consulting.active, div#mobile.active, div#custom.active {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: flex 0.2s ease-in-out;
+}
+
+div#uiux.active {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/uiux');
+}
+div#consulting.active {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Consulting-Services');
+}
+div#mobile.active {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Mobile-App-Development');
+}
+div#custom.active {
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Custom-Software-Development');
+}
+
+.line-verient {
+    display: none;
+}
+
+.new-dimension-WH {
+    height: 300px !important;
+}
+
+section.blog-section h3 {
+    font-size: 1.2rem;
+}
+
+
+a.inner-reviews-blog {
+    padding: 0 0.5rem;
+    display: inline-block;
+}
+
+@media (max-width:767.98px){
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 .col-2 {
+        width: 50%;
+    }
+    
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 .col-2 .icon-smart-core-value-trusted {
+        box-shadow: none;
+    }
+
+    .counter-inner {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .counter-inner span {
+        border-left: 0px;
+        padding-top: 30px;
+        text-align: center;
+        border-left: none !important;
+        padding-left: 0px !important;
+        margin-right: 0% !important;
+        font-size: 25px !important;
+        display: inline-block;
+    }
+    
+    .counter-inner p {
+        padding-bottom: 40px;
+        font-size: 17px;
+        font-weight: 500;
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .line-verient {
+        display: block !important;
+         /* border-bottom: 1px solid rgba(152, 122, 255, 1);  */
+        background: radial-gradient(50% 50% at 50% 50%, #987aff .4158844743798379%, rgb(153, 122, 255) 70.88907657657657%, rgba(155, 125, 255, 0) 100%);
+        height: 1px;
+        width: 100%;
+    }
+
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 {
+        justify-content: center;
+    }
+
+    .step .second-part {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .second-part-button .button-common.mt-3.mb-4 {
+        margin-bottom: 0px;
+    }
+
+    .smart-core-values.What-We-Do .tab-buttons {
+        display: none;
+    }
+    
+    .smart-core-values.What-We-Do .tab-content-tabs .tab-content {
+        display: block !important;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+    .smart-core-values.What-We-Do .tab-content-tabs .tab-content img {
+        display: none;
+    }
+    
+    section.smart-core-values.What-We-Do .tab-content-tabs .row-inner.inner-tab-content {
+        border-radius: 20px;
+        margin: 30px 0;
+        background-color: rgba(150, 167, 253, 0.1) !important;
+        box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4) !important;
+    }
+
+    .Latest-Insights-Trends {
+        text-align: center;
+    }
+
+    .Client-Retention-Rate .counter-inner p {
+        padding-bottom: 0px;
+    }
+     .button-common.ar3{
+        text-align: center !important;
+    }
+    .position-portfolio-sec{
+        top: 0px !important;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width:991.98px){
+
+    .deserves-better label {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .deserves-better::before, .deserves-better::after{
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        display: none;
+    }
+
+    .inner-smart-core-values-trusted {
+        margin: 10px 0;
+    }
+
+    .tab-button {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px !important;
+    }
+    .tab-button span {
+        font-size: 14px;
+    }
+
+    .tab-buttons {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .accrd-panel-head, .accrd-panel-head.active {
+        padding: 15px !important;
+    }
+    
+    section.smart-core-values.What-We-Do .tab-content-tabs {
+        margin: 0px;
+    }
+    
+    section.smart-core-values.What-We-Do .tab-content-tabs .row-inner.inner-tab-content {
+        gap: 20px;
+    }
+
+    .services-container {
+        padding: 0 1rem;
+        margin-top: 0px !important;
+    }
+
+    .services-inner p {
+        opacity: 1;
+    }
+    
+    .faq-cls-sectns {
+        margin-top: 30px;
+    }
+    
+    .buttons-innovative-tech-services {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .services-container.max-width-8.mt-3.ml-auto.mr-auto {
+        flex-wrap: wrap;
+    }
+    
+    .services-inner {
+        height: auto;
+        flex: 100%;
+    }
+    
+    .faq-cls-sectns {
+        margin-top: 30px;
+    }
+    
+    .buttons-innovative-tech-services {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .services-container.max-width-8.mt-3.ml-auto.mr-auto {
+        flex-wrap: wrap;
+    }
+    
+    .services-inner {
+        height: auto;
+        flex: 100%;
+    }
+    
+    .second-part::before, .inner-smart-core-values::before, .inner-smart-core-values.Think-Fresh-Build-Smart::before, .second-part.second-part-last::before, .first-part, .buttons-innovative-tech-services {
+        display: none;
+    }
+    
+    .second-part {
+        padding-left: 10px;
+    }
+
+    .second-part span {
+        font-size: 16px;
+    }
+
+    section.google-review-section > .container.mb-4 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    .reviews {
+        text-align: center;
+    }
+
+    section.career-section h3 {
+        margin-top: 30px;
+    }
+
+    .Read.The.Full.Article.text-right {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    a.inner-reviews-blog {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .top-dimension, .bottom-dimension {
+        width: 50% !important;
+        border: none !important;
+        padding: 0px !important;
+        justify-content: center;
+    }
+    
+    section.Security-Features-of-our-Cryptocurrency-Exchange-Script.smart-core-values.pt-5.pb-5 .container.pl-1.pr-1 {
+        flex-direction: row !important;
+    }
+
+    .bottom-dimension img, .top-dimension img {
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+        display: block;
+        transition: filter 0.3s ease;
+    }
+    
+    .bottom-dimension:hover img, .top-dimension:hover img {
+        filter:none;
+    }
+
+    div#uiux {
+        background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/uiux');
+    }
+    div#consulting {
+        background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Consulting-Services');
+    }
+    div#mobile {
+        background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Mobile-App-Development');
+    }
+    div#custom {
+        background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/landing/Custom-Software-Development');
+    }    
+
+}
+
+@media (min-width:768px) and (max-width:1199.98px){
+
+    
+    a.inner-reviews-blog {
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    section.career-section .col-1 {
+        display: none;
+    }
+
+    section.smart-core-values.What-We-Do .container.tabs.submenu-tabs.desktop-submenu-tabs .col-12 {
+        width: 100%;
+    }
+
+    section.smart-core-values.What-We-Do .tab-content-tabs .row-inner.inner-tab-content {
+        margin-top: 30px;
+        flex-wrap: nowrap;
+    }
+
+    .Read.The.Full.Article.text-right{text-align: center;}
+
+    
+    .details-of-ceo{width: 100% !important;}
+
+    .deserves-better .container .col-12, section.Innovative-Tech-Services .container .col-12 {
+      width: 100%;
+    }
+
+    div#uiux, div#consulting, div#mobile, div#custom{
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .inner-smart-core-values::before, .inner-smart-core-values.Think-Fresh-Build-Smart::before{
+        display: none;
+    }
+
+    section.counter .row-inner .col-2 {
+        width: auto;
+    }    
+
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+    
+    .deserves-better .col-2.text-center.normal-view {
+        display: none;
+    }
+
+    .deserves-better .container .col-12, section.Innovative-Tech-Services .container .col-12 {
+        width: 100%;
+    }
+
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 .col-2{width: 20%;}
+
+    section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container .top-dimension, section.Security-Features-of-our-Cryptocurrency-Exchange-Script .container .bottom-dimension {
+        border: 1px solid rgba(194, 194, 194, 1) !important;
+    }
+}
+
+@media (max-width:1199.98px){
+    .counter-inner {
+        margin: 10px 0;
+    }
+
+    .inner-smart-core-values {
+        margin: 15px 0;
+        box-shadow: -1px -1px 10px #ccc;
+        border-bottom: 6px solid #ae86bf;
+    }
+
+    .inner-smart-core-values.Think-Fresh-Build-Smart{
+        border-bottom: 6px solid #6c77e4;
+    }
+
+    .slider-container{
+        position: relative;
+        padding: 0px !important;
+        overflow: hidden;
+        padding-bottom: 40px !important;
+    }
+    .slider-wrapper {
+        overflow: hidden;
+        width: 100%;
+    }
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    .card {
+        opacity: 1;
+        transform: scale(1);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+    button.next-btn, button.prev-btn {
+        position: absolute;
+        right: 0;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        background: #ccc;
+        border: none;
+        border-radius: 50%;
+        top: 0px;
+        z-index: 9;
+    }
+
+    .slider-container .inner-reviews:hover {
+        box-shadow: none !important;
+    }
+
+    button.next-btn span, button.prev-btn span {
+        font-size: 35px;
+    }
+    
+    button.next-btn.d-flex {
+        right: 50%;
+        margin-right: -50px;
+    }
+    
+    button.prev-btn.d-flex {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    button.next-btn, button.prev-btn {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        justify-content: center;
+        align-items: center;
+        background: transparent !important;
+        border: none;
+        border-radius: 50%;
+        top: auto;
+        z-index: 9;
+        bottom: 0;
+    }
+
+}
+
+
+@media (min-width:1700px){
+
+    section.hero-section .container.max-width-5.flex-col {
+        max-width: 1100px !important;
+        height: 100%;
+        justify-content: center;
+        gap: 0;
+    }
+    
+    .banner-title {
+        font-size: 60.8px;
+    }
+    
+    section.hero-section .max-width-3 {
+        max-width: 750px !important;
+    }
+
+    section.hero-section p {
+        font-size: 1.3rem;
+        line-height: 35px;
+    }
+    
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-tab-content1 {
+    text-align: center;
+    background: #fff;
+    /* padding: 150px 80px; */
+    padding: 32px;
+    border-radius: 20px;
+    color: #000;
+    position: relative;
+            min-height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .tab-button.x2{
+    background: rgba(109, 76, 225, 1) !important;
+} */
+.tab-button.x2.active {
+    background: rgba(109, 76, 225, 1) !important;
+    color: #fff !important;
+    border-bottom: none !important;
+    justify-content: space-between !important;
+    border-left: 6px solid #FFF;
+    border-radius: 0px;
+    border-top: 0px !important;
+    padding: 10px !important;
+    margin: 20px 0px;
+}
+
+/* Disable hover effect for .tab-button.x2 */
+.tab-button.x2:hover {
+    background: unset !important;
+    /* color: unset !important;
+    border-bottom: unset !important;
+    justify-content: unset !important;
+    padding: unset !important;
+    border-radius: unset !important;
+    margin-top: 0px !important; */
+    /* background: rgba(109, 76, 225, 1) !important; */
+    border-bottom: none !important;
+    /* padding: 0px !important; */
+    /* border-left: 6px solid #FFF; */
+    /* margin: 20px 0px; */
+}
+
+.tab-buttons.x2 .tab-button.x2.active span {
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+
+.tab-buttons.x2 .tab-button.x2:hover span {
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+
+.desktop-submenu-tabs.x2 {
+    background: rgba(93, 56, 222, 1);
+    padding: 32px;
+}
+
+/* .tab-button.x2.active::before,
+.tab-button.x2:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: none !important;
+    left: 0;
+    bottom: -6px;
+} */
+
+/* Apply ::before only to non-x2 buttons */
+.tab-button:not(.x2).active::before,
+.tab-button:not(.x2):hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgba(1, 107, 227, 1);
+    left: 0;
+    bottom: -6px;
+}
+
+/* Optional: If you still need to explicitly prevent it (for safety) */
+.tab-button.x2::before {
+    background: none !important;
+}
+
+.heading-for-rewv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-tab-rewv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.quotes-revw {
+    position: absolute;
+    top: -30px;
+}
+
+.star-clrr {
+    color: #fff !important;
+}
+
+.sub-cls-rev {
+    color:rgb(99 99 99 / 90%);
+}
+
+/* .tab-buttons-wrapper {
+    max-height: 320px; 
+    overflow: hidden;
+    position: relative;
+} */
+
+.tab-button.x2 {
+    transition: transform 0.3s ease;
+}
+
+.tab-nav-buttons.x2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    /* background: #6C3DFF; Purple background like your image */
+    padding: 10px;
+    border-radius: 12px;
+    gap: 5px;
+}
+
+.tab-nav-buttons.x2 button {
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.tab-nav-buttons.x2 button:hover {
+    transform: scale(1.1);
+}
+
+/* .tab-nav-buttons.x2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.tab-nav-buttons.x2 button {
+    background: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+} */
+
+.hidden-tab {
+    display: none;
+}
+
+.visible-tab {
+    display: flex;
+}
+
+.tab-buttons-wrapper.x2 {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2 {
+    display: none;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: block;
+}
+
+.for-mobile-review {
+    display: none;
+}
+
+.switch-for-mobiel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Add these styles to your existing CSS */
+.tab-nav-buttons.x2 button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+.tab-button.aa3.active, .tab-button.aa3:hover {
+    background: rgba(237, 241, 255, 1);
+    border-radius: 50px !important;
+    position: relative;
+    min-width: auto !important;
+}
+.button-common.ar3{
+    text-align: end;
+}
+.orange-clr-txt{
+    color: #FF8733;
+}
+.border-fr-img{
+    border-radius: 31px;
+}
+.bold-cls-heading{
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 22px;
+}
+.position-portfolio-sec{
+    position: relative;
+    top: 90px;
+}
+.portfoli-p{
+    color: #707070;
+}
+.port-hp-cls{
+    color: #525252;
+}
+
+/* Swipe area for mobile */
+/* .tab-content-tabs.x2 {
+    overflow: hidden;
+    position: relative;
+} */
+
+@media (max-width: 991.98px) {
+    .tab-content-tabs.x2 {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-content.x2 {
+        transition: transform 0.3s ease;
+    }
+}
+
+
+@media (max-width:1199.98px) {
+    .cont-full-width {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:991.98px) {
+    .for-mobile-review {
+        display: block;
+    }
+
+    .cont-full-widthh.x2 {
+        width: 100% !important;
+    }
+
+    .tab-nav-buttons.x2.x1 {
+        display: none;
+    }
+
+    .heading-for-rewv {
+        align-items: flex-start !important;
+    }
+
+    /* .tab-nav-buttons.x2.x3 {
+        display: flex;
+        margin-top: 20px;
+    } */
+
+    .not-for-mobile {
+        display: none;
+    }
+
+    .text-ali {
+        text-align: left !important;
+    }
+
+    .switch-for-mobiel {
+        flex-direction: column;
+    }
+
+    .tab-content-tabs.x2 {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-content.x2 {
+        transition: transform 0.3s ease;
+    }
+      .dis-non-md{
+        display: none;
+     }
+     .inner-tab-content1 {
+        min-height: 350px;
+     }
+}
+
+@media (max-width:578.98px) {
+    .desktop-submenu-tabs.x2 {
+        padding: 15px 5px;
+    }
+
+    .inner-tab-content1 {
+        padding: 15px;
+    }
+
+    .heading-for-rewv {
+        flex-wrap: wrap;
+    }
+
+    .switch-for-mobiel {
+        margin-top: 20px;
+    }
+    .heading-for-rewv h2 {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+    .inner-tab-content1{
+        min-height: 416px;
+    }
+
+
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2 {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tab-button.x2 {
+    transition: all 0.5s ease;
+}
+
+.width-chn {
+    width: 230px;
+}
+
+   .image-container {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+    }
+      .image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .image-container:hover img {
+      transform: scale(1.05);
+    }
+
+    
+    .view-circle {
+      position: fixed;
+      display: none;
+      background: #fff;
+      color: #000;
+      font-weight: bold;
+      font-size: 14px;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      justify-content: center;
+      align-items: center;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      /* mix-blend-mode: difference;  */
+      z-index: 9999;
+    }
+    
+    #dreamster-section, #MarginFX-section{
+        scroll-margin-top: 80px;
+    }

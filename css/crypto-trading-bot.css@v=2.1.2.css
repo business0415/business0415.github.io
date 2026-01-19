@@ -1,0 +1,211 @@
+.p-tt {
+    -webkit-text-fill-color: #fff !important;
+    font-size: 17px !important;
+    line-height: 27px !important;
+    text-align: justify !important;
+    text-decoration: none !important;
+    max-width: 80%;
+    text-align: center !important;
+    color: #fff;
+}
+
+.ptpb-5 {
+    padding-top: 120px;
+}
+
+.ptd {
+    padding-bottom: 40px;
+}
+
+.p-50 {
+    padding-top: 200px !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.active-20 {
+    padding-bottom: 50px !important;
+}
+
+.Versatile-Payment-Solutions {
+    padding-top: 10px !important;
+}
+
+.line-swt {
+    margin-top: 10px !important;
+}
+
+.feature-1 {
+    padding-bottom: 30px !important;
+    color: #000 !important;
+    background: rgba(255, 255, 255, 1) !important;
+    padding-top: 50px !important;
+
+
+}
+
+.Cryptocurrency-Exchange-Development-Solutions-Top-Features-We-Provide-section {
+    padding: 10px 10px !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    border-radius: 20px !important;
+    background-image: none !important;
+}
+
+.bot-change {
+    box-shadow: 0px 4px 44px 0px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 20px !important;
+
+
+}
+
+.new-various-payment-bot {
+    padding-top: 0px !important;
+}
+
+.new-various-payment {
+    max-width: 1200px !important;
+    flex-wrap: wrap !important;
+    margin: 0 auto !important;
+    justify-content: center !important;
+    gap: 30px 15px !important;
+}
+
+.new-btn-1 {
+    gap: 20px;
+    padding-bottom: 25px !important;
+}
+
+.btn-1 {
+    width: Fixed (140px)px;
+    height: Fixed (57px)px;
+    padding: 10px 0px 20px 0px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.Revenue-Models-For-Cryptocurrency-Exchange-Software-Development-heading {
+    margin-bottom: 0px;
+}
+
+.btn-cl-2 {
+    border: 1px solid red;
+    width: Fixed (140px)px;
+    height: Fixed (57px)px;
+    left: 170px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.new-link {
+    border: 1px solid rgba(11, 12, 20, 0.3) !important;
+    transition: all 0.3s ease;
+    color: #000;
+    box-shadow: #000 !important;
+    width: Fixed (140px)px;
+    height: Fixed (57px)px;
+    left: 170px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 10px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+.new-link.active {
+    border-color: #007bff !important;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.new-link:not(.active):hover {
+    border-color: #007bff;
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+.contrast-1 {
+    background-color: rgba(150, 167, 253, 0.1) !important;
+    box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4) !important;
+    padding-top: 30px !important;
+}
+
+.contrast-2 {
+    background: rgba(255, 255, 255, 1) !important;
+}
+.smart-1 {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+}
+
+ul.custom-bullets {
+    padding-left: 0 !important;
+    text-align: left !important;
+    justify-content: center !important;
+    width: auto !important;
+}
+.card {
+    display: block;
+}
+
+.heading-3 {
+    display: block;
+    font-size: 1.25rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+@media (max-width: 991.98px) {
+    .scrollable-div {
+        overflow: hidden;
+        display: contents;
+        width: auto;
+        padding-right: 0px !important;
+        
+    }
+    .scol-t {
+
+        padding-bottom: 0px !important;
+    }
+   
+}
+
+@media (min-width: 768px) {
+    .custom-bullets {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) {
+    .custom-bullets {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+.Our-Premier-Cryptocurrency-Exchange-Development-Services-section {
+    background-color: #ffff !important;
+}
+
+.new-form-of-edit {
+    pointer-events: none !important;
+    background-color: rgba(150, 167, 253, 0.1) !important
+}
+
+.img-cls-1 {
+    width: 100% !important;
+    height: 100% !important;
+}

@@ -1,0 +1,1167 @@
+/* below hero section */
+
+.below-hero-section,
+.services-we-provided-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.below-hero-section {
+    margin-top: -100px;
+    padding-bottom: 40px;
+}
+
+.below-hero-section-left {
+    margin-top: 120px;
+}
+
+.below-hero-section-right {
+    margin-top: 165px;
+}
+
+.gradient-diff-colr-head-span {
+    font-size: 35px !important;
+    line-height: 40px;
+    max-width: 1060px;
+    text-align: left;
+    margin: 0 auto 50px !important;
+    color: #81838E;
+}
+
+.gradient-diff-colr-head-span span {
+    text-align: left !important;
+    display: inline !important;
+    position: relative;
+    left: 10px;
+    border-right: 2px solid #ccc;
+    padding-right: 4px;
+}
+
+.our-solutions-common-align h3, .our-solutions-common-align .our-solutions-butn-style, .our-solutions-common-align h2 {
+    margin: 0px;
+}
+
+.our-solutions-common-align p {
+    margin: 25px 0 35px !important;
+    color: #3B3D48 !important;
+}
+
+.our-solutions-common-align.Neo-Banking-Solutions-grid {
+    background: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/Neo-Banking-Solutions-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.our-solutions-common-align.Neo-Banking-Solutions-grid h3, .our-solutions-common-align.Neo-Banking-Solutions-grid p {
+    color: #EDF1F3 !important;
+}
+
+
+/** serve we provided ***/
+
+.services-we-provided {
+    margin-top: 0;
+}
+
+.services-we-provided-inner {
+    align-items: center;
+}
+
+.services-we-provided h2 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.services-we-provided-left span.mp-icon {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.services-we-provided-left button.accordion-header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    background: transparent;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+}
+
+.services-we-provided-left .accordion-item {
+    border-bottom: 1px solid #E4E4E4 !important;
+    padding: 36px 25px 25px 36px;
+}
+
+.services-we-provided-left .accordion-item ul,
+.services-we-provided-left .accordion-item p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.services-we-provided-left button.accordion-header.active span.mp-icon img.service-provide-icon-black {
+    display: none;
+}
+
+.services-we-provided-left button.accordion-header.active span.mp-icon img.service-provide-icon-color {
+    display: block !important;
+}
+
+.services-we-provided-left button.accordion-header span.mp-icon img.service-provide-icon-color {
+    display: none;
+}
+
+.services-we-provided-left .accordion-item .accordion-content {
+    padding-left: 50px;
+    margin-top: 17px;
+}
+
+.services-we-provided-left .accordion-item .accordion-content ul {
+    padding-left: 20px;
+}
+
+.services-we-provided-left button.accordion-header.active {
+    font-weight: 600;
+}
+
+
+.services-we-provided-left {
+    padding: 0 0 0 80px;
+    flex: 0 0 48%;
+}
+
+.services-we-provided-right {
+    background: var(--gradientcolor);
+    padding: 70px 0 55px 80px;
+    border-radius: 20px 0 0 20px;
+    /* flex: 0 0 50%; */
+}
+
+.services-we-provide-btn {
+    margin-top: 40px;
+}
+
+.accordion-item.active-parent {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 120px 100px 0px rgba(0, 0, 0, 0.07), 0px 80px 60px 0px rgba(0, 0, 0, 0.06), 0px 40px 32px 0px rgba(0, 0, 0, 0.05), 0px 10px 16px 0px rgba(0, 0, 0, 0.08), 0px 10px 8px 0px rgba(0, 0, 0, 0.03), 0px 2px 4px 0px rgba(0, 0, 0, 0.02);
+}
+
+.services-we-provide-btn img {
+    width: auto !important;
+}
+
+/* service we provide new design */
+
+ul.service-we-provide-new-section-list {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    animation: 20s slides infinite linear;
+}
+
+.service-we-provide-new-section h2 {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.service-we-provide-new-section-heading {
+    margin-top: 0px;
+}
+
+.service-we-provide-new-section {
+    padding: 50px 0;
+    background: #0B0C14;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+@keyframes slides {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+
+}
+
+/* what we do section */
+
+.what-we-do-col label {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.what-we-do-col {
+    display: flex;
+    align-items: flex-start;
+    padding: 30px 30px;
+    transition: all 0.3s ease-in-out;
+    gap: 25px;
+}
+
+
+.what-we-do-col p {
+    color: #3B3D48;
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+.what-we-do-section .contain-width {
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 32px;
+    background: var(--color-white-100, #FFF);
+    box-shadow: 0px 4px 106.8px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+
+.what-we-do-section-caption p {
+    color: #3B3D48;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+    margin-bottom: 40px;
+}
+
+.what-we-do-section-caption-heading {
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #0B0C14 !important;
+}
+
+.what-we-do-section .row {
+    align-items: center;
+}
+
+.what-we-do-section {
+    padding: 100px 0 0;
+}
+
+.container.what-we-do-section-3-steps .what-we-do-col {
+    padding: 0px;
+    padding-bottom: 48px;
+}
+
+.container.what-we-do-section-3-steps .what-we-do-col:last-child {
+    padding-bottom: 0px !important;
+}
+
+.container.what-we-do-section-3-steps .what-we-do-section-3-steps-inner-rows {
+    padding: 48px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.container.what-we-do-section-3-steps {
+    margin-top: -100px;
+    position: relative;
+    margin-left: -15px;
+}
+
+.what-we-do-section-caption {
+    position:relative;
+    top:-40px
+}
+
+/* 
+
+.what-we-do-col:hover label {
+    background: transparent !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+}
+
+.what-we-do-col:hover p,
+.what-we-do-col:hover label {
+    color: #fff !important;
+}
+
+.what-we-do-col:hover {
+    background: var(--gradientcolor);
+    transition: all 0.3s ease-in-out;
+} 
+
+img.img-fluid.hover-white {
+    display: none;
+}
+
+.what-we-do-col:hover img.img-fluid.hover-color {
+    display: none;
+}
+
+.what-we-do-col:hover img.img-fluid.hover-white {
+    display: block;
+} 
+    
+*/
+
+/* Our-Digital-Transformation-Services-We-Provide-section */
+
+/* .Our-Digital-Transformation-Services-We-Provide-caption.reveal,
+.Our-Digital-Transformation-Services-We-Provide-content.reveal {
+    position: relative;
+    transform: translateY(30px);
+    transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+} */
+
+.container.Our-Digital-Transformation-Services-We-Provide-section-top p {
+    color: #C9D3EE;
+}
+
+/* .Our-Digital-Transformation-Services-We-Provide-caption.reveal.active,
+.Our-Digital-Transformation-Services-We-Provide-content.reveal.active {
+    transform: translateY(0px) !important;
+} */
+
+.Our-Digital-Transformation-Services-We-Provide-section .contain-width.Our-Unmatched-Trading-Platform-Development-Solutions-content {
+    max-width: 100%;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-heading {
+    background: linear-gradient(90deg, #FC468D 0%, #3F5EFB 52.46%, #EDF1F3 88.69%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.container.Our-Digital-Transformation-Services-We-Provide-section-top p {
+    max-width: 600px;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right img {
+    width: 48px;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* background: rgba(201, 211, 238, 0.06); */
+    margin-bottom: 24px;
+    position: relative;
+}
+
+img.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-img.on-hover {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right .not-hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.slick-slide:hover .not-hover {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.slick-slide:hover .on-hover {
+    opacity: 1 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-slide {
+    border-radius: 20px;
+    /* border: 1px solid #3F5EFB; */
+    padding: 25px;
+    border: 1px solid rgba(237, 241, 243, 0.05);
+    background: rgba(201, 211, 238, 0.02);
+    height: 437px;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-slide h3.Our-Digital-Transformation-Services-We-Provide-caption-sub-heading, .Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-slide p {
+    color: #fff;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-slide p {
+    color: #fff;
+    min-height: 190px;
+    margin-top: 20px;
+    margin-bottom: 0px !important;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-slide:hover {
+    border-color: #3F5EFB !important;
+}
+
+
+
+.Our-Digital-Transformation-Services-We-Provide-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    background: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/Our-Digital-Transformation-Services-We-Provide-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    overflow: hidden;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption {
+    max-width: 1080px;
+    margin: 0 auto 60px;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider {
+    margin-top: 48px;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption p {
+    color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.Our-Unmatched-Trading-Platform-Development-Solutions-content .tab-buttons {
+    overflow: visible !important;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-sub-heading {
+    margin: 0;
+    text-align: left;
+}
+
+.tab-content-tabs.Our-Digital-Transformation-Services-We-Provide-section-tab-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-right {
+    flex: 0 0 172px;
+}
+
+.tab-content-tabs.Our-Digital-Transformation-Services-We-Provide-section-tab-content .tab-content {
+    align-items: center;
+}
+
+.tab-content-tabs.Our-Digital-Transformation-Services-We-Provide-section-tab-content .User-Panel-Pumapulse-Custom-Made-Trading-App-Interface-left p {
+    color: rgba(0, 0, 0, 0.70);
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.arrow-over-flow-container {
+    display: none;
+}
+
+/* our solutions */
+/* 
+.our-solutions-inner img {
+    width: 100% !important;
+} */
+
+.our-solutions-inner-container {
+    max-width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        'toptwo toptwo topone'
+        'midthree midthree midthree'
+        'bottomone bottomtwo bottomtwo';
+    grid-template-rows: 310px 500px 310px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.toptwo {
+    grid-area: toptwo;
+}
+
+.topone {
+    grid-area: topone;
+}
+
+.midthree {
+    grid-area: midthree;
+}
+
+.bottomone {
+    grid-area: bottomone;
+}
+
+.bottomtwo {
+    grid-area: bottomtwo;
+}
+
+
+.our-solutions .our-solutions-inner a {
+    text-decoration: none;
+}
+
+
+.our-solutions h2 {
+    margin-top: 0px;
+}
+
+.our-solutions-common-align.Neo-Banking-Solutions-grid h2{color:#fff !important}
+
+.our-solutions-common-align .row {
+    align-items: center;
+}
+
+.our-solutions-common-align{
+    padding: 100px 0;
+}
+
+.our-solutions-common-align.Neo-Banking-Solutions-grid {
+    padding: 50px 0 !important;
+}
+
+/* .our-solutions-inner {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(118deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    display: grid;
+    align-content: space-between;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+    transform: translate(-100%) scale(1);
+}
+
+.our-solutions-inner:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.02);
+    box-shadow: -4px 7px 20.4px 0px rgb(78 19 124 / 71%);
+    border-color: #fff;
+} */
+
+/* .our-solutions-inner.reveal.active {
+    transition: all 0.6s ease-in-out !important;
+    transform: translate(0) !important;
+} */
+
+.inner-padding-20px p {
+    margin: 0px;
+}
+
+.inner-padding-20px {
+    padding: 35px;
+}
+
+.inner-padding-20px label {
+    /* color: #fff; */
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.our-solutions-inner.midthree .inner-padding-20px {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.our-solutions-butn-style a{
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.our-solutions-butn-style a span {
+    padding: 0;
+    background: var(--gradientcolor);
+    /* color: #fff; */
+    transition: all 0.3s ease-in-out;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px !important;
+    gap: 15px;
+    top: 0px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.our-solutions-butn-style a img {
+    height: 14px;
+    width: auto !important;
+}
+
+/* .our-solutions-butn-style a:hover {
+    transition: all 0.3s ease-in-out;
+    background: var(--11, linear-gradient(105deg, #3F5EFB 0%, #FC468D 100%));
+} */
+
+.our-solutions-butn-style {
+    margin-top: 15px;
+}
+
+.our-solutions-butn-style a span {
+    display: inline-block;
+    position: relative;
+    /* top: -2px; */
+}
+
+.our-solutions-butn-style a {
+    padding: 10px 12px;
+    background: rgba(237, 241, 243, 0.06);
+    border-radius: 6px;
+}
+
+/** slider ***/
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 30px;
+    color: #333;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #333;
+}
+
+.slick-slider .slick-slide {
+    margin: 0 10px;
+    /* Space between slides */
+}
+
+.slick-slider {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* Optional padding to prevent overflow */
+}
+
+.slick-list {
+    margin: 0 -10px;
+    /* Negative margin to compensate for slide margin */
+}
+
+.Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-dotted.slick-slider {
+    max-width: 100%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+ul.slick-dots li button::before {
+    opacity: 1 !important;
+}
+
+.slick-dots li button {
+    padding: 0px;
+    width: 10px !important;
+    height: 10px !important;
+    background: #000 !important;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button {
+    background: var(--gradientcolor) !important;
+    width: 80px !important;
+    border-radius: 32px;
+}
+
+ul.slick-dots {
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    display: none !important;
+}
+
+ul.slick-dots li {
+    width: auto !important;
+    margin: 0px;
+}
+
+.slick-dots li button::before {
+    display: none !important;
+}
+
+.industries-we-serve-top label {
+    display: inline-block;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    /* max-width: 170px; */
+}
+
+.industries-we-serve-top p {
+    margin: 0px;
+    padding-bottom: 0;
+    color: #fff;
+    min-height: 60px;
+}
+
+.industries-we-serve-top {
+    padding: 35px 20px;
+}
+
+
+.industries-we-serve-inner {
+    border-radius: 18.358px;
+    background: #000;
+    /* box-shadow: 0px 8px 29.6px 0px rgba(2, 103, 255, 0.25); */
+    overflow: hidden;
+}
+
+.industries-we-serve {
+    padding: 77px 0;
+}
+
+.contain-width.industries-we-serve-contain-width-homepage {
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 60px;
+    background: var(--bgfull);
+    box-shadow: -7px 22px 43.4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contain-width.industries-we-serve-contain-width-homepage h2 {
+    margin-top: 0px;
+}
+
+
+
+
+/** animation**/
+
+/* .Tech-Stack.reveal.active {
+    transform: translate(0);
+} */
+
+/* .Tech-Stack.reveal {
+    transform: translateX(-30%);
+    transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+.what-we-do-section-caption.reveal,
+.what-we-do-col.reveal {
+    transform: translateY(30px);
+    transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1), transform 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.what-we-do-section-caption.reveal.active,
+.what-we-do-col.reveal.active {
+    transform: translateY(0%) !important;
+} */
+
+
+body.hompage-main ul#social_select li {
+    padding: 11px 14px;
+    padding-bottom: 20px;
+    padding-top: 18px;
+}
+
+/* common style */
+
+/* .services-we-provided-left button.accordion-header.active,
+.what-we-do-col label,
+.Our-Digital-Transformation-Services-We-Provide-caption-heading,
+.industries-we-serve-top label {
+    background: var(--gradientcolor);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+
+.slick-prev {
+    left: auto !important;
+    right: 185px !important;
+    color:#fff !important;
+}
+
+.slick-next {
+    right: 120px !important;
+    color:#fff !important;
+}
+
+.slick-prev, .slick-next {
+    top: -85px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: rgba(201, 211, 238, 0.06) !important;
+    border-radius: 50% !important;
+}
+
+.Our-Digital-Transformation-Services-We-Provide-section .slick-prev::before, .Our-Digital-Transformation-Services-We-Provide-section .slick-next::before{color:#fff !important;opacity: 1 !important;font-size: 20px !important;}
+
+.our-solutions-common-align.Digital-Payment-Solutions-grid .our-solutions-butn-style a, .our-solutions-common-align.Cryptocurrency-Exchange-Development-grid .our-solutions-butn-style a {
+    padding: 0px;
+}
+
+
+@media (max-width:767.98px) {
+
+
+    .inner-tab-content-blog .inner-tab-content-blog-post {
+        flex: 0 0 100%;
+    }
+
+    .our-solutions-inner-container {
+
+        grid-template-areas:
+            'toptwo toptwo toptwo'
+            'topone topone topone'
+            'midthree midthree midthree'
+            'bottomone bottomone bottomone'
+            'bottomtwo bottomtwo bottomtwo';
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+    }
+
+    .services-we-provided-left {
+        flex: 0 0 80%;
+    }
+
+    .services-we-provided .services-we-provided-inner .services-we-provided-right {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}
+
+
+@media (max-width:991.98px) {
+
+    .Our-Digital-Transformation-Services-We-Provide-section .tab-buttons-inner {
+        /* flex-wrap: wrap; */
+        justify-content: flex-start;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .container.what-we-do-section-3-steps .what-we-do-section-3-steps-inner-rows{padding: 20px !important;}
+
+    .arrow-over-flow-container img {
+        width: 30px;
+    }
+
+    .arrow-over-flow-container {
+        text-align: right;
+        padding: 0 20px;
+        margin-bottom: 20px;
+        display: block !important;
+    }
+
+    .gradient-diff-colr-head-span {
+        min-height: 95px;
+        margin-bottom: 0px !important;
+        font-size: 22px !important;
+        line-height: 45px;
+    }
+
+    .gradient-diff-colr-head-span span{left: 0px !important;}
+
+    .tab-content-tabs.Our-Digital-Transformation-Services-We-Provide-section-tab-content .tab-content {
+        flex-direction: column;
+        padding: 15px;
+        align-items: flex-start;
+    }
+
+    .below-hero-section img,
+    .services-we-provided-right img,
+    .what-we-do-col {
+        width: 100%;
+    }
+
+    .container.what-we-do-section-3-steps .what-we-do-col {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container.what-we-do-section-3-steps {
+        margin-left: 0px;
+    }
+
+    .what-we-do-section .contain-width {
+        flex-wrap: wrap;
+        box-shadow: none;
+    }
+
+    .below-hero-section {
+        margin-top: 0px;
+        padding: 50px 0;
+    }
+
+    .below-hero-section-right,
+    .below-hero-section-left {
+        display: none;
+    }
+
+
+    .below-hero-section,
+    .services-we-provided-inner,
+    .newsletter {
+        flex-wrap: wrap;
+    }
+
+    .industries-we-serve {
+        padding: 50px 15px;
+    }
+
+    .our-solutions h2 {
+        margin-bottom: 35px;
+    }
+
+    .inner-padding-20px {
+        padding: 15px;
+    }
+
+    .below-hero-section-right,
+    .below-hero-section-left {
+        display: none;
+    }
+
+    .services-we-provided {
+        margin-top: 0;
+    }
+
+    .services-we-provided h2 {
+        margin-top: 0px;
+    }
+
+    .services-we-provided-left .accordion-item {
+        padding: 16px 10px;
+    }
+
+    .services-we-provided-left button.accordion-header {
+        text-align: left;
+        gap: 8px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .services-we-provided-left {
+        padding: 0 20px;
+    }
+
+    .services-we-provided-right {
+        margin-top: 40px !important;
+    }
+
+    .services-we-provided-right {
+        padding: 30px 0 30px 30px;
+    }
+
+    .below-hero-section {
+        justify-content: center;
+    }
+
+    .below-hero-section-middle {
+        padding: 0 30px;
+    }
+
+    .slick-dotted.slick-slider {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .contain-width.industries-we-serve-contain-width-homepage {
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+
+    .Tech-Stack {
+        width: 85px !important;
+    }
+
+    .tech-stack .accordion-item.active-parent {
+        box-shadow: none !important;
+    }
+
+    .our-solutions-common-align.Digital-Payment-Solutions-grid .topone img, .our-solutions-common-align.Cryptocurrency-Exchange-Development-grid .topone img {
+        margin-top: 40px;
+    }
+
+    .Our-Digital-Transformation-Services-We-Provide-section {
+        margin-top: 50px;
+    }
+    
+    .our-solutions-common-align, .Our-Digital-Transformation-Services-We-Provide-section, .Explore-Our-Top-Blog-Categories-section {
+        padding: 50px 0;
+    }
+
+    .Explore-Our-Top-Blog-Categories-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .container.Our-Digital-Transformation-Services-We-Provide-section-top p{font-size: 16px;;}
+
+}
+
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    .services-we-provided-inner {
+        flex-wrap: nowrap;
+    }
+
+    .inner-tab-content-blog .inner-tab-content-blog-post {
+        flex: 0 0 45%;
+    }
+
+}
+
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+
+    .inner-tab-content-blog .inner-tab-content-blog-post {
+        flex: 0 0 31%;
+    }
+
+    .services-we-provided-left {
+        padding: 0 40px;
+    }
+
+    .below-hero-section-left img,
+    .below-hero-section-right img,
+    .below-hero-section-middle img {
+        width: 100%;
+    }
+
+    .below-hero-section-left,
+    .below-hero-section-middle,
+    .below-hero-section-right {
+        padding: 30px;
+    }
+
+    .services-we-provided {
+        margin-top: 0;
+    }
+
+    .services-we-provided-left button.accordion-header {
+        text-align: left;
+    }
+
+    .industries-we-serve-top label {
+        min-height: 60px;
+    }
+
+    .industries-we-serve-top p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:1199.98px) {
+    .tech-stack .contain-width.normal-view {
+        padding: 0 15px;
+    }
+
+    .services-we-provided-left .accordion-content {
+        padding-left: 15px !important;
+    }
+
+    .services-we-provided-left .accordion-content p {
+        font-size: 17px !important;
+    }
+
+    .services-we-provided-left button.accordion-header {
+        font-size: 20px !important;
+    }
+
+    .Our-Digital-Transformation-Services-We-Provide-caption,
+    .Our-Digital-Transformation-Services-We-Provide-section .contain-width.Pumapulse-Custom-Made-Trading-App-Interface-content.Our-Unmatched-Trading-Platform-Development-Solutions-content,
+    .what-we-do-section-caption {
+        padding: 0 15px;
+    }
+
+    .what-we-do-section .contain-width {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .gradient-diff-colr-head-span span{border-right: none !important;}
+
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-prev, .Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-next {
+        top: -50px !important;
+    }
+    
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider {
+        margin-top: 80px;
+    }
+    
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-prev {
+        right: 85px !important;
+    }
+    
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider .slick-next {
+        right: 15px !important;
+    }
+
+    .Our-Digital-Transformation-Services-We-Provide-caption-slider button.slick-prev.slick-arrow, .Our-Digital-Transformation-Services-We-Provide-caption-slider button.slick-next.slick-arrow{display: block !important;}
+
+}
+
+@media only screen and (min-width: 1500px) {
+    .gradient-diff-colr-head-span {
+        font-size: 28px !important;
+        display: inline-flex;
+        font-weight: bold !important;
+    }
+}
+
+
+@media (max-width:991.98px){
+    .tab-content-all-blog-content .read-more-button a {
+        justify-content: center;
+    }
+    .inner-tab-content-blog-post-caption span.featured-post-title{text-align: center !important;}
+    
+    .gradient-diff-colr-head-span span {
+        left: 0px !important;
+        display: block !important;
+        text-align: center !important;
+    }
+    .container.what-we-do-section-3-steps {
+        margin-top: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .our-solutions-common-align.Neo-Banking-Solutions-grid{background: #000 !important;}
+
+    
+}
+
+.hompage-main .our-solutions-butn-style a{
+    background: rgba(237, 241, 243, 1) !important;
+}
+
+.tab-content-all-blog-content.landing-blog-cnt {
+    height: auto;
+}
+.tab-content-all-blog-content.landing-blog-cnt .inner-tab-content-blog-post-author-publish p {
+    min-height: 90px;
+    margin-bottom: 0;
+}
+.tab-content-all-blog-content.landing-blog-cnt span.featured-post-title {
+    /* min-height: 86px; */
+}

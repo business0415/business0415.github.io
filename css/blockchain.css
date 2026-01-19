@@ -1,0 +1,1138 @@
+/* common css */
+/* floating section */
+
+.logo-scroll-section{
+    padding-top: 50px ;
+}
+
+.logo-scroll-section {
+  min-height: 120px; /* match logo height */
+  display: flex;
+  align-items: center;
+}
+.logo-scroll-section img {
+  width: 200px;
+  height: 100px;
+}
+
+
+.logo-scroll-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    border-left: 2.5px solid rgba(150, 150, 150, 1);
+    border-right: 2.5px solid rgba(150, 150, 150, 1);
+        height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-scroll {
+    display: flex;
+    animation: scroll-left 20s linear infinite;
+}
+
+.logo-scroll-wrapper:hover .logo-scroll {
+    animation-play-state: paused;
+}
+
+.logo-item {
+    flex: 0 0 auto;
+    margin: 0 2rem;
+}
+
+.logo-item img {
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+/* end */
+/* num section *//* num section */
+.line-verient {
+    display: none;
+}
+
+.counter .row-inner {
+    justify-content: center;
+}
+
+.counter-inner span {
+    font-size: 35px;
+    font-weight: 700;
+    padding-left: 20px;
+    border-left: 4px solid rgba(77, 122, 231, 1);
+}
+
+.stats-first {
+    min-height: 200px;
+}
+
+.stats-first {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    section.counter .row-inner .col-2 {
+        width: auto;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .counter-inner {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .counter-inner {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .line-verient {
+        display: block !important;
+        /* border-bottom: 1px solid rgba(152, 122, 255, 1); */
+        background: radial-gradient(50% 50% at 50% 50%, #987aff .4158844743798379%, rgb(153, 122, 255) 70.88907657657657%, rgba(155, 125, 255, 0) 100%);
+        height: 1px;
+        width: 100%;
+    }
+
+    .counter-inner span {
+        border-left: 0px;
+        padding-top: 30px;
+        text-align: center;
+        border-left: none !important;
+        padding-left: 0px !important;
+        margin-right: 0% !important;
+        font-size: 25px !important;
+        display: inline-block;
+    }
+}
+
+
+.icon-smart-core-value-trusted {
+    box-shadow: 0px 3.59px 3.59px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    height: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+/* end */
+
+/* silk - slider design top */
+
+
+.section_silk_modal {
+    padding: 80px 20px;
+    background: url(https://www.hashcodex.com/img/crypto-exchange/why-invest-CED.png) center/cover no-repeat;
+}
+
+.slik-model {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.slik-model h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.slide-head-mrg-p {
+    color: #bbb;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    text-align: left !important;
+}
+
+.card-des p {
+    color: #bbb;
+    font-size: 1rem;
+    margin: 0 auto 40px;
+    text-align: left !important;
+}
+
+.slider_head_cls {
+    background: transparent;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+    font-size: 20px;
+    margin-bottom: 15px !important;
+    margin-top: 30px;
+    min-height: 40px;
+    display: block;
+}
+
+.slider-head {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.card_slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card-des {
+    flex: 0 0 calc(33.333% - 20px);
+    margin: 0 10px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #edf1f338;
+    background: url(https://www.hashcodex.com/img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp) center/cover no-repeat;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 350px;
+}
+
+.card-des:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+
+
+.card-des h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-des p {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+/* Buttons */
+.nav-btn {
+
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 12px 18px;
+    border-radius: 50%;
+    transition: background 0.3s;
+    z-index: 10;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.left-btn {
+    left: -20px;
+}
+
+.right-btn {
+    right: -20px;
+}
+
+.footer-note-slider {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #bbb;
+    text-align: center !important;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text-white-head {
+    color: #fff !important;
+    text-align: left !important;
+}
+
+.slide-head-mrg {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.slider-btn {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-cmn-height {}
+
+.below-hero-section.Cryptocurrency-Exchange-Development-below-hero-section.height-content-btn img {
+    height: 24px !important;
+    width: 24px !important;
+}
+
+.slider_head_cls {
+    background: transparent;
+    color: #fff;
+    -webkit-text-fill-color: unset;
+    font-size: 20px;
+    margin-bottom: 15px !important;
+    margin-top: 30px;
+    min-height: 40px;
+    display: block !important;
+}
+/* Responsive */
+@media (max-width: 1199.98px) {
+    .card-des {
+        flex: 0 0 calc(50% - 20px);
+    }
+
+    .slik-model {
+        margin: 0 40px;
+    }
+
+    .slider-head {
+        flex-wrap: wrap;
+
+    }
+
+    .width-full-alway {
+        width: 100% !important;
+    }
+    .tab-switch-section {
+        margin: 0px !important;
+    }
+    .process-card{
+        height: 410px !important;
+    }
+    .blockchain-cta{
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta2) !important;
+     padding: 20px !important;
+    }
+    .medi-center.a3{
+        text-align: center !important;
+    }
+    .button-common.a3{
+        text-align: center !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .card-des {
+        flex: 0 0 96%;
+    }
+
+    .left-btn {
+        left: 5px;
+    }
+
+    .right-btn {
+        right: 5px;
+    }
+
+    .slider-btn {
+        justify-content: center;
+    }
+
+    .slik-model {
+        margin: 0 0px;
+    }
+
+    .card-des {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .slik-model p {
+        text-align: center !important;
+    }
+
+    .text-white-head {
+        text-align: center !important;
+    }
+       .process-card {
+        height: 330px !important;
+    }
+    .smart-core-values{
+        display: none !important;
+    }
+}
+
+/* end */
+
+/* slik - slider 2 design  */
+
+
+.process-section {
+    /* background: #3252ff;  */
+    padding: 40px 0;
+    background: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/slider-bg') center/cover no-repeat !important;
+}
+
+.process-text h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.process-text p {
+    color: #f1f1f1;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.process-card {
+    /* background: #0e0e12; */
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    height: 100%;
+    display: none;
+    background: none !important;
+        height: 330px;
+                margin-bottom: 30px;
+
+
+
+    /* background: url(../img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; */
+
+}
+
+.process-card.lazy-bg {
+    background: url('https://www.hashcodex.com/img/crypto-exchange/How-Pumapulse-delivers-CED-right-bg.webp') center/cover no-repeat !important;
+}
+
+.process-card.active {
+    display: block;
+}
+
+/* .process-card .icon {
+      font-size: 2rem;
+      color: #ff4081; 
+      margin-bottom: 20px;
+      display: inline-block;
+    } */
+.process-card h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.nav-btns {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-btns button {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    transition: background 0.3s;
+}
+
+.nav-btns button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* .process-cards-position{
+      position: relative;
+      top:170px;
+    } */
+/* .process-cards-position {
+    position: relative;
+    height: 330px;
+    overflow: hidden;
+} */
+
+@media (max-width:991.98px) {
+
+
+    /* .process-card-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+
+  
+
+    .tab-buttons {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .width-full-alway {
+        width: 100% !important;
+    }
+
+    .inner-tab-swtich {
+        background-color: #F0F0F0;
+        /* padding: 10px; */
+        border-radius: 50px;
+        /* box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4); */
+        min-width: 146px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .cta-width-bck {
+        background-image: none !important;
+        background: #000 !important;
+    }
+   
+}
+
+@media (max-width:578.98px) {
+
+    .nav-btns button {
+        width: 50px;
+        height: 50px;
+    }
+
+       .process-card {
+        height: 540px !important;
+        margin-bottom: 60px !important;
+    }
+
+    .nav-btns button {
+        width: 50px;
+        height: 50px;
+    }
+    .padding-cutt{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+}
+
+
+
+/* end */
+
+/* home-page tab des */
+.smart-core-values.What-We-Do .tab-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-buttons {
+    gap: 20px;
+}
+
+.tab-button {
+    cursor: pointer;
+}
+
+.tab-button.a3.active,
+.tab-button.a3:hover {
+    background: rgba(237, 241, 255, 1);
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    border-bottom: none !important;
+}
+
+.tab-button.a3 {
+    /* min-width: 160px; */
+    padding: 10px;
+
+}
+
+.tab-button.a3.active::before,
+.tab-button.a3:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgba(1, 107, 227, 1);
+    left: 0;
+    bottom: -6px;
+}
+
+.hr-tab-cls-switch {
+    margin-top: 5px;
+    height: 3px;
+}
+
+.inner-tab-swtich {
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 100px;
+    /* box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4); */
+    min-width: 146px;
+    text-align: center;
+
+}
+
+.tab-content-tabs.a3 {
+    min-height: 150px;
+}
+
+/* .mb-align-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+} */
+
+/* end */
+
+
+/* blockchain css */
+.inner-basic-tab {
+    background: rgba(150, 167, 253, 0.1);
+    box-shadow: 0px 6px 4px 0px rgba(63, 94, 251, 0.4);
+    padding: 32px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    min-height: 240px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    /* height: 93%; */
+    border: 1px solid transparent;
+}
+
+.inner-basic-tab:hover{
+        /* box-shadow: 0px 49px 14px 0px rgba(252, 67, 135, 0.00), 0px 31px 13px 0px rgba(252, 67, 135, 0.01), 0px 18px 11px 0px rgba(252, 67, 135, 0.05), 0px 8px 8px 0px rgba(252, 67, 135, 0.09), 0px 2px 4px 0px rgba(252, 67, 135, 0.10); */
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #3F5EFB;
+}
+
+.cta-width-bck {
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta-bg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+    background-position: center;
+    padding: 30px 40px;
+}
+
+.margin-cat {
+    /* margin-top: 100px; */
+    background: linear-gradient(90deg, #BD9CFF 0%, #F2F9FE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
+
+/* switch tab  */
+
+.col-6.x3 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.tab-button.x3.active {
+    background: #007bff;
+    color: white;
+    border-radius: 50px;
+    border-bottom: none !important;
+}
+
+.tab-button.x3.active::before, .tab-button.x3:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background:none !important;
+    left: 0;
+    bottom: -6px;
+}
+
+.tab-button.x3 {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background: linear-gradient(157.62deg, rgba(0, 0, 0, 0.1) 37%, rgba(0, 0, 0, 0.2) 100%);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    border-radius: 50px;
+}
+
+/* .tab-button.x3.active,
+.tab-button.x3:hover {
+    background: rgba(237, 241, 255, 1);
+    border-radius: 10px;
+    position: relative;
+    min-width: 150px;
+} */
+
+.tab-button.x3:hover,
+.tab-button.x3.active {
+    min-width: auto !important;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-right-con {
+    padding: 32px;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content {
+    display: none;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.inner-box-card {
+    box-shadow: 0px 4px 8px 0px #0000000F;
+    background: linear-gradient(99deg, #FFFFFF 1.58%, rgba(255, 255, 255, 0.4) 100%);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+}
+.blockchain-cta{
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/blockchain/blockchain-cta);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px !important;
+    background-position: center;
+    padding: 60px 40px;
+}
+
+@media (max-width: 768.98px) {
+    .img-disply {
+        display: none;
+    }
+
+    .tab-button.x3 {
+        display: none;
+    }
+
+    .tab-content.x5 {
+        display: block;
+    }
+
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 .col-2 .icon-smart-core-value-trusted {
+        box-shadow: none;
+    }
+
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 .col-2 {
+        width: 50%;
+    }
+
+    section.smart-core-values.recognized-by-industry-leaders .container.max-width-9 {
+        justify-content: center;
+    }
+}
+
+
+/* review section design */
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-tab-content1 {
+    text-align: center;
+    background: #fff;
+    /* padding: 150px 80px; */
+    padding: 32px;
+    border-radius: 20px;
+    color: #000;
+    position: relative;
+    min-height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* .tab-button.x2{
+    background: rgba(109, 76, 225, 1) !important;
+} */
+.tab-button.x2.active {
+    background: rgba(109, 76, 225, 1) !important;
+    color: #fff !important;
+    border-bottom: none !important;
+    justify-content: space-between !important;
+    border-left: 6px solid #FFF;
+    border-radius: 0px;
+    border-top: 0px !important;
+    padding: 10px !important;
+    margin: 20px 0px;
+}
+
+/* Disable hover effect for .tab-button.x2 */
+.tab-button.x2:hover {
+    background: unset !important;
+    /* color: unset !important;
+    border-bottom: unset !important;
+    justify-content: unset !important;
+    padding: unset !important;
+    border-radius: unset !important;
+    margin-top: 0px !important; */
+    /* background: rgba(109, 76, 225, 1) !important; */
+    border-bottom: none !important;
+    /* padding: 0px !important; */
+    /* border-left: 6px solid #FFF; */
+    /* margin: 20px 0px; */
+}
+
+.tab-buttons.x2 .tab-button.x2.active span {
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+
+.tab-buttons.x2 .tab-button.x2:hover span {
+    color: #fff !important;
+    -webkit-text-fill-color: unset !important;
+    background: none !important;
+}
+
+.desktop-submenu-tabs.x2 {
+    background: rgba(93, 56, 222, 1);
+    padding: 32px;
+}
+
+/* .tab-button.x2.active::before,
+.tab-button.x2:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: none !important;
+    left: 0;
+    bottom: -6px;
+} */
+
+/* Apply ::before only to non-x2 buttons */
+.tab-button:not(.x2).active::before,
+.tab-button:not(.x2):hover::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: rgba(1, 107, 227, 1);
+    left: 0;
+    bottom: -6px;
+}
+
+/* Optional: If you still need to explicitly prevent it (for safety) */
+.tab-button.x2::before {
+    background: none !important;
+}
+
+.heading-for-rewv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-tab-rewv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.quotes-revw {
+    position: absolute;
+    top: -30px;
+}
+
+.star-clrr {
+    color: #fff !important;
+}
+
+.sub-cls-rev {
+    color: rgb(99 99 99 / 90%);
+}
+/* .tab-button.vf3{
+    min-width: 145px;
+} */
+
+/* .tab-buttons-wrapper {
+    max-height: 320px; 
+    overflow: hidden;
+    position: relative;
+} */
+
+.tab-button.x2 {
+    transition: transform 0.3s ease;
+}
+
+.tab-nav-buttons.x2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    /* background: #6C3DFF; Purple background like your image */
+    padding: 10px;
+    border-radius: 12px;
+    gap: 5px;
+}
+
+.tab-nav-buttons.x2 button {
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.tab-nav-buttons.x2 button:hover {
+    transform: scale(1.1);
+}
+
+/* .tab-nav-buttons.x2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.tab-nav-buttons.x2 button {
+    background: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+} */
+
+.hidden-tab {
+    display: none;
+}
+
+.visible-tab {
+    display: flex;
+}
+
+.tab-buttons-wrapper.x2 {
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2 {
+    display: none;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: block;
+}
+
+.for-mobile-review {
+    display: none;
+}
+
+.switch-for-mobiel {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Add these styles to your existing CSS */
+.tab-nav-buttons.x2 button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+/* Swipe area for mobile */
+/* .tab-content-tabs.x2 {
+    overflow: hidden;
+    position: relative;
+} */
+
+.tab-button.aa3.active, .tab-button.aa3:hover {
+    background: rgba(237, 241, 255, 1);
+    border-radius: 50px !important;
+    position: relative;
+    min-width: auto !important;
+}
+
+@media (max-width: 991.98px) {
+    .tab-content-tabs.x2 {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-content.x2 {
+        transition: transform 0.3s ease;
+    }
+}
+
+
+@media (max-width:1199.98px) {
+    .cont-full-width {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:991.98px) {
+    .for-mobile-review {
+        display: block;
+    }
+
+    .cont-full-widthh.x2 {
+        width: 100% !important;
+    }
+
+    .tab-nav-buttons.x2.x1 {
+        display: none;
+    }
+
+    .heading-for-rewv {
+        align-items: flex-start !important;
+    }
+
+    /* .tab-nav-buttons.x2.x3 {
+        display: flex;
+        margin-top: 20px;
+    } */
+
+    .not-for-mobile {
+        display: none;
+    }
+
+    .text-ali {
+        text-align: left !important;
+    }
+
+    .switch-for-mobiel {
+        flex-direction: column;
+    }
+
+    .tab-content-tabs.x2 {
+        touch-action: pan-y;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .tab-content.x2 {
+        transition: transform 0.3s ease;
+    }
+      .dis-non-md{
+        display: none;
+     }
+     .inner-tab-content1{
+     min-height: 350px;
+
+     }
+}
+
+@media (max-width:578.98px) {
+    .desktop-submenu-tabs.x2 {
+        padding: 15px 5px;
+    }
+
+    .inner-tab-content1 {
+        padding: 15px;
+             min-height: 416px;
+
+    }
+
+    .heading-for-rewv {
+        flex-wrap: wrap;
+    }
+
+    .switch-for-mobiel {
+        margin-top: 20px;
+    }
+    .heading-for-rewv h2 {
+        text-align: center !important;
+        margin-top: 10px;
+    }
+
+
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2 {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.tabs.submenu-tabs.x2 .tab-content-tabs.x2 .tab-content.x2.active {
+    display: block;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.tab-button.x2 {
+    transition: all 0.5s ease;
+}
+
+.width-chn {
+    width: 230px;
+}
+/* end */

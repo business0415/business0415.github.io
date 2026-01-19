@@ -1,0 +1,208 @@
+.hero-section-1.x2 {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/portfolio-bg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.build-container h2 {
+    background: linear-gradient(90.44deg, #640791 29.75%, #C72EB7 44.75%, #F43198 51.96%, #DC358C 67.37%, #A40758 87.45%) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+
+.build-container {
+    text-align: center;
+}
+
+.build-container span {
+    font-weight: 500;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.build-container p {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+
+}
+
+.first-portfolio {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/gold-park-bg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 32px;
+    border-radius: 17px;
+}
+
+.first-portfolio.x2 {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/dreamster-bg') !important;
+}
+
+.first-portfolio.x3 {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/cryptinum-bg') !important;
+
+}
+
+.first-portfolio.x4 {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/apzor-bg') !important;
+}
+
+.first-portfolio.x5 {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/metastation-bg') !important;
+
+}
+
+.divider-port {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.white-box {
+    padding: 20px;
+    background: #fff;
+    border-radius: 15.74px;
+}
+
+.sub-box h2 {
+    color: #fff;
+}
+
+.sub-box p {
+    color: #fff;
+}
+
+.cta-contan {
+    background-image: url('https://res.cloudinary.com/dtvnifa3t/image/upload/img/portfolio/portfolio-cta') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 40px;
+    border-radius: 17px;
+}
+
+.over-cta-portfoli {
+    text-align: center;
+}
+
+.over-cta-portfoli h2 {
+    color: #fff;
+    font-size: 46px;
+    margin: 20px 0;
+}
+
+/* .over-cta-portfoli{
+color: #fff;
+} */
+.webkit-color {
+    color: rgba(199, 210, 254, 1) !important;
+}
+
+.hero-section.x2 {
+    height: 100vh !important;
+    /* padding-top: 80px; */
+}
+
+.review-logo-name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.width-chn p {
+    color: rgba(119, 120, 122, 1);
+}
+.fade-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease;
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .md-changes {
+        width: 100% !important;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .lg-changes {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:1199.98px) {
+     .md-changes.v3{
+        width: 100%;
+    }
+}
+@media (max-width:991.98px) {
+    .divider-port {
+        /* align-items: flex-start;
+        width: 80%;
+        margin: 0 auto; */
+    }
+
+    .first-portfolio .divider-port {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-box {
+        order: 1;
+    }
+
+    .white-box {
+        order: 2;
+    }
+
+    .order-cls {
+        order: 3;
+    }
+
+
+}
+
+@media (max-width: 1300px) {
+    .max-width-9 {
+        margin: 0 60px;
+    }
+}
+
+@media (max-width: 768.98px) {
+    .max-width-9 {
+        margin: auto !important;
+    }
+}
+
+@media (max-width:576.98px) {
+    .divider-port {
+        width: 100%;
+    }
+
+    .first-portfolio {
+        padding: 10px;
+    }
+    .sub-box{
+        margin-top: 20px;
+    }
+}

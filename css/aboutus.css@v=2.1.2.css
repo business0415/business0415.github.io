@@ -1,0 +1,528 @@
+body.blog-page-main.blog-page-main-page.aboutus-full p {
+    /* font-size: 16px; */
+}
+
+body.aboutus-full section {
+    padding-top: clamp(50px, 5vw, 50px);
+    padding-bottom: 40px;
+}
+
+.body.blog-page-main .hero-section {
+    background-image: none !important;
+}
+
+
+body.blog-page-main.blog-page-main-page.aboutus-full h2 {
+    line-height: 1.4 !important;
+}
+
+section.who-are.dedicated-sctn h3 {
+    font-size: 39px !important;
+}
+
+section.what-we-learn h2 {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section.what-we-learn h2 {
+    max-width: 850px;
+    margin: 20px auto;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+section.what-we-learn {
+    /* background: url(../img/learn-bg.webp) !important; */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    color: rgba(11, 12, 20, 1);
+    padding-bottom: clamp(100px, 5vw, 50px);
+
+}
+
+.learn-card {
+    border: 1px solid rgba(237, 241, 243, 0.05);
+    background: rgba(201, 211, 238, 0.02);
+    /* padding: 20px; */
+    border-radius: 10px;
+    width: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    /* padding-top: 20px;
+    /* padding-top: 20px; */
+}
+
+.learn-card p {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 1);
+}
+.h3-cls {
+    color: rgba(255, 255, 255, 1);
+    font-size: 37px !important;
+    /* max-width: 575px; */
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 15px;
+}
+
+.third-pchang {
+    color: black;
+    text-align: left;
+    /* max-width: 589px; */
+    margin: auto;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+.head-img {
+    /* padding-bottom: 10px !important; */
+}
+
+@media (max-width:578.98px) {
+    .content-1 {
+        /* padding: 80px 10px 10px 10px !important; */
+    }
+
+    .ceo-edit {
+        margin: 0px !important;
+    }
+
+    .firt-section{
+        /* padding-top: 160px !important; */
+        position: relative;
+        top: 50px;
+    }
+    .banner-p {
+        font-size: 18px !important;
+    }
+
+}
+
+@media(max-width:767.98px) {
+
+
+    /* .content-1{
+        height: 500px !important;
+    }  */
+    .quotes-img-start {
+        padding-bottom: 20px;
+        padding-top: 0px !important;
+    }
+
+    .m-contain-cls {
+        display: none !important;
+    }
+
+    .m-contain-cls-1 {
+        display: none !important;
+    }
+
+    .m-contain-ptag .learn-card {
+        width: 100%;
+        border: 2px solid transparent;
+        padding-top: 5px;
+        margin: 30px;
+
+    }
+    /* .firt-section{
+        padding-top: 100px !important;
+    } */
+
+    .box {
+        width: 100%;
+        /* each div takes 50% width on larger devices */
+    }
+
+    .box-1 {
+        order: 2 !important;
+        width: 100% !important;
+        /* move the first box to appear second */
+
+    }
+
+    .box-2 {
+        order: 1 !important;
+        width: 100% !important;
+        /* move the second box to appear first */
+    }
+
+}
+
+.h3-cls-1 {
+    padding-right: 60px;
+}
+
+@media (max-width:1200px) {
+    .h3-cls-1 {
+        padding-right: 0px !important;
+    }
+
+}
+
+@media(max-width:991.98px) {
+    body.blog-page-main.blog-page-main-page.aboutus-full h1 {
+        font-size: 30px !important;
+        line-height: 1.4 !important;
+    }
+
+    body.blog-page-main.blog-page-main-page.aboutus-full {
+        height: 104vh !important;
+    }
+
+    .second-contain {
+        padding-top: 10px !important;
+    }
+    .firt-section{
+        /* padding-top: 160px !important; */
+        position: relative;
+        top: 100px;
+    }
+    .who-img {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .third-pchang {
+        font-size: 16px !important;
+    }
+
+    .who-are {
+        margin-top: 0px !important;
+        margin-bottom: 40px;
+    }
+
+    .second-contain {
+        position: relative;
+        top: 20px !important;
+    }
+
+    .new-for-about-img {
+        display: none;
+    }
+
+    .content-1 {
+        height:90vh !important;
+
+    }
+
+    .empow-conten {
+        background-color: #fff !important;
+    }
+
+    .third-pchang {
+        color: #000 !important;
+    }
+
+    .learn-card h3 {
+        color: #000 !important;
+    }
+
+    .about-sv {
+        text-align: center !important;
+    }
+
+    .dedicted-team {
+        padding-top: 0px !important;
+    }
+
+    .quotes-img-start {
+        display: flex;
+        justify-content: flex-start !important;
+    }
+
+    .our-ceo-sec {
+        justify-content: center !important;
+    }
+
+    .our-ceo-heading {
+        padding-left: 0px !important;
+    }
+
+    .m-contain-cls {
+        display: none !important;
+    }
+
+    .m-contain-cls-1 {
+        display: none !important;
+    }
+
+    .m-contain-ptag .learn-card {
+        width: 100%;
+        border: 2px solid transparent;
+        padding-top: 5px;
+        margin: 30px 0px;
+
+    }
+
+    .Dedicated-Teams {
+        padding: 0px 40px 0px 50px !important;
+    }
+    .h3-cls {
+        color: #000;
+        font-size: 25px !important;
+        justify-content: center !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .our-ceo-1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        /* width:fit-content !important ; */
+    }
+
+    .ceo-edit {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    body.blog-page-main .hero-section {
+        background: #000 !important;
+    }
+}
+
+/* new css */
+
+.firt-section h1 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.third-section {
+    background-color: rgba(245, 247, 255, 1) !important;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.second-contain {
+    /* padding-top: 100px;
+    text-align: center; */
+    position: relative;
+    top: 135px;
+}
+
+.who-are {
+    margin-top: 215px;
+    background-image: url(https://res.cloudinary.com/dtvnifa3t/image/upload/img/aboutus/Spetrum-line-img) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: #edf1f3; */
+}
+
+.who-are-pchang {
+    padding-bottom: 10px !important;
+}
+
+
+.last-section-pchang {
+    /* font-size: 16px !important; */
+    /* font-family: Sen; */
+    font-size: 20px !important;
+    /* font-weight: 600; */
+    line-height: 27px;
+    text-align: left;
+    font-weight: 400;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* padding-top: 40px; */
+}
+
+
+
+.banner-p {
+    color: rgba(255, 255, 255, 1);
+    max-width: 800px !important;
+    margin: auto !important;
+
+}
+
+
+.ceo-edit {
+    background-color: #ebf1f6;
+    border-radius: 40px;
+    margin: 0px 30px;
+}
+
+
+.our-ceo-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* width: 100% !important;  */
+}
+
+.our-ceo-h1 {
+    /* display: none; */
+}
+
+.who-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Dedicated-Teams {
+
+    padding: 50px 0px 40px 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: -160px;
+    /* Adjust this value to control how much it overlaps */
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+
+.content-1 {
+    position: relative;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+    height: 982px;
+}
+
+.new-for-about-img {
+    width: 1255px;
+    height: 836px !important;
+}
+
+.empow-conten {
+    width: 100%;
+    background-color: rgba(63, 94, 251, 1);
+}
+
+.img-for-about {
+    text-align: left !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.no-gutter {
+    --bs-gutter-x: 0px !important;
+    --bs-gutter-y: 0px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.override {
+    flex-shrink: unset !important;
+    width: auto !important;
+    max-width: none !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-top: 0 !important;
+}
+
+.dedicted-team {
+    padding-left: 30px !important;
+    padding-top: 100px;
+    text-align: left;
+}
+
+.about-sv {
+    text-align: left;
+}
+
+.title-for-about {
+    text-align: left;
+    padding-top: 13px;
+}
+
+
+.text-for-about {
+    padding-top: 10px;
+    line-height: 27px;
+    text-align: left;
+}
+
+.Our-Premier-Cryptocurrency-Exchange-Development-Services-section .border-for-new-about {
+    padding: 20px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 10px;
+    margin: 12px 0;
+    transition: all 0.3sease-in-out;
+    border: 1.16px solid rgba(222, 229, 237, 1);
+    height: 93%;
+}
+
+.Our-Premier-Cryptocurrency-Exchange-Development-Services-section .about-delivering-box {
+
+    box-shadow: 0px 1px 1px 0px rgba(63, 94, 251, 0.4) !important;
+    padding-top: 30px !important;
+}
+
+.dec-h2-1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.dec-h2 {
+
+    font-weight: 700;
+
+}
+
+.our-ceo-heading {
+    font-weight: 1000;
+    line-height: 100%;
+    text-align: center;
+    /* padding-left: 138px; */
+    font-size: 32px;
+}
+
+.new-premier {
+    padding-top: 100px !important;
+}
+
+.quotes-img-start {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+}
+
+.ceo-new-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.our-ceo-sec-2 {
+    font-size: 25px !important;
+    font-weight: 600;
+    line-height: 37px;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.hero-ceo-pt {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 35px;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /viewcounts
+
+Sitemap: https://www.hashcodex.com/sitemap.xml
