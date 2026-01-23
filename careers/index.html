@@ -75,6 +75,14 @@
     <link rel="canonical" href="/careers/" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" rel="stylesheet">
 
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("IbD_xKw-X-D5Dy5Rc"); // Your public key
+        })();
+    </script>
+
 </head>
 
 <body class="privacy-policy-page">
@@ -2516,20 +2524,20 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                     <div class="modal-body">
                         <div class="form-input mb-4">
-                            <input type="text" name="name" class="form-control" placeholder="Name">
+                            <input type="text" name="applicant_name" id="applicantName" class="form-control" placeholder="Name" required>
                         </div>
                         <div class="form-input mb-4">
-                            <input type="text" class="form-control" name="name" placeholder="" id="myInput" disabled>
+                            <input type="text" class="form-control" name="position" placeholder="" id="myInput" disabled>
                         </div>
                         <div class="form-input mb-4">
-                            <input type="number" class="form-control" name="contact" placeholder="Phone Number">
+                            <input type="tel" class="form-control" name="contact" id="applicantPhone" placeholder="Phone Number" required>
                         </div>
                         <div class="form-input mb-4">
-                            <input type="email" class="form-control" name="email" placeholder="Email ID">
+                            <input type="email" class="form-control" name="email" id="applicantEmail" placeholder="Email ID" required>
                         </div>
                         <div class="form-input mb-4">
-                            <input type="number" class="form-control" name="experience"
-                                placeholder="Year of Experience">
+                            <input type="number" class="form-control" name="experience" id="applicantExperience"
+                                placeholder="Year of Experience" min="0" max="50" required>
                         </div>
 
                         <div class="upload-file form-input">
@@ -2597,33 +2605,187 @@ $(document).ready(function() {
 
 $('#careerForm').on('submit', function(e) {
     e.preventDefault();
-    let formData = new FormData(this);
-    var careerCategory = $("#myInput").attr('category');
+    
+    // Get form values
+    var name = $('#applicantName').val().trim();
+    var position = $("#myInput").val().trim();
+    var phone = $('#applicantPhone').val().trim();
+    var email = $('#applicantEmail').val().trim();
+    var experience = $('#applicantExperience').val().trim();
+    var resumeFile = $('#fileInput')[0].files[0];
+    
+    // Basic validation
+    if (!name || !position || !phone || !email || !experience) {
+        toastr.error('Please fill in all required fields');
+        return;
+    }
+    
+    if (!resumeFile) {
+        toastr.error('Please upload your resume (PDF only)');
+        return;
+    }
+    
+    if (resumeFile.type !== 'application/pdf') {
+        toastr.error('Please upload a PDF file only');
+        return;
+    }
+    
+    // Disable submit button
+    $("#submitforms").attr('disabled', true).text('Uploading...');
+    
+    // Upload resume to Cloudinary first
+    uploadResumeToCloudinary(resumeFile, function(resumeUrl) {
+        if (resumeUrl) {
+            // Send email via EmailJS with resume URL
+            sendJobApplicationEmail(name, position, phone, email, experience, resumeUrl);
+        } else {
+            toastr.error('Failed to upload resume. Please try again.');
+            $("#submitforms").attr('disabled', false).text('Submit');
+        }
+    });
+});
 
-    $("#submitforms").attr('disabled', true);
-    formData.append('_token', "XZOtsKAedT4NPbypYU5SfpdnPxu8mBWcKARDmnnG");
-    formData.append('category', careerCategory);
+function uploadResumeToCloudinary(file, callback) {
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('upload_preset', 'ml_default');
+    formData.append('resource_type', 'raw'); // Use raw for PDF files
+    
+    // Show upload progress
+    $("#submitforms").text('Uploading resume...');
+    
     $.ajax({
-        url: "https://www.hashcodex.com/post-resume",
+        url: 'https://api.cloudinary.com/v1_1/dtvnifa3t/raw/upload',
+        type: 'POST',
+        data: formData,
+        processData: false,
+        contentType: false,
+        xhr: function() {
+            var xhr = new window.XMLHttpRequest();
+            xhr.upload.addEventListener("progress", function(evt) {
+                if (evt.lengthComputable) {
+                    var percentComplete = evt.loaded / evt.total;
+                    percentComplete = parseInt(percentComplete * 100);
+                    $("#submitforms").text('Uploading... ' + percentComplete + '%');
+                }
+            }, false);
+            return xhr;
+        },
+        success: function(response) {
+            console.log('Resume uploaded successfully:', response);
+            
+            // Use the direct secure URL - this should work
+            let resumeUrl = response.secure_url;
+            
+            console.log('Resume URL:', resumeUrl);
+            $("#submitforms").text('Sending application...');
+            
+            callback(resumeUrl);
+        },
+        error: function(xhr, status, error) {
+            console.error('Upload failed:', error);
+            console.error('Response:', xhr.responseText);
+            
+            let errorMessage = 'Resume upload failed. ';
+            if (xhr.responseJSON && xhr.responseJSON.error && xhr.responseJSON.error.message) {
+                errorMessage += xhr.responseJSON.error.message;
+            } else {
+                errorMessage += 'Please check your file and try again.';
+            }
+            
+            toastr.error(errorMessage);
+            callback(null);
+        }
+    });
+}
+
+function uploadAsRawFallback(file, callback) {
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('upload_preset', 'ml_default');
+    formData.append('resource_type', 'raw');
+    
+    $.ajax({
+        url: 'https://api.cloudinary.com/v1_1/dtvnifa3t/raw/upload',
         type: 'POST',
         data: formData,
         processData: false,
         contentType: false,
         success: function(response) {
-            if (response.success == true) {
-                toastr.success(response.result);
-                setTimeout(() => {
-                    location.reload();
-                }, 800);
-            }
-            if (response.success == false) {
-                toastr.error(response.result);
-                $("#submitforms").attr('disabled', false);
-
-            }
+            console.log('Resume uploaded as raw successfully:', response);
+            
+            // Create a proper download URL for raw files
+            // This format should work better for PDF downloads
+            let downloadUrl = `https://res.cloudinary.com/dtvnifa3t/raw/upload/fl_attachment:${file.name || 'resume'}/v${response.version}/${response.public_id}.pdf`;
+            
+            // Alternative: Direct URL (might work for viewing)
+            let directUrl = response.secure_url;
+            
+            console.log('Direct URL:', directUrl);
+            console.log('Download URL:', downloadUrl);
+            
+            // Try the direct URL first, as it might work better
+            callback(directUrl);
+        },
+        error: function(xhr, status, error) {
+            console.error('Raw upload also failed:', error);
+            toastr.error('Resume upload failed. Please try again.');
+            callback(null);
         }
-    })
-})
+    });
+}
+
+function sendJobApplicationEmail(name, position, phone, email, experience, resumeUrl) {
+    // Split name into first and last name (if possible)
+    var nameParts = name.trim().split(' ');
+    var firstName = nameParts[0] || '';
+    var lastName = nameParts.slice(1).join(' ') || '';
+    
+    // Prepare template parameters for EmailJS
+    var templateParams = {
+        applicantName: name,
+        firstName: firstName,
+        lastName: lastName,
+        position: position,
+        email: email,
+        phone: phone,
+        experience: experience,
+        resumeUrl: resumeUrl,
+        submissionDate: new Date().toLocaleDateString()
+    };
+    
+    console.log('Sending job application with parameters:', templateParams);
+    
+    // Send email using EmailJS
+    console.log('Sending job application with parameters:', templateParams);
+    emailjs.send('service_n03hir9', 'template_uhqzlgm', templateParams, 'IbD_xKw-X-D5Dy5Rc')
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            
+            // Show success message
+            toastr.success('Application submitted successfully! We will review your application and get back to you soon.');
+            
+            // Reset form
+            $('#careerForm')[0].reset();
+            $('#filePath').val('');
+            
+            // Close modal after delay
+            setTimeout(function() {
+                $('#exampleModalToggle').modal('hide');
+            }, 2000);
+            
+        }, function(error) {
+            console.log('FAILED...', error);
+            
+            // Show error message
+            toastr.error('Failed to submit application. Please try again.');
+            
+        })
+        .finally(function() {
+            // Reset button
+            $("#submitforms").attr('disabled', false).text('Submit');
+        });
+}
 </script>
 
 <!-- <script>
