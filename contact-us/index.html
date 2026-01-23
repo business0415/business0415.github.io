@@ -83,6 +83,14 @@
 
     <link rel="canonical" href="/contact-us/" />
 
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("IbD_xKw-X-D5Dy5Rc"); // Your public key
+        })();
+    </script>
+
     <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/css/intlTelInput.min.css"> -->
 </head>
@@ -1663,8 +1671,6 @@ $("ul.social-select").on("click", "li:not(.init)", function() {
 });
 </script>
 
-<!-- 
-
 <script type="text/javascript">
 $(document).ready(function() {
     $('#submitform').click(function(event) {
@@ -1672,17 +1678,14 @@ $(document).ready(function() {
         // Get form elements
 
         var name = document.getElementById("namess").value;
-
         var email = document.getElementById("emailss").value.trim();
         var message = document.getElementById("messagess").value.trim();
-        // var social_contact = document.getElementById("social_contact").value.trim();
         var country = document.getElementById("hiddencountrys").value.trim();
-        // var canonicalss = document.getElementById("canonicalss").value.trim();
         var phonenumber = document.getElementById("phoness").value;
+        
         var isValid = true;
         if (name == "") {
             document.getElementById("nameErrors").style.display = "block";
-
             isValid = false;
         } else {
             document.getElementById("nameErrors").style.display = "none";
@@ -1700,60 +1703,68 @@ $(document).ready(function() {
             document.getElementById("messageError").style.display = "none";
         }
 
-        // if (phonenumber === "") {
-        //     document.getElementById("phoneError").style.display = "block";
-        //     isValid = false;
-        // } else {
-        //     document.getElementById("phoneError").style.display = "none";
-        // }
-
         if (isValid) {
             var btn = document.getElementById('submitform');
-
             btn.disabled = true;
-            btn.innerText = 'please wait...';
-            $('#response').html("<b>Loading response...</b>");
-            $.ajax({
-                type: 'POST',
-                url: "https://www.hashcodex.com/contactus-submit",
-                data: $("#form-help1").serialize(),
+            btn.innerHTML = '<span>Sending...</span>';
+            
+            // Split name into first and last name (if possible)
+            var nameParts = name.trim().split(' ');
+            var firstName = nameParts[0] || '';
+            var lastName = nameParts.slice(1).join(' ') || '';
+            
+            // Prepare template parameters for EmailJS to match your existing template
+            var templateParams = {
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                phone: phonenumber,
+                location: country,
+                additional: message
+            };
 
-            }).done(function(data) {
-                if (data.success) {
-                    $('#response').html("<b>Loading response...</b>");
-                    $('#response').html(data);
-                    $("#form-help1")[0].reset();
-                    window.location.href = "https://www.hashcodex.com/success"
-                } else {
-                    toastr.error(data.message);
-                    //alert(data.message+" Please resubmit form again!. ");
+            // Send email using EmailJS
+            console.log('Sending email with parameters:', templateParams);
+            emailjs.send('service_n03hir9', 'template_s4aioj4', templateParams, 'IbD_xKw-X-D5Dy5Rc')
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    
+                    // Show success message
+                    toastr.success('Message sent successfully! We will get back to you soon.');
+                    
+                    // Reset form
+                    document.getElementById("form-help1").reset();
+                    
+                    // Reset button
                     btn.disabled = false;
-                    btn.innerText = 'Drop Us a Message';
-                }
-
-            }).fail(function() {
-                alert("Please resubmit form again!.")
-            });
-            return !1
+                    btn.innerHTML = '<span>Drop Us a Message</span>';
+                    
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    
+                    // Show error message
+                    toastr.error('Failed to send message. Please try again.');
+                    
+                    // Reset button
+                    btn.disabled = false;
+                    btn.innerHTML = '<span>Drop Us a Message</span>';
+                });
         }
-    })
+    });
 
     $('#submitNewFormopen').click(function(event) {
         event.preventDefault();
         // Get form elements
 
         var name = document.getElementById("namenewpop").value;
-
         var email = document.getElementById("emailnewpop").value.trim();
         var message = document.getElementById("messagenewpop").value.trim();
-        // var social_contact = document.getElementById("social_contact").value.trim();
         var country = document.getElementById("hiddencountrysnewpop").value.trim();
-        // var canonicalss = document.getElementById("canonicalss").value.trim();
         var phonenumber = document.getElementById("phonenewpop").value;
+        
         var isValid = true;
         if (name == "") {
             document.getElementById("nameErrorsnewpop").style.display = "block";
-
             isValid = false;
         } else {
             document.getElementById("nameErrorsnewpop").style.display = "none";
@@ -1771,169 +1782,42 @@ $(document).ready(function() {
             document.getElementById("messageErrornewpop").style.display = "none";
         }
 
-        // if (phonenumber !== 'number') {
-        //     document.getElementById("phoneErrornewpop").style.display = "block";
-        //     isValid = false;
-        // } else {
-        //     document.getElementById("phoneErrornewpop").style.display = "none";
-        // }
-
         if (isValid) {
             var btn = document.getElementById('submitNewFormopen');
-
             btn.disabled = true;
-            btn.innerText = 'please wait...';
-            $('#response').html("<b>Loading response...</b>");
-            $.ajax({
-                type: 'POST',
-                url: "https://www.hashcodex.com/contactus-submit",
-                data: { name: name, email: email, message: message, country: country, phonenumber: phonenumber }, success: function(data) { if (data.success) { window.location.href = "https://www.hashcodex.com/success"; } else { alert("Error: " + data.message); } }, error: function() { alert("Please try again."); } }); return !1
-        }
-    })
+            btn.innerText = 'Sending...';
+            
+            // Prepare template parameters for EmailJS
+            var templateParams = {
+                from_name: name,
+                from_email: email,
+                message: message,
+                country: country,
+                phone: phonenumber,
+                to_email: 'your-email@domain.com' // Replace with your actual email
+            };
 
-    $('#submitformcta').click(function(event) {
-        event.preventDefault();
-        // Get form elements
-
-        var name = document.getElementById("namecta").value;
-
-        var email = document.getElementById("emailcta").value.trim();
-        var message = document.getElementById("messagecta").value.trim();
-        // var social_contact = document.getElementById("social_contact").value.trim();
-        var country = document.getElementById("hiddencountryscta").value.trim();
-        // var canonicalss = document.getElementById("canonicalss").value.trim();
-        var phonenumber = document.getElementById("phonecta").value;
-        var isValid = true;
-        if (name == "") {
-            document.getElementById("nameErrors").style.display = "block";
-
-            isValid = false;
-        } else {
-            document.getElementById("nameErrors").style.display = "none";
-        }
-        if (!validateEmail(email)) {
-            document.getElementById("emailError").style.display = "block";
-            isValid = false;
-        } else {
-            document.getElementById("emailError").style.display = "none";
-        }
-        if (message === "") {
-            document.getElementById("messageError").style.display = "block";
-            isValid = false;
-        } else {
-            document.getElementById("messageError").style.display = "none";
-        }
-
-        if (phonenumber === "") {
-            document.getElementById("phoneError").style.display = "block";
-            isValid = false;
-        } else {
-            document.getElementById("phoneError").style.display = "none";
-        }
-
-        if (isValid) {
-            var btn = document.getElementById('submitformcta');
-
-            btn.disabled = true;
-            btn.innerText = 'please wait...';
-            $('#response').html("<b>Loading response...</b>");
-            $.ajax({
-                type: 'POST',
-                url: "https://www.hashcodex.com/contactus-submit",
-                data: $("#form-help2").serialize(),
-
-            }).done(function(data) {
-                if (data.success) {
-                    $('#response').html("<b>Loading response...</b>");
-                    $('#response').html(data);
-                    $("#form-help2")[0].reset();
-                    window.location.href = "https://www.hashcodex.com/success";
-                } else {
-                    //alert(data.message+" Please resubmit form again!. ");
-                    toastr.error(data.message);
+            // Send email using EmailJS
+            emailjs.send('default_service', 'template_contact', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    toastr.success('Message sent successfully! We will get back to you soon.');
+                    
+                    // Reset form and redirect
+                    setTimeout(function() {
+                        window.location.href = "/success/";
+                    }, 2000);
+                    
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    toastr.error('Failed to send message. Please try again.');
                     btn.disabled = false;
                     btn.innerText = 'Drop Us a Message';
-                }
-
-            }).fail(function() {
-                alert("Please resubmit form again!.")
-            });
-            return !1
+                });
         }
-    })
+    });
 
-    $('#submitformcontactblg').click(function(event) {
-        event.preventDefault();
-        // Get form elements
-
-        var name = document.getElementById("nameBlg").value;
-
-        var email = document.getElementById("emailBlg").value.trim();
-        var message = document.getElementById("messageBlg").value.trim();
-        // var social_contact = document.getElementById("social_contact").value.trim();
-        var country = document.getElementById("hiddencountrysBlg").value.trim();
-        // var canonicalss = document.getElementById("canonicalss").value.trim();
-        var phonenumber = document.getElementById("phoneBlg").value;
-        var isValid = true;
-        if (name == "") {
-            document.getElementById("nameErrors").style.display = "block";
-
-            isValid = false;
-        } else {
-            document.getElementById("nameErrors").style.display = "none";
-        }
-        if (!validateEmail(email)) {
-            document.getElementById("emailError").style.display = "block";
-            isValid = false;
-        } else {
-            document.getElementById("emailError").style.display = "none";
-        }
-        if (message === "") {
-            document.getElementById("messageError").style.display = "block";
-            isValid = false;
-        } else {
-            document.getElementById("messageError").style.display = "none";
-        }
-
-        // if (phonenumber === "") {
-        //     document.getElementById("phoneError").style.display = "block";
-        //     isValid = false;
-        // } else {
-        //     document.getElementById("phoneError").style.display = "none";
-        // }
-
-        if (isValid) {
-            var btn = document.getElementById('submitformcontactblg');
-
-            btn.disabled = true;
-
-            btn.innerText = 'please wait...';
-            $('#response').html("<b>Loading response...</b>");
-            $.ajax({
-                type: 'POST',
-                url: "https://www.hashcodex.com/contactus-submit",
-                data: $("#form-help3").serialize(),
-
-            }).done(function(data) {
-                if (data.success) {
-                    $('#response').html("<b>Loading response...</b>");
-                    $('#response').html(data);
-                    $("#form-help3")[0].reset();
-                    window.location.href = "https://www.hashcodex.com/success";
-                } else {
-                    //alert(data.message+" Please resubmit form again!. ");
-                    toastr.error(data.message);
-                    btn.disabled = false;
-                    btn.innerText = 'Drop Us a Message';
-                }
-
-            }).fail(function() {
-                alert("Please resubmit form again!.")
-            });
-            return !1
-        }
-    })
-
+    
     function validateEmail(email) {
         var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return re.test(String(email).toLowerCase());
